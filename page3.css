@@ -1,0 +1,652 @@
+.accomodation-page-31 {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 4600px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.bg {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background: linear-gradient(0deg, #fff, #58a0c8);
+  	width: 1440px;
+  	height: 1000px;
+}
+.three-stars-accomodations {
+  	position: absolute;
+  	top: 187px;
+  	left: 100px;
+  	font-size: 75px;
+  	display: flex;
+  	font-family: Poppins;
+  	align-items: center;
+  	width: 716px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-bg {
+  	position: absolute;
+  	top: 3986px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 4096px;
+  	left: 202px;
+  	width: 1030px;
+  	height: 404px;
+  	text-align: center;
+  	font-size: 22px;
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 182px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 56px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 308px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 755px);
+  	top: 6px;
+  	left: 553px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 553px);
+  	top: 62px;
+  	left: 553px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 611px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 57px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 84px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 706px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.eska-hotel {
+  	position: absolute;
+  	top: 450px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.grand-mercure-batam {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 550px);
+  	border-radius: 50px;
+  	background-color: #113f67;
+  	width: 1100px;
+  	height: 650px;
+}
+.km-from-hang-container {
+  	position: absolute;
+  	top: 107px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.accomodation-page-31-km-from-hang-container {
+  	width: 100%;
+}
+.km {
+  	font-weight: 800;
+}
+.from-hang {
+  	font-weight: 600;
+  	white-space: pre-wrap;
+}
+.km-from-batam-container {
+  	position: absolute;
+  	top: 172px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.km-from-grand-container {
+  	position: absolute;
+  	top: 237px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.easy-access-to-container {
+  	position: absolute;
+  	top: 302px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.to-everywhere {
+  	font-weight: 600;
+}
+.unwind-and-indulge-container {
+  	position: absolute;
+  	top: 385px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 184px;
+  	font-size: 18px;
+}
+.unwind-and-indulge {
+  	margin: 0;
+  	font-size: 22px;
+  	font-weight: 800;
+}
+.blank-line {
+  	margin: 0;
+  	font-weight: 500;
+}
+.book-your-stay {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 11px);
+  	font-size: 22px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 168px;
+  	height: 45px;
+}
+.eska-hotel-batam {
+  	position: absolute;
+  	top: 20px;
+  	left: calc(50% - 138px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 655px;
+  	height: 55px;
+}
+.eska-hotel-child {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 522px);
+  	border-radius: 50px;
+  	width: 340px;
+  	height: 340px;
+  	object-fit: cover;
+}
+.airport-icon {
+  	position: absolute;
+  	top: 107px;
+  	left: calc(50% - 137px);
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.water-transportation-icon {
+  	position: absolute;
+  	top: 172px;
+  	left: calc(50% - 137px);
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.shop-icon {
+  	position: absolute;
+  	top: 237px;
+  	left: calc(50% - 137px);
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.divider {
+  	position: absolute;
+  	top: 376px;
+  	left: calc(50% - 522px);
+  	background-color: #d9d9d9;
+  	width: 1040px;
+  	height: 2px;
+}
+.accomodation-page-31-divider {
+  	position: absolute;
+  	top: 381px;
+  	left: calc(50% + 1px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.traveloka-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 234px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.agoda-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 303px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.trip-advisor-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 371px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.tiketcom-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 440px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.facilities {
+  	position: absolute;
+  	top: 392px;
+  	left: calc(50% + 11px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 29px;
+}
+.last-24-hours {
+  	position: absolute;
+  	top: 440px;
+  	left: 581px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.restaurant-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 656px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.wi-fi-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.meeting-room-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.washing-machine-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 656px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.parking-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 806px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.map-pinpoint-icon {
+  	position: absolute;
+  	top: 302px;
+  	left: 413px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.lotus-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 581px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.hotel-santika {
+  	position: absolute;
+  	top: 1135px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.overview-situated-in-container {
+  	position: absolute;
+  	top: 392px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 195px;
+  	font-size: 18px;
+}
+.overview {
+  	margin: 0;
+  	font-size: 20px;
+  	font-weight: 800;
+}
+.accomodation-page-31-meeting-room-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 806px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.accomodation-page-31-parking-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 881px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.yello-hotel {
+  	position: absolute;
+  	top: 1820px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.yello-hotel-harbour-container {
+  	position: absolute;
+  	top: 388px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 220px;
+  	font-size: 18px;
+}
+.os-style-hotel-batcen {
+  	position: absolute;
+  	top: 2505px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.feel-the-sensation-container {
+  	position: absolute;
+  	top: 390px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 148px;
+  	font-size: 18px;
+}
+.ktm-resort {
+  	position: absolute;
+  	top: 3190px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.discover-tranquility-within-container {
+  	position: absolute;
+  	top: 392px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 220px;
+  	font-size: 18px;
+}
+.divider9 {
+  	position: absolute;
+  	top: 381px;
+  	left: calc(50% + 2px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.navbar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: 0px;
+  	cursor: pointer;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+  	cursor: pointer;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 17px);
+  	left: 345px;
+  	cursor: pointer;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: 461px;
+  	cursor: pointer;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+  	cursor: pointer;
+}
+.close-proximity-to-container {
+  	position: absolute;
+  	top: 1437px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+
