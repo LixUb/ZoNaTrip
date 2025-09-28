@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="event.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="events-page">
+    		<div class="events-page-child">
+    		</div>
+    		<div class="events-page-item">
+    		</div>
+    		<b class="events-calendar">2025 Events Calendar</b>
+    		<img class="events-page-inner" alt="">
+    		
+    		<div class="english-navbar">
+      			<b class="home" id="homeText">Home</b>
+      			<b class="accommodation" id="accommodationText">Accommodation</b>
+      			<b class="places" id="placesText">Places</b>
+      			<b class="events" id="eventsText">Events</b>
+      			<b class="gozona" id="goZoNaText">GoZoNa</b>
+    		</div>
+    		<img class="rectangle-icon" alt="">
+    		
+    		<b class="mak-yong-momentum">Mak Yong Momentum</b>
+    		<b class="let-zona-introduce">Let ZoNa introduce you to one of Melayu theatrical show.</b>
+    		<div class="buttons" id="buttonsContainer">
+      			<b class="learn-more">Learn More</b>
+    		</div>
+    		<div class="calendar-of-event">
+      			<img class="calendar-of-event-child" alt="">
+      			
+      			<img class="calendar-of-event-child" alt="">
+      			
+      			<img class="calendar-of-event-child" alt="">
+      			
+    		</div>
+    		<b class="by-dinas-budaya">by Dinas Budaya dan Pariwisata Kota Batam</b>
+    		<b class="events-page-mak-yong-momentum" data-scroll-to="makYongMomentum">Mak Yong Momentum</b>
+    		<b class="a-cultural-festival">A cultural festival where ZoNa arranged multiple performaces</b>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var homeText = document.getElementById("homeText");
+    		if(homeText) {
+      			homeText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var accommodationText = document.getElementById("accommodationText");
+    		if(accommodationText) {
+      			accommodationText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var placesText = document.getElementById("placesText");
+    		if(placesText) {
+      			placesText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var eventsText = document.getElementById("eventsText");
+    		if(eventsText) {
+      			eventsText.addEventListener("click", function (e) {
+        				window.location.href = "EventsPage.html"
+      			});
+    		}
+    		
+    		var goZoNaText = document.getElementById("goZoNaText");
+    		if(goZoNaText) {
+      			goZoNaText.addEventListener("click", function (e) {
+        				// Add your code here
+      			});
+    		}
+    		
+    		var buttonsContainer = document.getElementById("buttonsContainer");
+    		if(buttonsContainer) {
+      			buttonsContainer.addEventListener("click", function () {
+        				var anchor = document.querySelector("[data-scroll-to='makYongMomentum']");
+        				if(anchor) {
+          					anchor.scrollIntoView({"block":"start","behavior":"smooth"})
+        				}
+      			});
+    		}
+  	</script></body>
+</html>
