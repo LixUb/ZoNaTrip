@@ -1,0 +1,1021 @@
+.shopping-center {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 4600px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.bg {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background: linear-gradient(0deg, #fff, #58a0c8);
+  	width: 1440px;
+  	height: 1000px;
+}
+.shopping-center-shopping-center {
+  	position: absolute;
+  	top: 244px;
+  	left: 100px;
+  	font-size: 75px;
+  	display: flex;
+  	font-family: Poppins;
+  	align-items: center;
+  	width: 716px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-bg {
+  	position: absolute;
+  	top: 3986px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 4096px;
+  	left: 202px;
+  	width: 1030px;
+  	height: 404px;
+  	text-align: center;
+  	font-size: 22px;
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 182px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 56px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 308px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 755px);
+  	top: 6px;
+  	left: 553px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 553px);
+  	top: 62px;
+  	left: 553px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 611px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 57px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 84px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 706px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.navbar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: 0px;
+  	cursor: pointer;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+  	cursor: pointer;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 17px);
+  	left: 345px;
+  	cursor: pointer;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: 461px;
+  	cursor: pointer;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+  	cursor: pointer;
+}
+.grand-batam-mall {
+  	position: absolute;
+  	top: 451px;
+  	left: calc(50% - 554px);
+  	width: 1100px;
+  	height: 650px;
+}
+.shopping-center-bg {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 550px);
+  	border-radius: 50px;
+  	background-color: #113f67;
+  	width: 1100px;
+  	height: 650px;
+}
+.wi-fi-icon {
+  	position: absolute;
+  	top: 297px;
+  	left: 397px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.parking-icon {
+  	position: absolute;
+  	top: 297px;
+  	left: 527px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.shopping-center-grand-batam-mall {
+  	position: absolute;
+  	top: 21px;
+  	left: calc(50% - 153px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.grand-batam-mall-child {
+  	position: absolute;
+  	top: 21px;
+  	left: calc(50% - 518px);
+  	border-radius: 50px;
+  	width: 340px;
+  	height: 340px;
+  	object-fit: cover;
+}
+.divider {
+  	position: absolute;
+  	top: 375px;
+  	left: calc(50% - 518px);
+  	background-color: #d9d9d9;
+  	width: 1040px;
+  	height: 2px;
+}
+.shopping-center-divider {
+  	position: absolute;
+  	top: 380px;
+  	left: calc(50% + 5px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.outlets {
+  	position: absolute;
+  	top: 73px;
+  	left: calc(50% - 153px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 305px;
+  	height: 25px;
+}
+.facilities {
+  	position: absolute;
+  	top: 258px;
+  	left: calc(50% - 153px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 305px;
+  	height: 25px;
+}
+.address-jl-pembangunan-container {
+  	position: absolute;
+  	top: 403px;
+  	left: calc(50% - 518px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 77px;
+  	font-size: 22px;
+}
+.shopping-center-address-jl-pembangunan-container {
+  	width: 100%;
+}
+.address {
+  	margin: 0;
+  	font-weight: 800;
+}
+.jl-pembangunan-batu {
+  	margin: 0;
+  	font-size: 18px;
+  	font-weight: 600;
+}
+.httpsgrandbatamcom {
+  	position: absolute;
+  	top: 583px;
+  	left: calc(50% - 191px);
+  	font-size: 14px;
+  	display: flex;
+  	font-style: italic;
+  	font-weight: 700;
+  	color: inherit;
+  	align-items: center;
+  	width: 180px;
+  	height: 30px;
+  	text-decoration: none;
+}
+.cgv-icon {
+  	position: absolute;
+  	top: 175px;
+  	left: 397px;
+  	border-radius: 10px;
+  	width: 80px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.informa-icon {
+  	position: absolute;
+  	top: 175px;
+  	left: 487px;
+  	border-radius: 10px;
+  	width: 80px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.sociolla-icon {
+  	position: absolute;
+  	top: 175px;
+  	left: 577px;
+  	border-radius: 10px;
+  	width: 80px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.azko-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 762px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.funworld-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 832px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.guardian-beauty-icon {
+  	position: absolute;
+  	top: 175px;
+  	left: 667px;
+  	border-radius: 10px;
+  	width: 80px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.top100-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 397px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.hm-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 467px;
+  	border-radius: 10px;
+  	width: 75px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.uniqlo-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 552px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.ohsome-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 622px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.gramed-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 692px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.rating {
+  	position: absolute;
+  	top: 497px;
+  	left: 32px;
+  	width: 512px;
+  	height: 65px;
+  	font-size: 12px;
+}
+.rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 140px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 105px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.star-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 35px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.shopping-center-rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 70px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.reviews-on-google {
+  	position: absolute;
+  	top: 35px;
+  	left: calc(50% - 256px);
+  	display: flex;
+  	font-weight: 600;
+  	align-items: center;
+  	width: 512px;
+  	height: 30px;
+}
+.shopping-center-instagram-icon {
+  	position: absolute;
+  	top: 579px;
+  	left: 32px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.mosque-icon {
+  	position: absolute;
+  	top: 297px;
+  	left: 462px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.and-many-more {
+  	position: absolute;
+  	top: 180px;
+  	left: calc(50% + 207px);
+  	font-size: 14px;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 135px;
+  	height: 30px;
+}
+.km-from-hang-container {
+  	position: absolute;
+  	top: 403px;
+  	left: calc(50% + 77px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.km {
+  	font-weight: 800;
+}
+.from-hang {
+  	font-weight: 600;
+  	white-space: pre-wrap;
+}
+.airport-icon {
+  	position: absolute;
+  	top: 398px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.km-from-harbour-container {
+  	position: absolute;
+  	top: 463px;
+  	left: calc(50% + 77px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.accesibility-public-bus-container {
+  	position: absolute;
+  	top: 583px;
+  	left: calc(50% + 77px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.public-bus-taxi {
+  	font-weight: 600;
+}
+.gmt7 {
+  	position: absolute;
+  	top: 523px;
+  	left: calc(50% + 77px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.water-transportation-icon {
+  	position: absolute;
+  	top: 458px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.clock-icon {
+  	position: absolute;
+  	top: 518px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.bus-icon {
+  	position: absolute;
+  	top: 578px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.bank-cards-icon {
+  	position: absolute;
+  	top: 297px;
+  	left: 592px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.wheelchair-icon {
+  	position: absolute;
+  	top: 323px;
+  	left: 1028px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.nagoya-hill-mall {
+  	position: absolute;
+  	top: 1135px;
+  	left: calc(50% - 560px);
+  	width: 1100px;
+  	height: 650px;
+}
+.shopping-center-and-many-more {
+  	position: absolute;
+  	top: 175px;
+  	left: calc(50% + 117px);
+  	font-size: 14px;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 281px;
+  	height: 40px;
+}
+.nagoya-hill {
+  	position: absolute;
+  	top: 21px;
+  	left: calc(50% - 157px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.nagoya-hill-mall-child {
+  	position: absolute;
+  	top: 12px;
+  	left: calc(50% - 522px);
+  	border-radius: 50px;
+  	width: 340px;
+  	height: 340px;
+  	object-fit: cover;
+}
+.divider2 {
+  	position: absolute;
+  	top: 366px;
+  	left: calc(50% - 522px);
+  	background-color: #d9d9d9;
+  	width: 1040px;
+  	height: 2px;
+}
+.divider3 {
+  	position: absolute;
+  	top: 371px;
+  	left: calc(50% + 1px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.address-jl-nagoya-container {
+  	position: absolute;
+  	top: 394px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 77px;
+  	font-size: 22px;
+}
+.httpsnagoyahillcoid {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% - 185px);
+  	font-size: 14px;
+  	display: flex;
+  	font-style: italic;
+  	font-weight: 700;
+  	color: inherit;
+  	align-items: center;
+  	width: 180px;
+  	height: 30px;
+  	text-decoration: none;
+}
+.shopping-center-rating {
+  	position: absolute;
+  	top: 488px;
+  	left: 28px;
+  	width: 512px;
+  	height: 65px;
+  	font-size: 12px;
+}
+.shopping-center-azko-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 467px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.miniso-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 537px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.kidzilla-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 607px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.instagram-icon2 {
+  	position: absolute;
+  	top: 580px;
+  	left: 28px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.mr-diy-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 677px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.mega-mall {
+  	position: absolute;
+  	top: 1824px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.and-many-more2 {
+  	position: absolute;
+  	top: 178px;
+  	left: calc(50% + 163px);
+  	font-size: 14px;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 135px;
+  	height: 40px;
+}
+.shopping-center-cinemaxxi-icon {
+  	position: absolute;
+  	top: 178px;
+  	left: 393px;
+  	border-radius: 10px;
+  	width: 80px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.matahri-icon2 {
+  	position: absolute;
+  	top: 178px;
+  	left: 483px;
+  	border-radius: 10px;
+  	width: 80px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.timezone-icon {
+  	position: absolute;
+  	top: 178px;
+  	left: 573px;
+  	border-radius: 10px;
+  	width: 130px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.shopping-center-hypermart-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 393px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.shopping-center-ohsome-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 463px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.misino-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 533px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.shopping-center-mr-diy-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 603px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.rating2 {
+  	position: absolute;
+  	top: 488px;
+  	left: 28px;
+  	width: 512px;
+  	height: 58px;
+  	font-size: 12px;
+}
+.reviews-on-google2 {
+  	position: absolute;
+  	top: 43px;
+  	left: calc(50% - 256px);
+  	display: flex;
+  	font-weight: 600;
+  	align-items: center;
+  	width: 512px;
+}
+.across {
+  	font-weight: 800;
+  	white-space: pre-wrap;
+}
+.obama {
+  	position: absolute;
+  	top: 2505px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.and-many-more3 {
+  	position: absolute;
+  	top: 178px;
+  	left: calc(50% + 245px);
+  	font-size: 14px;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 135px;
+  	height: 40px;
+}
+.address-tlk-tering-container {
+  	position: absolute;
+  	top: 394px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 60px;
+  	font-size: 22px;
+}
+.led-play-icon {
+  	position: absolute;
+  	top: 178px;
+  	left: 573px;
+  	border-radius: 10px;
+  	width: 212px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.rating3 {
+  	position: absolute;
+  	top: 493px;
+  	left: 28px;
+  	width: 512px;
+  	height: 65px;
+  	font-size: 12px;
+}
+.shopping-center-summerwet-icon {
+  	position: absolute;
+  	top: 108px;
+  	left: 673px;
+  	border-radius: 10px;
+  	width: 60px;
+  	height: 60px;
+  	object-fit: cover;
+}
+.bcs {
+  	position: absolute;
+  	top: 3198px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.and-many-more4 {
+  	position: absolute;
+  	top: 178px;
+  	left: calc(50% + 23px);
+  	font-size: 14px;
+  	display: flex;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 135px;
+  	height: 40px;
+}
+.batam-city-square {
+  	position: absolute;
+  	top: 12px;
+  	left: calc(50% - 157px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.instagram-icon5 {
+  	position: absolute;
+  	top: 580px;
+  	left: 29px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+
