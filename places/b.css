@@ -1,0 +1,704 @@
+.beaches {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 3917px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.bg {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background: linear-gradient(0deg, #fff, #58a0c8);
+  	width: 1440px;
+  	height: 1000px;
+}
+.beaches2 {
+  	position: absolute;
+  	top: 244px;
+  	left: 100px;
+  	font-size: 75px;
+  	display: flex;
+  	font-family: Poppins;
+  	align-items: center;
+  	width: 716px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-bg-parent {
+  	position: absolute;
+  	top: 3301px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+  	text-align: center;
+  	font-size: 22px;
+}
+.footer-bg {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 110px;
+  	left: 235px;
+  	width: 1030px;
+  	height: 404px;
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 182px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 56px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 308px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 755px);
+  	top: 6px;
+  	left: 553px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 553px);
+  	top: 62px;
+  	left: 553px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 611px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 57px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 84px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 706px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.navbar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: 0px;
+  	cursor: pointer;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+  	cursor: pointer;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 17px);
+  	left: 345px;
+  	cursor: pointer;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: 461px;
+  	cursor: pointer;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+  	cursor: pointer;
+}
+.nongsa-beach {
+  	position: absolute;
+  	top: 450px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.beaches-bg {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 550px);
+  	border-radius: 50px;
+  	background-color: #113f67;
+  	width: 1100px;
+  	height: 650px;
+}
+.activities {
+  	position: absolute;
+  	top: 182px;
+  	left: calc(50% - 157px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 130px;
+  	height: 25px;
+}
+.km-from-hang-container {
+  	position: absolute;
+  	top: 403px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.beaches-km-from-hang-container {
+  	width: 100%;
+}
+.km {
+  	font-weight: 800;
+}
+.from-hang {
+  	font-weight: 600;
+  	white-space: pre-wrap;
+}
+.very-traditional-they-container {
+  	position: absolute;
+  	top: 398px;
+  	left: calc(50% - 467px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 50px;
+}
+.they-didnt-offer {
+  	font-weight: 600;
+}
+.airport-icon {
+  	position: absolute;
+  	top: 398px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.km-from-nongsapura-container {
+  	position: absolute;
+  	top: 463px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.charges-apply {
+  	position: absolute;
+  	top: 583px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.open-for-public {
+  	position: absolute;
+  	top: 523px;
+  	left: calc(50% + 75px);
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.water-transportation-icon {
+  	position: absolute;
+  	top: 458px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.clock-icon {
+  	position: absolute;
+  	top: 518px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.cash-icon {
+  	position: absolute;
+  	top: 578px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.beaches-nongsa-beach {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 157px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.nongsa-beach-child {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 522px);
+  	border-radius: 50px;
+  	width: 340px;
+  	height: 340px;
+  	object-fit: cover;
+}
+.divider {
+  	position: absolute;
+  	top: 376px;
+  	left: calc(50% - 522px);
+  	background-color: #d9d9d9;
+  	width: 1040px;
+  	height: 2px;
+}
+.beaches-divider {
+  	position: absolute;
+  	top: 381px;
+  	left: calc(50% + 1px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.address-sambau-kecamatan-container {
+  	position: absolute;
+  	top: 460px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 77px;
+  	font-size: 22px;
+}
+.address {
+  	margin: 0;
+  	font-weight: 800;
+}
+.sambau-kecamatan-nongsa {
+  	margin: 0;
+  	font-size: 18px;
+  	font-weight: 600;
+}
+.rating {
+  	position: absolute;
+  	top: 564px;
+  	left: 28px;
+  	width: 262px;
+  	height: 65px;
+  	font-size: 12px;
+}
+.rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 140px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 105px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.star-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 35px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.beaches-rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 70px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.reviews-on-google {
+  	position: absolute;
+  	top: 35px;
+  	left: calc(50% - 131px);
+  	display: flex;
+  	font-weight: 600;
+  	align-items: center;
+  	width: 262px;
+  	height: 30px;
+}
+.ever-imagined-a-container {
+  	position: absolute;
+  	top: 77px;
+  	left: calc(50% - 157px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 675px;
+  	height: 80px;
+}
+.ever-imagined-a {
+  	margin: 0;
+}
+.ride-to-pulau {
+  	position: absolute;
+  	top: 278px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.banana-boat-ride {
+  	position: absolute;
+  	top: 226px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.small-restaurant {
+  	position: absolute;
+  	top: 226px;
+  	left: calc(50% + 246px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.swim {
+  	position: absolute;
+  	top: 330px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.chat-bubble-icon {
+  	position: absolute;
+  	top: 403px;
+  	left: 28px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.swimming-icon {
+  	position: absolute;
+  	top: 322px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.sail-boat-icon {
+  	position: absolute;
+  	top: 219px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.island-on-water {
+  	position: absolute;
+  	top: 271px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.restaurant-icon {
+  	position: absolute;
+  	top: 219px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.new-melur-beach {
+  	position: absolute;
+  	top: 1135px;
+  	left: calc(50% - 549px);
+  	width: 1100px;
+  	height: 650px;
+}
+.opens-for-24-container {
+  	position: absolute;
+  	top: 523px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.resort-beach-club {
+  	position: absolute;
+  	top: 107px;
+  	left: calc(50% - 157px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 675px;
+  	height: 35px;
+}
+.beaches-instagram-icon {
+  	position: absolute;
+  	top: 579px;
+  	left: 483px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.atv-icon {
+  	position: absolute;
+  	top: 323px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.tanjung-pinggir {
+  	position: absolute;
+  	top: 1820px;
+  	left: calc(50% - 548px);
+  	width: 1100px;
+  	height: 650px;
+}
+.activities2 {
+  	position: absolute;
+  	top: 183px;
+  	left: calc(50% - 157px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 130px;
+  	height: 25px;
+}
+.at-tanjung-pinggir {
+  	position: absolute;
+  	top: 85px;
+  	left: calc(50% - 157px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 675px;
+  	height: 80px;
+}
+.sun-icon {
+  	position: absolute;
+  	top: 220px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.we-are-upgrading {
+  	position: absolute;
+  	top: 2820px;
+  	left: calc(50% - 297px);
+  	font-size: 32px;
+  	display: flex;
+  	font-weight: 700;
+  	font-family: Nunito;
+  	color: rgba(9, 32, 51, 0.5);
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 595px;
+  	height: 129px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+

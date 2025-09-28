@@ -1,0 +1,847 @@
+.religious-places {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 4600px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.bg {
+  	position: absolute;
+  	top: 3px;
+  	left: 0px;
+  	background: linear-gradient(0deg, #fff, #58a0c8);
+  	width: 1440px;
+  	height: 1000px;
+}
+.religious-places-religious-places {
+  	position: absolute;
+  	top: 244px;
+  	left: 100px;
+  	font-size: 75px;
+  	display: flex;
+  	font-family: Poppins;
+  	align-items: center;
+  	width: 716px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-bg {
+  	position: absolute;
+  	top: 3986px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 4096px;
+  	left: 202px;
+  	width: 1030px;
+  	height: 404px;
+  	text-align: center;
+  	font-size: 22px;
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 182px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 56px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 308px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 755px);
+  	top: 6px;
+  	left: 553px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 553px);
+  	top: 62px;
+  	left: 553px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 611px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 57px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 84px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 706px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.navbar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: 0px;
+  	cursor: pointer;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+  	cursor: pointer;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 17px);
+  	left: 345px;
+  	cursor: pointer;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: 461px;
+  	cursor: pointer;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+  	cursor: pointer;
+}
+.masjid-agung-batam {
+  	position: absolute;
+  	top: 450px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.religious-places-bg {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 550px);
+  	border-radius: 50px;
+  	background-color: #113f67;
+  	width: 1100px;
+  	height: 650px;
+}
+.masjid-agung-raja {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 157px);
+  	font-size: 30px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.masjid-agung-batam-child {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 522px);
+  	border-radius: 50px;
+  	width: 340px;
+  	height: 340px;
+  	object-fit: cover;
+}
+.divider {
+  	position: absolute;
+  	top: 376px;
+  	left: calc(50% - 522px);
+  	background-color: #d9d9d9;
+  	width: 1040px;
+  	height: 2px;
+}
+.religious-places-divider {
+  	position: absolute;
+  	top: 381px;
+  	left: calc(50% + 1px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.the-masjid-agung-container {
+  	position: absolute;
+  	top: 95px;
+  	left: calc(50% - 157px);
+  	display: flex;
+  	align-items: center;
+  	width: 673px;
+  	height: 60px;
+}
+.religious-places-the-masjid-agung-container {
+  	width: 100%;
+}
+.the-masjid-agung {
+  	font-weight: 600;
+}
+.square-meter-plot {
+  	font-weight: 800;
+}
+.km-from-hang-container {
+  	position: absolute;
+  	top: 403px;
+  	left: calc(50% + 77px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.from-hang {
+  	font-weight: 600;
+  	white-space: pre-wrap;
+}
+.airport-icon {
+  	position: absolute;
+  	top: 398px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.km-from-batam-container {
+  	position: absolute;
+  	top: 463px;
+  	left: calc(50% + 77px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.free-entry {
+  	position: absolute;
+  	top: 583px;
+  	left: calc(50% + 77px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.water-transportation-icon {
+  	position: absolute;
+  	top: 458px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.clock-icon {
+  	position: absolute;
+  	top: 518px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.cash-icon {
+  	position: absolute;
+  	top: 578px;
+  	left: 571px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.why-should-you {
+  	position: absolute;
+  	top: 182px;
+  	left: calc(50% - 157px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 307px;
+  	height: 25px;
+}
+.vast-cozy {
+  	position: absolute;
+  	top: 226px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 214px;
+  	height: 25px;
+}
+.food-souvenirs {
+  	position: absolute;
+  	top: 330px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 289px;
+  	height: 25px;
+}
+.basement-parking-available {
+  	position: absolute;
+  	top: 226px;
+  	left: calc(50% + 246px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 242px;
+  	height: 25px;
+}
+.located-in-the {
+  	position: absolute;
+  	top: 278px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 233px;
+  	height: 25px;
+}
+.praying-man-icon {
+  	position: absolute;
+  	top: 219px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.stall-icon {
+  	position: absolute;
+  	top: 323px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.location-icon {
+  	position: absolute;
+  	top: 271px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.a-truly-grand-container {
+  	position: absolute;
+  	top: 409px;
+  	left: calc(50% - 467px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.address-jl-engku-container {
+  	position: absolute;
+  	top: 460px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 77px;
+  	font-size: 22px;
+}
+.address {
+  	margin: 0;
+  	font-weight: 800;
+}
+.religious-places-jl-engku-putri {
+  	margin: 0;
+  	font-size: 18px;
+  	font-weight: 600;
+}
+.rating {
+  	position: absolute;
+  	top: 564px;
+  	left: 28px;
+  	width: 242px;
+  	height: 65px;
+  	font-size: 12px;
+}
+.rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 140px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 105px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.star-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 35px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.religious-places-rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 70px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.reviews-on-google {
+  	position: absolute;
+  	top: 35px;
+  	left: calc(50% - 121px);
+  	display: flex;
+  	font-weight: 600;
+  	align-items: center;
+  	width: 242px;
+  	height: 30px;
+}
+.chat-bubble-icon {
+  	position: absolute;
+  	top: 404px;
+  	left: 28px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.parking-icon {
+  	position: absolute;
+  	top: 219px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.masjid-jabal-arafah {
+  	position: absolute;
+  	top: 1135px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.religious-places-masjid-jabal-arafah {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 157px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.masjid-jabal-arafah-container {
+  	position: absolute;
+  	top: 85px;
+  	left: calc(50% - 157px);
+  	display: flex;
+  	align-items: center;
+  	width: 673px;
+  	height: 80px;
+}
+.the-mosque-is-container {
+  	position: absolute;
+  	top: 523px;
+  	left: calc(50% + 77px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.located-near-shopping {
+  	position: absolute;
+  	top: 278px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 262px;
+  	height: 25px;
+}
+.visitor-must-walk-container {
+  	position: absolute;
+  	top: 408px;
+  	left: calc(50% - 467px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.religious-places-chat-bubble-icon {
+  	position: absolute;
+  	top: 403px;
+  	left: 28px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.masjid-tanjak {
+  	position: absolute;
+  	top: 1824px;
+  	left: calc(50% - 551px);
+  	width: 1100px;
+  	height: 650px;
+}
+.masjid-tanwirun-najamasjid-container {
+  	position: absolute;
+  	top: 76px;
+  	left: calc(50% - 157px);
+  	display: flex;
+  	align-items: center;
+  	width: 673px;
+  	height: 98px;
+}
+.why-should-you2 {
+  	position: absolute;
+  	top: 183px;
+  	left: calc(50% - 157px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 307px;
+  	height: 25px;
+}
+.you-should-visit {
+  	position: absolute;
+  	top: 408px;
+  	left: calc(50% - 467px);
+  	display: flex;
+  	font-weight: 600;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.roofing-icon {
+  	position: absolute;
+  	top: 220px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.grass-icon {
+  	position: absolute;
+  	top: 272px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.location-icon2 {
+  	position: absolute;
+  	top: 324px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.wheelchair-icon {
+  	position: absolute;
+  	top: 323px;
+  	left: 1028px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.maha-vihara-duta-maitreya {
+  	position: absolute;
+  	top: 2505px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.address-komplek-maha-container {
+  	position: absolute;
+  	top: 460px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 104px;
+  	font-size: 22px;
+}
+.maha-vihara-duta-container {
+  	position: absolute;
+  	top: 75px;
+  	left: calc(50% - 154px);
+  	display: flex;
+  	align-items: center;
+  	width: 675px;
+  	height: 100px;
+}
+.vegan-food {
+  	position: absolute;
+  	top: 330px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 350px;
+  	height: 25px;
+}
+.vihara-budi-bhakti-kelenteng {
+  	position: absolute;
+  	top: 3198px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.address-jl-pembangunan-container {
+  	position: absolute;
+  	top: 460px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 85px;
+  	font-size: 22px;
+}
+.vihara-budhi-bhakti-container {
+  	position: absolute;
+  	top: 75px;
+  	left: calc(50% - 157px);
+  	display: flex;
+  	align-items: center;
+  	width: 672px;
+  	height: 100px;
+}
+.two-religion-worship {
+  	position: absolute;
+  	top: 278px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 381px;
+  	height: 25px;
+}
+.arrow-button {
+  	position: absolute;
+  	top: 3875px;
+  	left: 995px;
+  	border-radius: 30px;
+  	background-color: #113f67;
+  	width: 60px;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	padding: 10px 20px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+}
+.arrow-button-child {
+  	width: 20px;
+  	position: relative;
+  	height: 40px;
+}
+.navigation {
+  	position: absolute;
+  	top: 3897px;
+  	left: calc(50% - 18px);
+  	width: 37px;
+  	height: 16px;
+  	display: flex;
+  	align-items: center;
+  	gap: 5px;
+}
+.navigation-child {
+  	width: 16px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #000;
+  	height: 16px;
+}
+.navigation-item {
+  	width: 16px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: rgba(0, 0, 0, 0.3);
+  	height: 16px;
+}
+.wheelchair-icon3 {
+  	position: absolute;
+  	top: 773px;
+  	left: 1198px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+

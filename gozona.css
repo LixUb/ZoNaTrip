@@ -1,0 +1,443 @@
+.gozona {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 4000px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 40px;
+  	color: #113f67;
+  	font-family: Poppins;
+}
+.gozona-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background: linear-gradient(180deg, #58a0c8, #f0f1f2 50%, #fff);
+  	width: 1440px;
+  	height: 789px;
+}
+.nongsa-passage {
+  	position: absolute;
+  	top: 1039px;
+  	left: calc(50% - 659px);
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+  	width: 492px;
+}
+.discover-two-routes {
+  	position: absolute;
+  	top: 934px;
+  	left: calc(50% - 500px);
+  	font-size: 32px;
+  	display: flex;
+  	font-family: Nunito;
+  	align-items: center;
+  	justify-content: center;
+  	width: 1000px;
+  	height: 50px;
+}
+.gozona-overview {
+  	position: absolute;
+  	top: 844px;
+  	left: calc(50% - 358px);
+  	font-size: 64px;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+  	width: 716px;
+}
+.gozona-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.gozona2 {
+  	position: absolute;
+  	top: 155px;
+  	left: calc(50% - 223px);
+  	font-size: 75px;
+  	display: flex;
+  	align-items: center;
+  	width: 446px;
+  	height: 91px;
+  	filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+}
+.gozona-txt {
+  	line-break: anywhere;
+  	width: 100%;
+}
+.z {
+  	color: #fbc408;
+}
+.o {
+  	color: #b48d47;
+}
+.n {
+  	color: #4553a6;
+}
+.a {
+  	color: #0318ed;
+}
+.your-seamless-way {
+  	position: absolute;
+  	top: 250px;
+  	left: calc(50% - 289px);
+  	font-size: 32px;
+  	display: flex;
+  	font-family: Nunito;
+  	align-items: center;
+  	justify-content: center;
+  	width: 578px;
+  	height: 36px;
+  	text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.gozona-inner {
+  	position: absolute;
+  	top: 329px;
+  	left: -90px;
+  	width: 702px;
+  	height: 428px;
+  	object-fit: cover;
+}
+.discover-top-destinations-container {
+  	position: absolute;
+  	top: 377px;
+  	left: 720px;
+  	text-align: left;
+  	display: flex;
+  	align-items: center;
+  	width: 666px;
+  	height: 279px;
+  	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  	font-size: 34px;
+  	font-family: 'Plus Jakarta Sans';
+}
+.gozona-discover-top-destinations-container {
+  	width: 100%;
+}
+.discover-top-destinations-com {
+  	margin: 0;
+}
+.discover-top-destinations {
+  	font-weight: 500;
+}
+.all-in-one {
+  	font-family: 'Plus Jakarta Sans';
+}
+.span {
+  	font-weight: 500;
+  	font-family: 'Plus Jakarta Sans';
+}
+.by-gozona-we-collaborate-with {
+  	margin: 0;
+  	font-size: 30px;
+}
+.go {
+  	color: #58a0c8;
+}
+.rectangle-icon {
+  	position: absolute;
+  	top: 1112px;
+  	left: 120px;
+  	border-radius: 20px;
+  	width: 500px;
+  	height: 500px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+  	font-size: 24px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: 0px;
+  	cursor: pointer;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+  	cursor: pointer;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 17px);
+  	left: 345px;
+  	cursor: pointer;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: 461px;
+  	cursor: pointer;
+}
+.gozona4 {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+  	cursor: pointer;
+}
+.gozona-gozona-child {
+  	position: absolute;
+  	top: 1112px;
+  	left: 670px;
+  	border-radius: 20px;
+  	width: 650px;
+  	height: 500px;
+  	object-fit: cover;
+}
+.gozona-child2 {
+  	position: absolute;
+  	top: 1673px;
+  	left: calc(50% - 600px);
+  	border-radius: 20px;
+  	width: 1200px;
+  	height: 150px;
+  	object-fit: cover;
+}
+.barelang-passage {
+  	position: absolute;
+  	top: 1951px;
+  	left: calc(50% - 659px);
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+  	width: 492px;
+}
+.gozona-child3 {
+  	position: absolute;
+  	top: 2024px;
+  	left: 120px;
+  	width: 500px;
+  	height: 500px;
+  	object-fit: cover;
+}
+.gozona-child4 {
+  	position: absolute;
+  	top: 2024px;
+  	left: 670px;
+  	border-radius: 20px;
+  	width: 650px;
+  	height: 500px;
+  	object-fit: cover;
+}
+.gozona-child5 {
+  	position: absolute;
+  	top: 2585px;
+  	left: calc(50% - 600px);
+  	border-radius: 20px;
+  	width: 1200px;
+  	height: 150px;
+  	object-fit: cover;
+}
+.footer-bg {
+  	position: absolute;
+  	top: 3389px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 3499px;
+  	left: 201px;
+  	width: 1031px;
+  	height: 404px;
+  	font-size: 22px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 183px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 57px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 309px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 756px);
+  	top: 6px;
+  	left: 554px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 554px);
+  	top: 62px;
+  	left: 554px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 612px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 58px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 85px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 707px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+

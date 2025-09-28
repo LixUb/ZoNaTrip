@@ -1,0 +1,767 @@
+.park-and-nature {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 3917px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.bg {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background: linear-gradient(0deg, #fff, #58a0c8);
+  	width: 1440px;
+  	height: 1000px;
+}
+.park-and-nature-park-and-nature {
+  	position: absolute;
+  	top: 244px;
+  	left: 100px;
+  	font-size: 75px;
+  	display: flex;
+  	font-family: Poppins;
+  	align-items: center;
+  	width: 716px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-bg {
+  	position: absolute;
+  	top: 3301px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 3411px;
+  	left: 202px;
+  	width: 1030px;
+  	height: 404px;
+  	text-align: center;
+  	font-size: 22px;
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 182px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 56px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 308px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 755px);
+  	top: 6px;
+  	left: 553px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 553px);
+  	top: 62px;
+  	left: 553px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 611px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 57px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 84px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 706px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.navbar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: 0px;
+  	cursor: pointer;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+  	cursor: pointer;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 17px);
+  	left: 345px;
+  	cursor: pointer;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: 461px;
+  	cursor: pointer;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+  	cursor: pointer;
+}
+.panbil-nature-reserve {
+  	position: absolute;
+  	top: 450px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.park-and-nature-bg {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 550px);
+  	border-radius: 50px;
+  	background-color: #113f67;
+  	width: 1100px;
+  	height: 650px;
+}
+.activities {
+  	position: absolute;
+  	top: 182px;
+  	left: calc(50% - 157px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 130px;
+  	height: 25px;
+}
+.km-from-hang-container {
+  	position: absolute;
+  	top: 403px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.park-and-nature-km-from-hang-container {
+  	width: 100%;
+}
+.km {
+  	font-weight: 800;
+}
+.from-hang {
+  	font-weight: 600;
+  	white-space: pre-wrap;
+}
+.advance-booking-is-container {
+  	position: absolute;
+  	top: 409px;
+  	left: calc(50% - 467px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.is-required {
+  	font-weight: 600;
+}
+.airport-icon {
+  	position: absolute;
+  	top: 398px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.km-from-batam-container {
+  	position: absolute;
+  	top: 463px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.charges-apply {
+  	position: absolute;
+  	top: 583px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.gmt7 {
+  	position: absolute;
+  	top: 523px;
+  	left: calc(50% + 75px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.water-transportation-icon {
+  	position: absolute;
+  	top: 458px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.clock-icon {
+  	position: absolute;
+  	top: 518px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.cash-icon {
+  	position: absolute;
+  	top: 578px;
+  	left: 570px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.park-and-nature-panbil-nature-reserve {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 157px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.panbil-nature-reserve-child {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 522px);
+  	border-radius: 50px;
+  	width: 340px;
+  	height: 340px;
+  	object-fit: cover;
+}
+.divider {
+  	position: absolute;
+  	top: 376px;
+  	left: calc(50% - 522px);
+  	background-color: #d9d9d9;
+  	width: 1040px;
+  	height: 2px;
+}
+.park-and-nature-divider {
+  	position: absolute;
+  	top: 381px;
+  	left: calc(50% + 1px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.address-jl-kantong-container {
+  	position: absolute;
+  	top: 460px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 77px;
+  	font-size: 22px;
+}
+.address {
+  	margin: 0;
+  	font-weight: 800;
+}
+.jl-kantong-semar {
+  	margin: 0;
+  	font-size: 18px;
+  	font-weight: 600;
+}
+.visit-the-website {
+  	position: absolute;
+  	top: 578px;
+  	left: calc(50% - 157px);
+  	font-size: 14px;
+  	display: flex;
+  	font-style: italic;
+  	font-weight: 700;
+  	color: inherit;
+  	align-items: center;
+  	width: 120px;
+  	height: 30px;
+  	text-decoration: none;
+}
+.rating {
+  	position: absolute;
+  	top: 564px;
+  	left: 28px;
+  	width: 242px;
+  	height: 65px;
+  	font-size: 12px;
+}
+.rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 140px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.rating-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 105px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.star-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 35px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.park-and-nature-rating-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 70px;
+  	border-radius: 1px;
+  	width: 35px;
+  	height: 35px;
+}
+.reviews-google {
+  	position: absolute;
+  	top: 35px;
+  	left: calc(50% - 121px);
+  	display: flex;
+  	font-weight: 600;
+  	align-items: center;
+  	width: 242px;
+  	height: 30px;
+}
+.forest-hiking {
+  	position: absolute;
+  	top: 226px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 129px;
+  	height: 25px;
+}
+.paintball-warzone {
+  	position: absolute;
+  	top: 330px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 168px;
+  	height: 25px;
+}
+.ecopark-and-edupark {
+  	position: absolute;
+  	top: 226px;
+  	left: calc(50% + 246px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.camping {
+  	position: absolute;
+  	top: 278px;
+  	left: calc(50% + 246px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.fun-atv {
+  	position: absolute;
+  	top: 278px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 129px;
+  	height: 25px;
+}
+.trekking-icon {
+  	position: absolute;
+  	top: 219px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.paintball-gun-icon {
+  	position: absolute;
+  	top: 323px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.atv-icon {
+  	position: absolute;
+  	top: 271px;
+  	left: 393px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.cat-footprint-icon {
+  	position: absolute;
+  	top: 219px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.camping-tent-icon {
+  	position: absolute;
+  	top: 271px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.chat-bubble-icon {
+  	position: absolute;
+  	top: 404px;
+  	left: 28px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.batam-zoo-paradise {
+  	position: absolute;
+  	top: 1135px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.visiting-in-the-container {
+  	position: absolute;
+  	top: 398px;
+  	left: calc(50% - 467px);
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 50px;
+}
+.park-and-nature-rating {
+  	position: absolute;
+  	top: 564px;
+  	left: 28px;
+  	width: 262px;
+  	height: 65px;
+  	font-size: 12px;
+}
+.reviews-on-google {
+  	position: absolute;
+  	top: 35px;
+  	left: calc(50% - 131px);
+  	display: flex;
+  	font-weight: 600;
+  	align-items: center;
+  	width: 262px;
+  	height: 30px;
+}
+.interact-with-animals {
+  	position: absolute;
+  	top: 226px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.waterpark {
+  	position: absolute;
+  	top: 278px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.horse-ride {
+  	position: absolute;
+  	top: 330px;
+  	left: calc(50% - 92px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 201px;
+  	height: 25px;
+}
+.park-and-nature-chat-bubble-icon {
+  	position: absolute;
+  	top: 403px;
+  	left: 28px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.park-and-nature-instagram-icon {
+  	position: absolute;
+  	top: 579px;
+  	left: 428px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.tiktok-icon {
+  	position: absolute;
+  	top: 579px;
+  	left: 483px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+  	cursor: pointer;
+}
+.nongsa-park-batam-botanic-gar {
+  	position: absolute;
+  	top: 1820px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.free-entry {
+  	position: absolute;
+  	top: 583px;
+  	left: calc(50% + 75px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 440px;
+  	height: 30px;
+}
+.kebun-raya-batam {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 157px);
+  	font-size: 37px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 675px;
+  	height: 45px;
+}
+.batam-botanical-gardens {
+  	position: absolute;
+  	top: 77px;
+  	left: calc(50% - 157px);
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 675px;
+  	height: 80px;
+}
+.we-are-upgrading {
+  	position: absolute;
+  	top: 2820px;
+  	left: calc(50% - 297px);
+  	font-size: 32px;
+  	display: flex;
+  	font-weight: 700;
+  	font-family: Nunito;
+  	color: rgba(9, 32, 51, 0.5);
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 595px;
+  	height: 129px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
