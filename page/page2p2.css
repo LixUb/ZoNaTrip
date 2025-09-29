@@ -1,0 +1,725 @@
+.accomodation-page-42 {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 4600px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.bg {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background: linear-gradient(0deg, #fff, #58a0c8);
+  	width: 1440px;
+  	height: 1000px;
+}
+.four-stars-accomodations {
+  	position: absolute;
+  	top: 187px;
+  	left: 100px;
+  	font-size: 75px;
+  	display: flex;
+  	font-family: Poppins;
+  	align-items: center;
+  	width: 716px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-bg {
+  	position: absolute;
+  	top: 3986px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 4096px;
+  	left: 202px;
+  	width: 1030px;
+  	height: 404px;
+  	text-align: center;
+  	font-size: 22px;
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 182px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 56px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 308px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 755px);
+  	top: 6px;
+  	left: 553px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 553px);
+  	top: 62px;
+  	left: 553px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 611px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 57px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 84px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 706px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.planet-holiday {
+  	position: absolute;
+  	top: 450px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.grand-mercure-batam {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 550px);
+  	border-radius: 50px;
+  	background-color: #113f67;
+  	width: 1100px;
+  	height: 650px;
+}
+.km-from-hang-container {
+  	position: absolute;
+  	top: 107px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.accomodation-page-42-km-from-hang-container {
+  	width: 100%;
+}
+.km {
+  	font-weight: 800;
+}
+.from-hang {
+  	font-weight: 600;
+  	white-space: pre-wrap;
+}
+.km-from-ferry-container {
+  	position: absolute;
+  	top: 172px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.km-from-nagoya-container {
+  	position: absolute;
+  	top: 237px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.located-between-nagoya-container {
+  	position: absolute;
+  	top: 302px;
+  	left: calc(50% - 82px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.between {
+  	font-weight: 600;
+}
+.its-the-caring-container {
+  	position: absolute;
+  	top: 390px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 195px;
+  	font-size: 18px;
+}
+.its-the-caring {
+  	margin: 0;
+  	font-size: 22px;
+  	font-weight: 800;
+}
+.blank-line {
+  	margin: 0;
+  	font-weight: 500;
+}
+.book-your-stay {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 11px);
+  	font-size: 22px;
+  	font-weight: 600;
+  	display: flex;
+  	align-items: center;
+  	width: 168px;
+  	height: 45px;
+}
+.planet-holiday-hotel {
+  	position: absolute;
+  	top: 20px;
+  	left: calc(50% - 138px);
+  	font-size: 38px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 655px;
+  	height: 55px;
+}
+.planet-holiday-child {
+  	position: absolute;
+  	top: 22px;
+  	left: calc(50% - 522px);
+  	border-radius: 50px;
+  	width: 340px;
+  	height: 340px;
+  	object-fit: cover;
+}
+.airport-icon {
+  	position: absolute;
+  	top: 107px;
+  	left: calc(50% - 137px);
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.water-transportation-icon {
+  	position: absolute;
+  	top: 172px;
+  	left: calc(50% - 137px);
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.shop-icon {
+  	position: absolute;
+  	top: 237px;
+  	left: calc(50% - 137px);
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.divider {
+  	position: absolute;
+  	top: 376px;
+  	left: calc(50% - 522px);
+  	background-color: #d9d9d9;
+  	width: 1040px;
+  	height: 2px;
+}
+.accomodation-page-42-divider {
+  	position: absolute;
+  	top: 381px;
+  	left: calc(50% + 1px);
+  	background-color: #d9d9d9;
+  	width: 265px;
+  	height: 2px;
+  	transform:  rotate(90deg);
+  	transform-origin: 0 0;
+}
+.traveloka-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 234px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.agoda-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 303px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.trip-advisor-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 371px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.tiketcom-icon {
+  	position: absolute;
+  	top: 585px;
+  	left: calc(50% + 440px);
+  	border-radius: 50px;
+  	width: 45px;
+  	height: 45px;
+  	object-fit: cover;
+}
+.shopping-bag-icon {
+  	position: absolute;
+  	top: 302px;
+  	left: 413px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.facilities {
+  	position: absolute;
+  	top: 392px;
+  	left: calc(50% + 11px);
+  	font-size: 22px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	width: 512px;
+  	height: 29px;
+}
+.last-24-hours {
+  	position: absolute;
+  	top: 440px;
+  	left: 581px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.swimming-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 581px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.restaurant-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.dumbbell-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 656px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.wi-fi-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 806px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.meeting-room-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 881px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.washing-machine-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 806px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.attendant-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 656px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.lotus-icon {
+  	position: absolute;
+  	top: 500px;
+  	left: 731px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.parking-icon {
+  	position: absolute;
+  	top: 440px;
+  	left: 881px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.harris-hotel-batam-center {
+  	position: absolute;
+  	top: 1135px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.hotel-in-batam-container {
+  	position: absolute;
+  	top: 392px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 148px;
+  	font-size: 18px;
+}
+.hotel-in-batam {
+  	margin: 0;
+  	font-size: 20px;
+  	font-weight: 800;
+}
+.harris-resort-barelang {
+  	position: absolute;
+  	top: 1820px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.aston-batam-hotel-container {
+  	position: absolute;
+  	top: 388px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 220px;
+  	font-size: 18px;
+}
+.dice-icon {
+  	position: absolute;
+  	top: 237px;
+  	left: 413px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.meeting-room-icon2 {
+  	position: absolute;
+  	top: 500px;
+  	left: 956px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.nongsa-point-and-marina-resort {
+  	position: absolute;
+  	top: 2505px;
+  	left: calc(50% - 550px);
+  	width: 1100px;
+  	height: 650px;
+}
+.about-us-nongsa-container {
+  	position: absolute;
+  	top: 396px;
+  	left: calc(50% - 522px);
+  	display: flex;
+  	align-items: center;
+  	width: 511px;
+  	height: 220px;
+  	font-size: 18px;
+}
+.km-from-batam-container2 {
+  	position: absolute;
+  	top: 235px;
+  	left: calc(50% - 83px);
+  	display: flex;
+  	align-items: center;
+  	width: 600px;
+  	height: 35px;
+}
+.water-transportation-icon4 {
+  	position: absolute;
+  	top: 235px;
+  	left: calc(50% - 138px);
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.waterskiing-icon {
+  	position: absolute;
+  	top: 299px;
+  	left: 413px;
+  	width: 40px;
+  	height: 40px;
+  	object-fit: cover;
+}
+.arrow-button {
+  	position: absolute;
+  	top: 3190px;
+  	left: 445px;
+  	border-radius: 30px;
+  	background-color: #113f67;
+  	width: 60px;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	padding: 10px 20px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+}
+.arrow-button-child {
+  	width: 20px;
+  	position: relative;
+  	height: 40px;
+  	object-fit: contain;
+}
+.navigation {
+  	position: absolute;
+  	top: 3212px;
+  	left: calc(50% - 18px);
+  	width: 37px;
+  	height: 16px;
+  	display: flex;
+  	align-items: center;
+  	gap: 5px;
+}
+.navigation-child {
+  	width: 16px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: rgba(0, 0, 0, 0.3);
+  	height: 16px;
+}
+.navigation-item {
+  	width: 16px;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #000;
+  	height: 16px;
+}
+.navbar {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	text-align: center;
+  	font-size: 24px;
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 15px);
+  	left: 0px;
+  	cursor: pointer;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+  	cursor: pointer;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 17px);
+  	left: 345px;
+  	cursor: pointer;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 18px);
+  	left: 461px;
+  	cursor: pointer;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+  	cursor: pointer;
+}
+.we-are-upgrading {
+  	position: absolute;
+  	top: 3505px;
+  	left: calc(50% - 297px);
+  	font-size: 32px;
+  	display: flex;
+  	font-weight: 700;
+  	font-family: Nunito;
+  	color: rgba(9, 32, 51, 0.5);
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 595px;
+  	height: 129px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
