@@ -1,0 +1,135 @@
+.booking-gozona-starter {
+  	width: 100%;
+  	position: relative;
+  	background-color: #113f67;
+  	height: 900px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 24px;
+  	color: #fff;
+  	font-family: 'Plus Jakarta Sans';
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 0px;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 345px;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 461px;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+}
+.booking-form {
+  	position: absolute;
+  	top: 287px;
+  	left: calc(50% - 358px);
+  	font-size: 52px;
+  	display: flex;
+  	font-family: Poppins;
+  	align-items: center;
+  	justify-content: center;
+  	width: 716px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.where-are-you {
+  	position: absolute;
+  	top: 415px;
+  	left: calc(50% - 278px);
+  	font-size: 30px;
+  	display: flex;
+  	font-family: Nunito;
+  	align-items: center;
+  	justify-content: center;
+  	width: 556px;
+  	height: 50px;
+}
+.buttons {
+  	position: absolute;
+  	top: 488px;
+  	left: 442px;
+  	border-radius: 20px;
+  	background-color: #fff;
+  	width: 263px;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 5px 3px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+}
+.indonesian-citizen {
+  	position: relative;
+  	background: linear-gradient(89.89deg, #113f67, #58a0c8);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.booking-gozona-starter-buttons {
+  	position: absolute;
+  	top: 488px;
+  	left: 735px;
+  	border-radius: 20px;
+  	background-color: #fff;
+  	width: 263px;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 5px 3px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+}
+.buttons2 {
+  	position: absolute;
+  	top: 210px;
+  	left: 70px;
+  	border-radius: 20px;
+  	background-color: #fff;
+  	width: 263px;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 5px 3px;
+  	box-sizing: border-box;
+  	font-size: 26px;
+}
+.booking-starter-gozona {
+  	font-weight: 800;
+}
+
