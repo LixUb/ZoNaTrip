@@ -1,0 +1,1209 @@
+.booking-gozona-local {
+  	width: 100%;
+  	position: relative;
+  	background-color: #113f67;
+  	height: 3700px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 30px;
+  	color: #fff;
+  	font-family: Nunito;
+}
+.booking-gozona-local-child {
+  	position: absolute;
+  	top: 810px;
+  	left: 93px;
+  	border-radius: 20px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 256px;
+}
+.footer-bg {
+  	position: absolute;
+  	top: 3084px;
+  	left: -33px;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 500px;
+  	background-color: #092033;
+  	width: 1506px;
+  	height: 727px;
+}
+.footer-bg-item {
+  	position: absolute;
+  	top: 490px;
+  	left: 33px;
+  	background-color: #092033;
+  	width: 1440px;
+  	height: 126px;
+}
+.footer {
+  	position: absolute;
+  	top: 3194px;
+  	left: 204px;
+  	width: 1031px;
+  	height: 404px;
+  	text-align: center;
+  	font-size: 22px;
+  	font-family: 'Plus Jakarta Sans';
+}
+.logo-footer-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}
+.x-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 183px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.youtube-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 57px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.instagram-icon {
+  	position: absolute;
+  	top: 208px;
+  	left: 309px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.zonaofficialgmailcom {
+  	position: absolute;
+  	width: calc(100% - 756px);
+  	top: 6px;
+  	left: 554px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.jl-engku-putri {
+  	position: absolute;
+  	width: calc(100% - 554px);
+  	top: 62px;
+  	left: 554px;
+  	font-weight: 800;
+  	text-align: justify;
+  	display: flex;
+  	align-items: center;
+}
+.language-icon {
+  	position: absolute;
+  	top: 329px;
+  	left: 612px;
+  	width: 75px;
+  	height: 75px;
+  	object-fit: cover;
+}
+.copyright-icon {
+  	position: absolute;
+  	top: 354px;
+  	left: 58px;
+  	width: 20px;
+  	height: 20px;
+  	object-fit: cover;
+}
+.zona-all {
+  	position: absolute;
+  	top: 354px;
+  	left: 85px;
+  	font-size: 20px;
+  	font-weight: 300;
+  	font-family: Montserrat;
+  	text-align: left;
+}
+.translator {
+  	position: absolute;
+  	top: 329px;
+  	left: 707px;
+  	width: 321px;
+  	height: 75px;
+  	font-size: 45px;
+  	font-family: Poppins;
+}
+.rectangle-parent {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 53.27%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.group-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: #fff;
+}
+.eng {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.rectangle-group {
+  	position: absolute;
+  	height: 100%;
+  	width: 46.73%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 53.27%;
+}
+.group-item {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 20px;
+  	background-color: rgba(255, 255, 255, 0.5);
+}
+.ind {
+  	position: absolute;
+  	width: 92.67%;
+  	top: 4%;
+  	left: 3.33%;
+  	display: flex;
+  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	align-items: center;
+  	justify-content: center;
+}
+.unggah-gambar-e-ktppaspor {
+  	position: absolute;
+  	top: 763px;
+  	left: calc(50% - 624px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.navbar-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1440px;
+  	height: 151px;
+  	object-fit: cover;
+}
+.english-navbar {
+  	position: absolute;
+  	top: 55px;
+  	left: 720px;
+  	width: 700px;
+  	height: 30px;
+  	text-align: center;
+  	font-size: 24px;
+  	font-family: 'Plus Jakarta Sans';
+}
+.home {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 0px;
+}
+.accommodation {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 109px;
+}
+.places {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 345px;
+}
+.events {
+  	position: absolute;
+  	top: calc(50% - 16px);
+  	left: 461px;
+}
+.gozona {
+  	position: absolute;
+  	top: calc(50% - 19px);
+  	left: 578px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 120px;
+  	height: 36px;
+}
+.booking-form-indonesian {
+  	position: absolute;
+  	top: 166px;
+  	left: calc(50% - 474px);
+  	font-size: 52px;
+  	display: flex;
+  	font-family: Poppins;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 948px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.apa-yang-ingin {
+  	position: absolute;
+  	top: 1279px;
+  	left: calc(50% - 484px);
+  	font-size: 40px;
+  	display: flex;
+  	font-family: Poppins;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 948px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pesanlah-sesuai-jumlah {
+  	position: absolute;
+  	top: 1339px;
+  	left: calc(50% - 519px);
+  	font-size: 18px;
+  	display: flex;
+  	font-weight: 500;
+  	font-family: Poppins;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 1017px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pemesanan-selain-yang {
+  	position: absolute;
+  	top: 1367px;
+  	left: calc(50% - 519px);
+  	font-size: 18px;
+  	display: flex;
+  	font-weight: 500;
+  	font-family: Poppins;
+  	text-align: center;
+  	align-items: center;
+  	justify-content: center;
+  	width: 1017px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sunmofee-tropical-cafe {
+  	position: absolute;
+  	top: 1422px;
+  	left: calc(50% - 653px);
+  	font-size: 36px;
+  	font-weight: 500;
+  	font-family: Poppins;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 540px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.barelang-seafood-restaurant {
+  	position: absolute;
+  	top: 1422px;
+  	left: calc(50% + 94px);
+  	font-size: 36px;
+  	font-weight: 500;
+  	font-family: Poppins;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 540px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.booking-gozona-local-item {
+  	position: absolute;
+  	top: 888px;
+  	left: 296px;
+  	width: 100px;
+  	height: 100px;
+  	object-fit: cover;
+}
+.kartu-identitas-hanya-container {
+  	position: absolute;
+  	top: 1063px;
+  	left: calc(50% - 624px);
+  	font-size: 18px;
+  	display: flex;
+  	font-weight: 500;
+  	align-items: center;
+  	width: 500px;
+  	height: 61px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.booking-gozona-local-kartu-identitas-hanya-container {
+  	width: 100%;
+}
+.kartu-identitas-hanya {
+  	margin: 0;
+}
+.ex-ada-1-container {
+  	position: absolute;
+  	top: 883px;
+  	left: calc(50% + 124px);
+  	font-size: 18px;
+  	display: flex;
+  	font-weight: 500;
+  	align-items: center;
+  	width: 500px;
+  	height: 61px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.saya-setuju-dengan-container {
+  	position: absolute;
+  	top: 989px;
+  	left: calc(50% + 185px);
+  	font-size: 18px;
+  	display: flex;
+  	align-items: center;
+  	width: 451px;
+  	height: 74px;
+}
+.booking-gozona-local-inner {
+  	position: absolute;
+  	top: 341px;
+  	left: 93px;
+  	border-radius: 20px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 501px;
+  	left: 93px;
+  	border-radius: 20px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+}
+.alamat-email-aktif {
+  	position: absolute;
+  	top: 454px;
+  	left: calc(50% - 624px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.booking-gozona-local-booking-gozona-local-child {
+  	position: absolute;
+  	top: 650px;
+  	left: 93px;
+  	border-radius: 20px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+}
+.nomor-telepon-aktif {
+  	position: absolute;
+  	top: 603px;
+  	left: calc(50% - 624px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.booking-gozona-local-child2 {
+  	position: absolute;
+  	top: 645px;
+  	left: 841px;
+  	border-radius: 20px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+}
+.tanggal-gozona-trip {
+  	position: absolute;
+  	top: 453px;
+  	left: calc(50% + 124px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.jumlah-tamu {
+  	position: absolute;
+  	top: 598px;
+  	left: calc(50% + 124px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.maksimal-10-orang {
+  	position: absolute;
+  	top: 708px;
+  	left: calc(50% + 124px);
+  	font-size: 18px;
+  	display: flex;
+  	font-weight: 500;
+  	align-items: center;
+  	width: 500px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.booking-gozona-local-child3 {
+  	position: absolute;
+  	top: 820px;
+  	left: 841px;
+  	border-radius: 20px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+}
+.catatan-booking {
+  	position: absolute;
+  	top: 773px;
+  	left: calc(50% + 124px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.siap-menjelajah {
+  	position: absolute;
+  	top: 294px;
+  	left: calc(50% + 124px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.nama {
+  	position: absolute;
+  	top: 294px;
+  	left: calc(50% - 624px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.rectangle-icon {
+  	position: absolute;
+  	top: 1515px;
+  	left: 67px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.lemon-tea-hangatdingin-container {
+  	position: absolute;
+  	top: 1515px;
+  	left: calc(50% - 488px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.hangat {
+  	color: #ae1d00;
+}
+.dingin {
+  	color: #79cfff;
+}
+.counting {
+  	position: absolute;
+  	top: 1565px;
+  	left: 229px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.rectangle-container {
+  	width: 186px;
+  	position: relative;
+  	height: 60px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 2px;
+  	left: 50px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #ae1d00;
+  	box-sizing: border-box;
+  	width: 86px;
+  	height: 56px;
+}
+.booking-gozona-local-group-child {
+  	position: absolute;
+  	top: 2px;
+  	left: -3px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #ae1d00;
+  	box-sizing: border-box;
+  	width: 56px;
+  	height: 56px;
+}
+.group-child2 {
+  	position: absolute;
+  	top: 2px;
+  	left: 133px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #ae1d00;
+  	box-sizing: border-box;
+  	width: 56px;
+  	height: 56px;
+}
+.div {
+  	position: absolute;
+  	top: 0px;
+  	left: 148px;
+  	font-weight: 600;
+}
+.booking-gozona-local-div {
+  	position: absolute;
+  	top: 0px;
+  	left: 79px;
+  	font-weight: 600;
+}
+.booking-gozona-local-counting {
+  	position: absolute;
+  	top: 1565px;
+  	left: 462px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.group-child3 {
+  	position: absolute;
+  	top: 2px;
+  	left: 50px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #58a0c8;
+  	box-sizing: border-box;
+  	width: 86px;
+  	height: 56px;
+}
+.group-child4 {
+  	position: absolute;
+  	top: 2px;
+  	left: -3px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #58a0c8;
+  	box-sizing: border-box;
+  	width: 56px;
+  	height: 56px;
+}
+.group-child5 {
+  	position: absolute;
+  	top: 2px;
+  	left: 133px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #58a0c8;
+  	box-sizing: border-box;
+  	width: 56px;
+  	height: 56px;
+}
+.dropdown-menu {
+  	position: absolute;
+  	top: 501px;
+  	left: 841px;
+  	border-radius: 20px;
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 5px 15px;
+  	gap: 0px;
+}
+.select-an-option {
+  	flex: 1;
+  	position: relative;
+}
+.dropdown-menu-child {
+  	width: 16px;
+  	position: relative;
+  	height: 8px;
+}
+.booking-gozona-local-dropdown-menu {
+  	position: absolute;
+  	top: 341px;
+  	left: 841px;
+  	border-radius: 20px;
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 5px 15px;
+  	gap: 0px;
+}
+.checklist {
+  	position: absolute;
+  	top: 996px;
+  	left: 831px;
+  	width: 60px;
+  	display: flex;
+  	align-items: center;
+  	padding: 10px;
+  	box-sizing: border-box;
+}
+.checklist-child {
+  	width: 40px;
+  	position: relative;
+  	border-radius: 5px;
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	height: 40px;
+}
+.garis-batas {
+  	position: absolute;
+  	top: 1422px;
+  	left: calc(50% - 10px);
+  	background-color: #d9d9d9;
+  	width: 1px;
+  	height: 1300px;
+}
+.one-free-drink-container {
+  	position: absolute;
+  	top: 1646px;
+  	left: calc(50% - 653px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.one-free-drink {
+  	white-space: pre-wrap;
+}
+.span {
+  	font-size: 20px;
+}
+.booking-gozona-local-child4 {
+  	position: absolute;
+  	top: 1716px;
+  	left: 67px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.raspberry-lime-dingin-container {
+  	position: absolute;
+  	top: 1716px;
+  	left: calc(50% - 488px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting2 {
+  	position: absolute;
+  	top: 1766px;
+  	left: 232px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.group-child6 {
+  	position: absolute;
+  	top: 2px;
+  	left: 50px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 86px;
+  	height: 56px;
+}
+.group-child7 {
+  	position: absolute;
+  	top: 2px;
+  	left: -3px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 56px;
+  	height: 56px;
+}
+.group-child8 {
+  	position: absolute;
+  	top: 2px;
+  	left: 133px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 56px;
+  	height: 56px;
+}
+.one-free-drink-container2 {
+  	position: absolute;
+  	top: 1847px;
+  	left: calc(50% - 653px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.booking-gozona-local-child5 {
+  	position: absolute;
+  	top: 1917px;
+  	left: 67px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.sunmofee-latte-dingin-container {
+  	position: absolute;
+  	top: 1917px;
+  	left: calc(50% - 488px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting3 {
+  	position: absolute;
+  	top: 1967px;
+  	left: 232px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.extra-charge-of-container {
+  	position: absolute;
+  	top: 2048px;
+  	left: calc(50% - 653px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.booking-gozona-local-child6 {
+  	position: absolute;
+  	top: 2118px;
+  	left: 67px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.biscoff-coffee-dingin-container {
+  	position: absolute;
+  	top: 2118px;
+  	left: calc(50% - 488px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting4 {
+  	position: absolute;
+  	top: 2168px;
+  	left: 232px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.extra-charge-of-container2 {
+  	position: absolute;
+  	top: 2249px;
+  	left: calc(50% - 653px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.booking-gozona-local-child7 {
+  	position: absolute;
+  	top: 2319px;
+  	left: 67px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.nasi-goreng-seafood {
+  	position: absolute;
+  	top: 2319px;
+  	left: calc(50% - 488px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting5 {
+  	position: absolute;
+  	top: 2369px;
+  	left: 232px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.price-idr-35k {
+  	position: absolute;
+  	top: 2450px;
+  	left: calc(50% - 653px);
+  	font-size: 18px;
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.booking-gozona-local-child8 {
+  	position: absolute;
+  	top: 2520px;
+  	left: 67px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.rice-bowl-ayam {
+  	position: absolute;
+  	top: 2520px;
+  	left: calc(50% - 488px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting6 {
+  	position: absolute;
+  	top: 2570px;
+  	left: 232px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.booking-gozona-local-price-idr-35k {
+  	position: absolute;
+  	top: 2651px;
+  	left: calc(50% - 653px);
+  	font-size: 18px;
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.booking-gozona-local-child9 {
+  	position: absolute;
+  	top: 1515px;
+  	left: 763px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.sweet-tea-hangatdingin-container {
+  	position: absolute;
+  	top: 1515px;
+  	left: calc(50% + 208px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting7 {
+  	position: absolute;
+  	top: 1565px;
+  	left: 925px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.counting8 {
+  	position: absolute;
+  	top: 1565px;
+  	left: 1168px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.one-free-drink-container4 {
+  	position: absolute;
+  	top: 1646px;
+  	left: calc(50% + 43px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.booking-gozona-local-child10 {
+  	position: absolute;
+  	top: 1716px;
+  	left: 763px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.kopi-hangat-gelas-container {
+  	position: absolute;
+  	top: 1716px;
+  	left: calc(50% + 208px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting9 {
+  	position: absolute;
+  	top: 1766px;
+  	left: 928px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.one-free-drink-container6 {
+  	position: absolute;
+  	top: 1847px;
+  	left: calc(50% + 43px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.booking-gozona-local-child11 {
+  	position: absolute;
+  	top: 1917px;
+  	left: 763px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.es-bandung-dingin-container {
+  	position: absolute;
+  	top: 1917px;
+  	left: calc(50% + 208px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting10 {
+  	position: absolute;
+  	top: 1967px;
+  	left: 928px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.extra-charge-of-container4 {
+  	position: absolute;
+  	top: 2048px;
+  	left: calc(50% + 43px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.booking-gozona-local-child12 {
+  	position: absolute;
+  	top: 2118px;
+  	left: 763px;
+  	border-radius: 20px;
+  	width: 120px;
+  	height: 120px;
+  	object-fit: cover;
+}
+.es-jeruk-kelapa-container {
+  	position: absolute;
+  	top: 2118px;
+  	left: calc(50% + 208px);
+  	display: flex;
+  	align-items: center;
+  	width: 389px;
+  	height: 50px;
+}
+.counting11 {
+  	position: absolute;
+  	top: 2168px;
+  	left: 928px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 5px 10px;
+  	text-align: center;
+  	font-size: 40px;
+  	font-family: Poppins;
+}
+.extra-charge-of-container6 {
+  	position: absolute;
+  	top: 2249px;
+  	left: calc(50% + 43px);
+  	display: flex;
+  	align-items: center;
+  	width: 591px;
+  	height: 31px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	font-size: 18px;
+}
+.booking-gozona-local-child13 {
+  	position: absolute;
+  	top: 2860px;
+  	left: 90px;
+  	border-radius: 20px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 3px solid #fff;
+  	box-sizing: border-box;
+  	width: 506px;
+  	height: 66px;
+}
+.catatan-makanan {
+  	position: absolute;
+  	top: 2813px;
+  	left: calc(50% - 627px);
+  	display: flex;
+  	align-items: center;
+  	width: 500px;
+  	height: 50px;
+}
+.ex-1-pesanan-container {
+  	position: absolute;
+  	top: 2923px;
+  	left: calc(50% - 627px);
+  	font-size: 18px;
+  	display: flex;
+  	font-weight: 500;
+  	align-items: center;
+  	width: 500px;
+  	height: 61px;
+  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buttons {
+  	position: absolute;
+  	top: 2863px;
+  	left: 1077px;
+  	border-radius: 20px;
+  	background-color: #fff;
+  	width: 270px;
+  	height: 60px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 5px 3px;
+  	box-sizing: border-box;
+  	cursor: pointer;
+  	text-align: center;
+  	font-family: 'Plus Jakarta Sans';
+}
+.submit-booking {
+  	position: relative;
+  	background: linear-gradient(89.89deg, #113f67, #58a0c8);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
