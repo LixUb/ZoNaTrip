@@ -18,11 +18,11 @@
     		<img class="navbar-icon" src="images/image.png" alt="">
     		
     		<div class="english-navbar">
-      			<b class="home">Home</b>
-      			<b class="accommodation">Accommodation</b>
-      			<b class="places">Places</b>
-      			<b class="events">Events</b>
-      			<b class="gozona">GoZoNa</b>
+      			<b class="home" id="homeText">Home</b>
+      			<b class="accommodation"  id="accommodationText">Accommodation</b>
+      			<b class="places" id="placesText">Places</b>
+      			<b class="events" id="eventsText">Events</b>
+      			<b class="gozona" id="goZoNaText">GoZoNa</b>
     		</div>
     		<b class="booking-form">Booking Form</b>
     		<b class="where-are-you">Where are you from?</b>
@@ -56,5 +56,41 @@
       			buttonsContainer1.addEventListener("click", function (e) {
         				// Add your code here
       			});
-    		}</script></body>
+    		}
+            
+            var homeText = document.getElementById("homeText");
+    		if(homeText) {
+      			homeText.addEventListener("click", function (e) {
+        				window.location.href = "Homepage.html"
+      			});
+    		}
+    		
+    		var accommodationText = document.getElementById("accommodationText");
+    		if(accommodationText) {
+      			accommodationText.addEventListener("click", function (e) {
+        				window.location.href = "accomodation.html"
+      			});
+    		}
+    		
+    		var placesText = document.getElementById("placesText");
+    		if(placesText) {
+      			placesText.addEventListener("click", function (e) {
+        				window.location.href = "places.html"
+      			});
+    		}
+    		
+    		var eventsText = document.getElementById("eventsText");
+    		if(eventsText) {
+      			eventsText.addEventListener("click", function (e) {
+        				window.location.href = "event.html"
+      			});
+    		}
+    		
+    		var goZoNaText = document.getElementById("goZoNaText");
+    		if(goZoNaText) {
+      			goZoNaText.addEventListener("click", function (e) {
+        				window.location.href = "gozona.html"
+      			});
+    		}
+            </script></body>
 </html>
