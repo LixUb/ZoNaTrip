@@ -1,101 +1,93 @@
 <!DOCTYPE html>
 <html>
-<head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="event.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	
-  	
-  	
-</head>
-<body>
-  	
-  	<div class="events-page">
-    		<div class="events-page-child">
-    		</div>
-    		<div class="events-page-item">
-    		</div>
-    		<b class="events-calendar">2025 Events Calendar</b>
-    		<img class="events-page-inner" alt="">
-    		
-    		<div class="english-navbar">
-      			<b class="home" id="homeText">Home</b>
-      			<b class="accommodation" id="accommodationText">Accommodation</b>
-      			<b class="places" id="placesText">Places</b>
-      			<b class="events" id="eventsText">Events</b>
-      			<b class="gozona" id="goZoNaText">GoZoNa</b>
-    		</div>
-    		<img class="rectangle-icon" alt="">
-    		
-    		<b class="mak-yong-momentum">Mak Yong Momentum</b>
-    		<b class="let-zona-introduce">Let ZoNa introduce you to one of Melayu theatrical show.</b>
-    		<div class="buttons" id="buttonsContainer">
-      			<b class="learn-more">Learn More</b>
-    		</div>
-    		<div class="calendar-of-event">
-      			<img class="calendar-of-event-child" alt="">
-      			
-      			<img class="calendar-of-event-child" alt="">
-      			
-      			<img class="calendar-of-event-child" alt="">
-      			
-    		</div>
-    		<b class="by-dinas-budaya">by Dinas Budaya dan Pariwisata Kota Batam</b>
-    		<b class="events-page-mak-yong-momentum" data-scroll-to="makYongMomentum">Mak Yong Momentum</b>
-    		<b class="a-cultural-festival">A cultural festival where ZoNa arranged multiple performaces</b>
-  	</div>
-  	
-  	
-  	
-  	
-  	<script>
-    		var homeText = document.getElementById("homeText");
-    		if(homeText) {
-      			homeText.addEventListener("click", function (e) {
-        				window.location.href = "Homepage.html"
-      			});
-    		}
-    		
-    		var accommodationText = document.getElementById("accommodationText");
-    		if(accommodationText) {
-      			accommodationText.addEventListener("click", function (e) {
-        				window.location.href = "accomodation.html"
-      			});
-    		}
-    		
-    		var placesText = document.getElementById("placesText");
-    		if(placesText) {
-      			placesText.addEventListener("click", function (e) {
-        				window.location.href = "places.html"
-      			});
-    		}
-    		
-    		var eventsText = document.getElementById("eventsText");
-    		if(eventsText) {
-      			eventsText.addEventListener("click", function (e) {
-        				window.location.href = "event.html"
-      			});
-    		}
-    		
-    		var goZoNaText = document.getElementById("goZoNaText");
-    		if(goZoNaText) {
-      			goZoNaText.addEventListener("click", function (e) {
-        				window.location.href = "gozona.html"
-      			});
-    		}
-    		
-    		var buttonsContainer = document.getElementById("buttonsContainer");
-    		if(buttonsContainer) {
-      			buttonsContainer.addEventListener("click", function () {
-        				var anchor = document.querySelector("[data-scroll-to='makYongMomentum']");
-        				if(anchor) {
-          					anchor.scrollIntoView({"block":"start","behavior":"smooth"})
-        				}
-      			});
-    		}
-  	</script></body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="event.css" />
+  </head>
+  <body>
+    <div class="events-page">
+      <div class="rectangle"></div>
+      <div class="div"></div>
+      <div class="text-wrapper">2025 Events Calendar</div>
+      <img class="img" src="https://c.animaapp.com/mguk4neySR0RY5/img/rectangle-1.png" />
+      <div class="navbar">
+        <a href="Homepage.html"><div class="text-wrapper-2">Home</div></a>
+        <a href="accomodation.html"><div class="text-wrapper-3">Accommodation</div></a>
+        <a href="places.html"><div class="text-wrapper-4">Places</div></a>
+        <a href="event.html"><div class="text-wrapper-5">Events</div></a>
+        <a href="gozona.html"><div class="text-wrapper-6">GoZoNa</div></a>
+      </div>
+      <img class="rectangle-2" src="https://c.animaapp.com/mguk4neySR0RY5/img/rectangle-24.png" />
+      <div class="text-wrapper-7">Gemilang Budaya Melayu</div>
+      <p class="p">Annual cultural festival designed to preserve the heritages</p>
+      <button class="buttons"><div class="text-wrapper-8">Learn More</div></button>
+      <img class="calendar-of-event" src="https://c.animaapp.com/mguk4neySR0RY5/img/calendar-of-event.svg" />
+      <p class="text-wrapper-9">by Dinas Budaya dan Pariwisata Kota Batam</p>
+      <div class="group">
+        <img class="padi" src="https://c.animaapp.com/mguk4neySR0RY5/img/padi-1.png" />
+        <img class="padi-2" src="https://c.animaapp.com/mguk4neySR0RY5/img/padi-1.png" />
+        <div class="text-wrapper-10">Gemilang Budaya Melayu</div>
+        <p class="text-wrapper-11">Berjejak di Warisan, Bertapak di Masa Depan</p>
+      </div>
+      <div class="text-wrapper-12">What Awaits You</div>
+      <p class="gemilang-budaya">
+        <span class="span">Gemilang Budaya Melayu</span>
+        <span class="text-wrapper-13">
+          is an annual cultural festival held by ZoNa dedicated to celebrating the rich heritage and vibrant traditions
+          of the Melayu community. The festival brings together art, music, dance, culinary delights, and traditional
+          crafts to showcase the timeless beauty of Melayu culture.<br /><br />The global theme,
+        </span>
+        <span class="text-wrapper-14">“Berjejak di Warisan, Bertapak di Masa Depan”</span>
+        <span class="text-wrapper-13">
+          (Rooted in Heritage, Stepping into the Future), highlights the importance of preserving cultural roots while
+          embracing innovation and diversity in a modern world.</span
+        >
+      </p>
+      <p class="date-TBA-venue-TBA">
+        <span class="text-wrapper-15">Date:</span>
+        <span class="text-wrapper-13"> TBA<br /></span>
+        <span class="text-wrapper-15">Venue:</span>
+        <span class="text-wrapper-13"> TBA</span>
+      </p>
+      <div class="gbm-features">
+        <div class="group-2">
+          <div class="rectangle-3"></div>
+          <img class="rectangle-4" src="https://c.animaapp.com/mguk4neySR0RY5/img/rectangle-40.png" />
+          <div class="text-wrapper-16">Cultural Performances</div>
+        </div>
+        <div class="group-2">
+          <div class="rectangle-3"></div>
+          <img class="rectangle-4" src="https://c.animaapp.com/mguk4neySR0RY5/img/rectangle-40-1.png" />
+          <div class="text-wrapper-16">Culinary Corner</div>
+        </div>
+        
+      </div>
+      <div class="group-3">
+        <div class="footer-bg"><div class="rectangle-5"></div></div>
+        <footer class="footer">
+          <img class="logo-footer" src="https://c.animaapp.com/mguk4neySR0RY5/img/logo-footer.png" />
+          <img class="x" src="https://c.animaapp.com/mguk4neySR0RY5/img/x.png" />
+          <img class="you-tube" src="https://c.animaapp.com/mguk4neySR0RY5/img/youtube.png" />
+          <img class="instagram" src="https://c.animaapp.com/mguk4neySR0RY5/img/instagram.png" />
+          <div class="text-wrapper-17">zona.official@gmail.com</div>
+          <p class="text-wrapper-18">Jl. Engku Putri Utara, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Indonesia</p>
+          <img class="language" src="https://c.animaapp.com/mguk4neySR0RY5/img/language.png" />
+          <img class="copyright" src="https://c.animaapp.com/mguk4neySR0RY5/img/copyright.png" />
+          <p class="text-wrapper-19">2025 ZoNa | All rights reserved</p>
+          <div class="translator">
+            <div class="group-4">
+              <div class="rectangle-6"></div>
+              <div class="text-wrapper-20">ENG</div>
+            </div>
+            <div class="group-4">
+              <div class="rectangle-7"></div>
+              <div class="text-wrapper-21">IND</div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,64 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="booking.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	
-  	
-  	
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=720, initial-scale=1.0" />
+  <title>Booking | GoZoNa</title>
+  <style>
+    body {
+      background-color: #113f67;
+      font-family: 'Nunito', sans-serif;
+      overflow: hidden;
+      width: 1080px;
+      height: 720px;
+    }
+
+    .booking-container {
+      position: relative;
+      width: 1080px;
+      height: 720px;
+      background-color: #113f67;
+      color: #fff;
+    }
+
+    /* Navbar Section */
+    .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+    }
+
+    .navbar img {
+      height: 70px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 40px;
+    }
+
+    .nav-links b {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* Title */
+    .title {
+      position: absolute;
+      top: 220px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 42px;
+      font-weight: 800;
+    }
+
+    .subtitle {
+      position: absolute;
+      top: 280px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    /* Buttons */
+    .button-group {
+      position: absolute;
+      top: 340px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 40px;
+    }
+
+    .btn {
+      background-color: #fff;
+      color: #113f67;
+      border: none;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 15px 35px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #dceefc;
+      transform: translateY(-2px);
+    }
+
+    /* Return Button */
+    .return {
+      position: absolute;
+      bottom: 90px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #fff;
+      color: #113f67;
+      border-radius: 15px;
+      font-weight: 700;
+      font-size: 20px;
+      padding: 10px 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .return span {
+      color: #58a0c8;
+    }
+
+    .return:hover {
+      background-color: #dceefc;
+    }
+
+ .navbar-2 {
+  position: absolute;
+  top: 55px;
+  left: 720px;
+  width: 700px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  	font-size: 20px;
+  	color: #fff;
+}
+  </style>
 </head>
+
 <body>
-  	
-  	<div class="booking-gozona-starter">
-    		<img class="navbar-icon" src="images/image.png" alt="">
-    		
-    		<div class="english-navbar">
+  <div class="booking-container">
+    <!-- Navbar -->
+    <div class="navbar">
+      <img src="images/image.png" alt="GoZoNa logo" />
+<div class="navbar-2">
       			<b class="home" id="homeText">Home</b>
-      			<b class="accommodation"  id="accommodationText">Accommodation</b>
+      			<b class="accommodation" id="accommodationText">Accommodation</b>
       			<b class="places" id="placesText">Places</b>
       			<b class="events" id="eventsText">Events</b>
-      			<b class="gozona" id="goZoNaText">GoZoNa</b>
+      			<b class="gozona4" id="goZoNaText">GoZoNa</b>
     		</div>
-    		<b class="booking-form">Booking Form</b>
-    		<b class="where-are-you">Where are you from?</b>
-    		<div class="buttons" id="buttonsContainer">
-      			<b class="indonesian-citizen">Indonesian Citizen</b>
-    		</div>
-    		<div class="booking-gozona-starter-buttons" id="buttonsContainer1">
-      			<b class="indonesian-citizen">International Visitor</b>
-    		</div>
-    		<div class="buttons2">
-      			<div class="indonesian-citizen">
-        				<b>Return to </b>
-        				<span class="booking-starter-gozona">GoZoNa</span>
-      			</div>
-    		</div>
-  	</div>
-  	
-  	
-  	
-  	
-  	<script>
-    		var buttonsContainer = document.getElementById("buttonsContainer");
-    		if(buttonsContainer) {
-      			buttonsContainer.addEventListener("click", function (e) {
-        				window.location.href = "local.html"
-      			});
-    		}
-    		
-    		var buttonsContainer1 = document.getElementById("buttonsContainer1");
-    		if(buttonsContainer1) {
-      			buttonsContainer1.addEventListener("click", function (e) {
-        				// Add your code here
-      			});
-    		}
-            
-            var homeText = document.getElementById("homeText");
+    </div>
+
+    <!-- Title -->
+    <div class="title">Booking Form</div>
+    <div class="subtitle">Where are you from?</div>
+
+    <!-- Buttons -->
+    <div class="button-group">
+      <button class="btn" id="indoBtn">Indonesian Citizen</button>
+      <button class="btn" id="intlBtn">International Visitor</button>
+      <a href="gozona.html" class="return">
+      Return to <span>GoZoNa</span>
+    </a>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("indoBtn").addEventListener("click", () => {
+      window.location.href = "local.html";
+    });
+    document.getElementById("intlBtn").addEventListener("click", () => {
+      window.location.href = "booking-international.html";
+    });
+
+    var homeText = document.getElementById("homeText");
     		if(homeText) {
       			homeText.addEventListener("click", function (e) {
         				window.location.href = "Homepage.html"
@@ -92,5 +202,6 @@
         				window.location.href = "gozona.html"
       			});
     		}
-            </script></body>
+  </script>
+</body>
 </html>

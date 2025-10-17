@@ -1,0 +1,450 @@
+.booking-gozona {
+  background-color: #113f67;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 1300px;
+  position: relative;
+}
+
+.booking-gozona .footer-bg {
+  position: absolute;
+  top: 684px;
+  left: -33px;
+  width: 1506px;
+  height: 727px;
+  display: flex;
+  background-color: #092033;
+  border-radius: 500px;
+}
+
+.booking-gozona .rectangle {
+  margin-top: 490px;
+  width: 1440px;
+  height: 126px;
+  margin-left: 33px;
+  background-color: #091f32;
+}
+
+.booking-gozona .footer {
+  position: absolute;
+  top: 795px;
+  left: 204px;
+  width: 1037px;
+  height: 404px;
+  background-color: transparent;
+}
+
+.booking-gozona .logo-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 440px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.booking-gozona .x {
+  position: absolute;
+  top: 208px;
+  left: 183px;
+  width: 75px;
+  height: 75px;
+}
+
+.booking-gozona .you-tube {
+  position: absolute;
+  top: 208px;
+  left: 57px;
+  width: 75px;
+  height: 75px;
+}
+
+.booking-gozona .instagram {
+  position: absolute;
+  top: 208px;
+  left: 309px;
+  width: 75px;
+  height: 75px;
+}
+
+.booking-gozona .text-wrapper {
+  position: absolute;
+  width: calc(100% - 762px);
+  top: 6px;
+  left: 554px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .div {
+  position: absolute;
+  width: calc(100% - 560px);
+  top: 62px;
+  left: 554px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .language {
+  position: absolute;
+  top: 329px;
+  left: 612px;
+  width: 75px;
+  height: 75px;
+}
+
+.booking-gozona .copyright {
+  position: absolute;
+  top: 354px;
+  left: 58px;
+  width: 20px;
+  height: 20px;
+}
+
+.booking-gozona .p {
+  position: absolute;
+  top: 354px;
+  left: 85px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.booking-gozona .translator {
+  position: absolute;
+  top: 329px;
+  left: 707px;
+  width: 321px;
+  height: 75px;
+  display: flex;
+  gap: 19px;
+}
+
+.booking-gozona .group {
+  width: 152px;
+  height: 75px;
+  position: relative;
+}
+
+.booking-gozona .rectangle-2 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.booking-gozona .text-wrapper-2 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 1) 12%,
+    rgba(88, 160, 200, 1) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .rectangle-3 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff80;
+  border-radius: 20px;
+}
+
+.booking-gozona .text-wrapper-3 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 0.5) 12%,
+    rgba(88, 160, 200, 0.5) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 151px;
+  object-fit: cover;
+}
+
+.booking-gozona .navbar-2 {
+  position: absolute;
+  top: 55px;
+  left: 720px;
+  width: 700px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.booking-gozona .text-wrapper-4 {
+  width: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-5 {
+  width: 198px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-6 {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-7 {
+  width: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 36px;
+  width: 120px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-9 {
+  position: absolute;
+  top: 166px;
+  left: calc(50.00% - 358px);
+  width: 716px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 52px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-10 {
+  position: absolute;
+  top: 259px;
+  left: calc(50.00% - 278px);
+  width: 556px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-11 {
+  position: absolute;
+  top: 324px;
+  left: calc(50.00% - 498px);
+  width: 996px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .text-wrapper-12 {
+  position: absolute;
+  top: 404px;
+  left: calc(50.00% - 498px);
+  width: 996px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .buttons {
+  display: flex;
+  width: 263px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 3px;
+  position: absolute;
+  top: 532px;
+  left: calc(50.00% - 132px);
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.booking-gozona .return-to-gozona {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background: linear-gradient(
+    89deg,
+    rgba(17, 63, 103, 1) 0%,
+    rgba(88, 160, 200, 1) 100%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.booking-gozona .span {
+  font-weight: 700;
+  color: #000000;
+}
+
+.booking-gozona .text-wrapper-13 {
+  font-weight: 800;
+  color: #000000;
+}
