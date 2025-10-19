@@ -1,341 +1,1436 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="local.css" />
-  </head>
-  <body>
-    <div class="booking-gozona-local">
-      <div class="rectangle"></div>
-      <div class="footer-bg"><div class="div"></div></div>
-      <footer class="footer">
-        <img class="logo-footer" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/logo-footer.png" />
-        <img class="x" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/x.png" />
-        <img class="you-tube" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/youtube.png" />
-        <img class="instagram" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/instagram.png" />
-        <div class="text-wrapper">zona.official@gmail.com</div>
-        <p class="p">Jl. Engku Putri Utara, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Indonesia</p>
-        <img class="language" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/language.png" />
-        <img class="copyright" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/copyright.png" />
-        <p class="text-wrapper-2">2025 ZoNa | All rights reserved</p>
-        <div class="translator">
-          <div class="group">
-            <div class="rectangle-2"></div>
-            <div class="text-wrapper-3">ENG</div>
-          </div>
-          <div class="group">
-            <div class="rectangle-3"></div>
-            <div class="text-wrapper-4">IND</div>
-          </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <style>
+    .booking-gozona-local {
+      background-color: #113f67;
+      overflow: hidden;
+      width: 100%;
+      min-width: 1440px;
+      min-height: 3700px;
+      position: relative;
+    }
+
+    .booking-gozona-local .rectangle {
+      position: absolute;
+      top: 810px;
+      left: 93px;
+      width: 506px;
+      height: 256px;
+      border-radius: 20px;
+      border: 3px solid #ffffff;
+    }
+
+    .booking-gozona-local .footer-bg {
+      position: absolute;
+      top: 3084px;
+      left: -33px;
+      width: 1506px;
+      height: 727px;
+      display: flex;
+      background-color: #092033;
+      border-radius: 500px;
+    }
+
+    .booking-gozona-local .div {
+      margin-top: 490px;
+      width: 1440px;
+      height: 126px;
+      margin-left: 33px;
+      background-color: #091f32;
+    }
+
+    .booking-gozona-local .footer {
+      position: absolute;
+      top: 3194px;
+      left: 204px;
+      width: 1037px;
+      height: 404px;
+      background-color: transparent;
+    }
+
+    .booking-gozona-local .logo-footer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 440px;
+      height: 124px;
+      object-fit: cover;
+    }
+
+    .booking-gozona-local .x {
+      position: absolute;
+      top: 208px;
+      left: 183px;
+      width: 75px;
+      height: 75px;
+    }
+
+    .booking-gozona-local .you-tube {
+      position: absolute;
+      top: 208px;
+      left: 57px;
+      width: 75px;
+      height: 75px;
+    }
+
+    .booking-gozona-local .instagram {
+      position: absolute;
+      top: 208px;
+      left: 309px;
+      width: 75px;
+      height: 75px;
+    }
+
+    .booking-gozona-local .text-wrapper {
+      position: absolute;
+      width: calc(100% - 762px);
+      top: 6px;
+      left: 554px;
+      height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Plus Jakarta Sans", Helvetica;
+      font-weight: 800;
+      color: #ffffff;
+      font-size: 22px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .p {
+      position: absolute;
+      width: calc(100% - 560px);
+      top: 62px;
+      left: 554px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Plus Jakarta Sans", Helvetica;
+      font-weight: 800;
+      color: #ffffff;
+      font-size: 22px;
+      text-align: justify;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .language {
+      position: absolute;
+      top: 329px;
+      left: 612px;
+      width: 75px;
+      height: 75px;
+    }
+
+    .booking-gozona-local .copyright {
+      position: absolute;
+      top: 354px;
+      left: 58px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .booking-gozona-local .text-wrapper-2 {
+      position: absolute;
+      top: 354px;
+      left: 85px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Montserrat", Helvetica;
+      font-weight: 300;
+      color: #ffffff;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: normal;
+      white-space: nowrap;
+    }
+
+    .booking-gozona-local .translator {
+      position: absolute;
+      top: 329px;
+      left: 707px;
+      width: 321px;
+      height: 75px;
+      display: flex;
+      gap: 19px;
+    }
+
+    .booking-gozona-local .group {
+      width: 152px;
+      height: 75px;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .booking-gozona-local .rectangle-2 {
+      position: absolute;
+      width: 98.68%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #ffffff;
+      border-radius: 20px;
+    }
+
+    .booking-gozona-local .text-wrapper-3 {
+      position: absolute;
+      width: 91.45%;
+      height: 90.67%;
+      top: 4.00%;
+      left: 3.29%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(90deg, rgba(17, 63, 103, 1) 12%, rgba(88, 160, 200, 1) 93%);
+      -webkit-background-clip: text !important;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+      font-family: "Poppins", Helvetica;
+      font-weight: 700;
+      color: transparent;
+      font-size: 45px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .rectangle-3 {
+      position: absolute;
+      width: 98.68%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #ffffff80;
+      border-radius: 20px;
+    }
+
+    .booking-gozona-local .text-wrapper-4 {
+      position: absolute;
+      width: 91.45%;
+      height: 90.67%;
+      top: 4.00%;
+      left: 3.29%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12%, rgba(88, 160, 200, 0.5) 93%);
+      -webkit-background-clip: text !important;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+      font-family: "Poppins", Helvetica;
+      font-weight: 700;
+      color: transparent;
+      font-size: 45px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-5 {
+      position: absolute;
+      top: 763px;
+      left: calc(50.00% - 624px);
+      width: 500px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Nunito", Helvetica;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 30px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .navbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1440px;
+      height: 151px;
+      object-fit: cover;
+    }
+
+    .booking-gozona-local .navbar-2 {
+      position: absolute;
+      top: 55px;
+      left: 720px;
+      width: 700px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      gap: 38px;
+      height: 30px;
+      font-size: 24px;
+      color: #fff;
+    }
+
+    .booking-gozona-local .navbar-2 b {
+      font-family: "Plus Jakarta Sans", Helvetica;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .booking-gozona-local .text-wrapper-11 {
+      position: absolute;
+      top: 166px;
+      left: calc(50.00% - 474px);
+      width: 948px;
+      height: 78px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0px 4px 4px #00000040;
+      font-family: "Poppins", Helvetica;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 52px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-12 {
+      position: absolute;
+      top: 1279px;
+      left: calc(50.00% - 484px);
+      width: 948px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0px 4px 4px #00000040;
+      font-family: "Poppins", Helvetica;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 40px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-13,
+    .booking-gozona-local .text-wrapper-14 {
+      position: absolute;
+      left: calc(50.00% - 519px);
+      width: 1017px;
+      height: 27px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0px 4px 4px #00000040;
+      font-family: "Poppins", Helvetica;
+      font-weight: 500;
+      font-style: italic;
+      color: #ffffff;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-13 { top: 1339px; }
+    .booking-gozona-local .text-wrapper-14 { top: 1367px; }
+
+    .booking-gozona-local .text-wrapper-15,
+    .booking-gozona-local .text-wrapper-16 {
+      position: absolute;
+      top: 1422px;
+      width: 540px;
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0px 4px 4px #00000040;
+      font-family: "Poppins", Helvetica;
+      font-weight: 500;
+      color: #ffffff;
+      font-size: 36px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-15 { left: calc(50.00% - 653px); }
+    .booking-gozona-local .text-wrapper-16 { left: calc(50.00% + 94px); }
+
+    .booking-gozona-local .img {
+      position: absolute;
+      top: 888px;
+      left: 296px;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .booking-gozona-local .kartu-identitas,
+    .booking-gozona-local .ex-ada-orang,
+    .booking-gozona-local .ex-pesanan-lemon {
+      position: absolute;
+      width: 500px;
+      height: 61px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0px 4px 4px #00000040;
+      font-family: "Nunito", Helvetica;
+      font-weight: 500;
+      font-style: italic;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .kartu-identitas {
+      top: 1063px;
+      left: calc(50.00% - 624px);
+    }
+
+    .booking-gozona-local .ex-ada-orang {
+      top: 883px;
+      left: calc(50.00% + 124px);
+    }
+
+    .booking-gozona-local .ex-pesanan-lemon {
+      top: 2923px;
+      left: calc(50.00% - 627px);
+    }
+
+    .booking-gozona-local .saya-setuju-dengan {
+      position: absolute;
+      top: 989px;
+      left: calc(50.00% + 185px);
+      width: 451px;
+      height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Nunito", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .span {
+      font-family: "Nunito", Helvetica;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .booking-gozona-local .text-wrapper-17 {
+      font-weight: 700;
+    }
+
+    .booking-gozona-local input[type="text"],
+    .booking-gozona-local input[type="email"],
+    .booking-gozona-local input[type="tel"],
+    .booking-gozona-local textarea {
+      position: absolute;
+      border-radius: 20px;
+      border: 3px solid #ffffff;
+      background: transparent;
+      color: #ffffff;
+      font-family: "Nunito", Helvetica;
+      font-size: 24px;
+      padding: 15px 20px;
+      outline: none;
+    }
+
+    .booking-gozona-local input[type="text"]::placeholder,
+    .booking-gozona-local input[type="email"]::placeholder,
+    .booking-gozona-local input[type="tel"]::placeholder,
+    .booking-gozona-local textarea::placeholder {
+      color: #ffffff80;
+    }
+
+    .booking-gozona-local input[type="file"] {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      top: 810px;
+      left: 93px;
+      width: 506px;
+      height: 256px;
+    }
+
+    .booking-gozona-local .label-nama { top: 341px; left: 93px; width: 506px; height: 66px; }
+    .booking-gozona-local .label-email { top: 501px; left: 93px; width: 506px; height: 66px; }
+    .booking-gozona-local .label-telp { top: 650px; left: 93px; width: 506px; height: 66px; }
+    .booking-gozona-local .label-tamu { top: 645px; left: 841px; width: 506px; height: 66px; }
+    .booking-gozona-local .label-catatan { top: 820px; left: 841px; width: 506px; height: 66px; }
+    .booking-gozona-local .label-catatan-makanan { top: 2860px; left: 90px; width: 506px; height: 66px; }
+
+    .booking-gozona-local .text-wrapper-18,
+    .booking-gozona-local .text-wrapper-19,
+    .booking-gozona-local .text-wrapper-20,
+    .booking-gozona-local .text-wrapper-21,
+    .booking-gozona-local .text-wrapper-23,
+    .booking-gozona-local .text-wrapper-24,
+    .booking-gozona-local .text-wrapper-25,
+    .booking-gozona-local .catatan-makanan {
+      position: absolute;
+      width: 500px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Nunito", Helvetica;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 30px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-25 { top: 294px; left: calc(50.00% - 624px); }
+    .booking-gozona-local .text-wrapper-24 { top: 294px; left: calc(50.00% + 124px); }
+    .booking-gozona-local .text-wrapper-18 { top: 454px; left: calc(50.00% - 624px); }
+    .booking-gozona-local .text-wrapper-19 { top: 603px; left: calc(50.00% - 624px); }
+    .booking-gozona-local .text-wrapper-20 { top: 453px; left: calc(50.00% + 124px); }
+    .booking-gozona-local .text-wrapper-21 { top: 598px; left: calc(50.00% + 124px); }
+    .booking-gozona-local .text-wrapper-23 { top: 773px; left: calc(50.00% + 124px); }
+    .booking-gozona-local .catatan-makanan { top: 2813px; left: calc(50.00% - 627px); }
+
+    .booking-gozona-local .text-wrapper-22 {
+      position: absolute;
+      top: 708px;
+      left: calc(50.00% + 124px);
+      width: 500px;
+      height: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0px 4px 4px #00000040;
+      font-family: "Nunito", Helvetica;
+      font-weight: 500;
+      font-style: italic;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .dropdown-menu,
+    .booking-gozona-local .dropdown-menu-2 {
+      display: flex;
+      width: 506px;
+      height: 66px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 15px;
+      position: absolute;
+      left: 841px;
+      border-radius: 20px;
+      border: 3px solid #ffffff;
+      cursor: pointer;
+      background: transparent;
+    }
+
+    .booking-gozona-local .dropdown-menu { top: 501px; }
+    .booking-gozona-local .dropdown-menu-2 { top: 341px; }
+
+    .booking-gozona-local .select-an-option {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      font-family: "Nunito", Helvetica;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 30px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .vector {
+      position: relative;
+      width: 18.12px;
+      height: 11.18px;
+      margin-left: -1.06px;
+    }
+
+    .booking-gozona-local .checklist {
+      display: flex;
+      width: 60px;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      position: absolute;
+      top: 996px;
+      left: 831px;
+      cursor: pointer;
+    }
+
+    .booking-gozona-local .rectangle-16 {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      border-radius: 5px;
+      border: 3px solid #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .booking-gozona-local .garis-batas {
+      position: absolute;
+      top: 1422px;
+      left: calc(50.00% - 10px);
+      width: 1px;
+      height: 1300px;
+      background-color: #d9d9d9;
+    }
+
+    .booking-gozona-local .counting,
+    .booking-gozona-local .counting-2,
+    .booking-gozona-local .counting-3,
+    .booking-gozona-local .counting-4,
+    .booking-gozona-local .counting-5,
+    .booking-gozona-local .counting-6,
+    .booking-gozona-local .counting-7,
+    .booking-gozona-local .counting-8,
+    .booking-gozona-local .counting-9,
+    .booking-gozona-local .counting-10,
+    .booking-gozona-local .group-wrapper,
+    .booking-gozona-local .div-wrapper {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 10px;
+      padding: 5px 10px;
+      position: absolute;
+    }
+
+    .booking-gozona-local .counting { top: 1565px; left: 229px; }
+    .booking-gozona-local .group-wrapper { top: 1565px; left: 462px; }
+    .booking-gozona-local .counting-6 { top: 1565px; left: 925px; }
+    .booking-gozona-local .counting-7 { top: 1565px; left: 1168px; }
+    .booking-gozona-local .div-wrapper { top: 1766px; left: 232px; }
+    .booking-gozona-local .counting-2 { top: 1967px; left: 232px; }
+    .booking-gozona-local .counting-3 { top: 2168px; left: 232px; }
+    .booking-gozona-local .counting-4 { top: 2369px; left: 232px; }
+    .booking-gozona-local .counting-5 { top: 2570px; left: 232px; }
+    .booking-gozona-local .counting-8 { top: 1766px; left: 928px; }
+    .booking-gozona-local .counting-9 { top: 1967px; left: 928px; }
+    .booking-gozona-local .counting-10 { top: 2168px; left: 928px; }
+
+    .booking-gozona-local .group-2 {
+      position: relative;
+      width: 190px;
+      height: 60px;
+      margin-right: -4.00px;
+    }
+
+    .booking-gozona-local .rectangle-10,
+    .booking-gozona-local .rectangle-11,
+    .booking-gozona-local .rectangle-12,
+    .booking-gozona-local .rectangle-13,
+    .booking-gozona-local .rectangle-14,
+    .booking-gozona-local .rectangle-15,
+    .booking-gozona-local .rectangle-18,
+    .booking-gozona-local .rectangle-19,
+    .booking-gozona-local .rectangle-20 {
+      position: absolute;
+      top: 2px;
+      height: 56px;
+      border: 3px solid;
+    }
+
+    .booking-gozona-local .rectangle-10,
+    .booking-gozona-local .rectangle-13,
+    .booking-gozona-local .rectangle-18 {
+      left: 50px;
+      width: 86px;
+    }
+
+    .booking-gozona-local .rectangle-11,
+    .booking-gozona-local .rectangle-14,
+    .booking-gozona-local .rectangle-19 {
+      left: -3px;
+      width: 56px;
+      cursor: pointer;
+    }
+
+    .booking-gozona-local .rectangle-12,
+    .booking-gozona-local .rectangle-15,
+    .booking-gozona-local .rectangle-20 {
+      left: 133px;
+      width: 56px;
+      cursor: pointer;
+    }
+
+    .booking-gozona-local .rectangle-10,
+    .booking-gozona-local .rectangle-11,
+    .booking-gozona-local .rectangle-12 {
+      border-color: #ae1d00;
+    }
+
+    .booking-gozona-local .rectangle-13,
+    .booking-gozona-local .rectangle-14,
+    .booking-gozona-local .rectangle-15 {
+      border-color: #58a0c8;
+    }
+
+    .booking-gozona-local .rectangle-18,
+    .booking-gozona-local .rectangle-19,
+    .booking-gozona-local .rectangle-20 {
+      border-color: #ffffff;
+    }
+
+    .booking-gozona-local .text-wrapper-29,
+    .booking-gozona-local .text-wrapper-30 {
+      position: absolute;
+      top: 0;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Poppins", Helvetica;
+      font-weight: 600;
+      color: #ffffff;
+      font-size: 40px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-29 { left: 148px; }
+    .booking-gozona-local .text-wrapper-30 { left: 79px; }
+
+    .booking-gozona-local .rectangle-9,
+    .booking-gozona-local .rectangle-17,
+    .booking-gozona-local .rectangle-21,
+    .booking-gozona-local .rectangle-22,
+    .booking-gozona-local .rectangle-23,
+    .booking-gozona-local .rectangle-24,
+    .booking-gozona-local .rectangle-25,
+    .booking-gozona-local .rectangle-26,
+    .booking-gozona-local .rectangle-27,
+    .booking-gozona-local .rectangle-28 {
+      position: absolute;
+      width: 126px;
+      height: 126px;
+      border-radius: 20px;
+      border: 3px solid #ffffff;
+      object-fit: cover;
+    }
+
+    .booking-gozona-local .rectangle-9 { top: 1512px; left: 64px; }
+    .booking-gozona-local .rectangle-17 { top: 1713px; left: 64px; }
+    .booking-gozona-local .rectangle-21 { top: 1914px; left: 64px; }
+    .booking-gozona-local .rectangle-22 { top: 2115px; left: 64px; }
+    .booking-gozona-local .rectangle-23 { top: 2316px; left: 64px; }
+    .booking-gozona-local .rectangle-24 { top: 2517px; left: 64px; }
+    .booking-gozona-local .rectangle-25 { top: 1512px; left: 760px; }
+    .booking-gozona-local .rectangle-26 { top: 1713px; left: 760px; }
+    .booking-gozona-local .rectangle-27 { top: 1914px; left: 760px; }
+    .booking-gozona-local .rectangle-28 { top: 2115px; left: 760px; }
+
+    .booking-gozona-local .lemon-tea-hangat,
+    .booking-gozona-local .raspberry-lime,
+    .booking-gozona-local .sunmofee-latte,
+    .booking-gozona-local .biscoff-coffee,
+    .booking-gozona-local .text-wrapper-33,
+    .booking-gozona-local .text-wrapper-35,
+    .booking-gozona-local .sweet-tea-hangat,
+    .booking-gozona-local .kopi-hangat-gelas,
+    .booking-gozona-local .es-bandung-dingin,
+    .booking-gozona-local .es-jeruk-kelapa {
+      position: absolute;
+      width: 389px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Nunito", Helvetica;
+      font-weight: 700;
+      font-size: 30px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-26 { color: #ffffff; }
+    .booking-gozona-local .text-wrapper-27 { color: #ae1d00; }
+    .booking-gozona-local .text-wrapper-28 { color: #79cfff; }
+
+    .booking-gozona-local .lemon-tea-hangat { top: 1515px; left: calc(50.00% - 488px); }
+    .booking-gozona-local .raspberry-lime { top: 1716px; left: calc(50.00% - 488px); }
+    .booking-gozona-local .sunmofee-latte { top: 1917px; left: calc(50.00% - 488px); }
+    .booking-gozona-local .biscoff-coffee { top: 2118px; left: calc(50.00% - 488px); }
+    .booking-gozona-local .text-wrapper-33 { top: 2319px; left: calc(50.00% - 488px); color: #ffffff; }
+    .booking-gozona-local .text-wrapper-35 { top: 2520px; left: calc(50.00% - 488px); color: #ffffff; }
+    .booking-gozona-local .sweet-tea-hangat { top: 1515px; left: calc(50.00% + 208px); }
+    .booking-gozona-local .kopi-hangat-gelas { top: 1716px; left: calc(50.00% + 208px); }
+    .booking-gozona-local .es-bandung-dingin { top: 1917px; left: calc(50.00% + 208px); }
+    .booking-gozona-local .es-jeruk-kelapa { top: 2118px; left: calc(50.00% + 208px); }
+
+    .booking-gozona-local .one-free-drink,
+    .booking-gozona-local .one-free-drink-2,
+    .booking-gozona-local .one-free-drink-3,
+    .booking-gozona-local .one-free-drink-4,
+    .booking-gozona-local .extra-charge-of-IDR,
+    .booking-gozona-local .extra-charge-of-IDR-2,
+    .booking-gozona-local .extra-charge-of-IDR-3,
+    .booking-gozona-local .extra-charge-of-IDR-4,
+    .booking-gozona-local .text-wrapper-34,
+    .booking-gozona-local .text-wrapper-36 {
+      position: absolute;
+      width: 591px;
+      height: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0px 4px 4px #00000040;
+      font-family: "Nunito", Helvetica;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .booking-gozona-local .text-wrapper-31 {
+      font-family: "Nunito", Helvetica;
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .booking-gozona-local .text-wrapper-32 { font-size: 20px; }
+
+    .booking-gozona-local .one-free-drink { top: 1646px; left: calc(50.00% - 653px); }
+    .booking-gozona-local .one-free-drink-2 { top: 1847px; left: calc(50.00% - 653px); }
+    .booking-gozona-local .extra-charge-of-IDR { top: 2048px; left: calc(50.00% - 653px); }
+    .booking-gozona-local .extra-charge-of-IDR-2 { top: 2249px; left: calc(50.00% - 653px); }
+    .booking-gozona-local .text-wrapper-34 { top: 2450px; left: calc(50.00% - 653px); }
+    .booking-gozona-local .text-wrapper-36 { top: 2651px; left: calc(50.00% - 653px); }
+    .booking-gozona-local .one-free-drink-3 { top: 1646px; left: calc(50.00% + 43px); }
+    .booking-gozona-local .one-free-drink-4 { top: 1847px; left: calc(50.00% + 43px); }
+    .booking-gozona-local .extra-charge-of-IDR-3 { top: 2048px; left: calc(50.00% + 43px); }
+    .booking-gozona-local .extra-charge-of-IDR-4 { top: 2249px; left: calc(50.00% + 43px); }
+
+    .booking-gozona-local .buttons {
+      display: flex;
+      width: 270px;
+      height: 60px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 5px 3px;
+      position: absolute;
+      top: 2863px;
+      left: 1077px;
+      background-color: #ffffff;
+      border-radius: 20px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .booking-gozona-local .text-wrapper-37 {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      background: linear-gradient(89deg, rgba(17, 63, 103, 1) 0%, rgba(88, 160, 200, 1) 100%);
+      -webkit-background-clip: text !important;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+      font-family: "Plus Jakarta Sans", Helvetica;
+      font-weight: 700;
+      color: transparent;
+      font-size: 30px;
+      text-align: center;
+      letter-spacing: 0;
+      line-height: normal;
+    }
+
+    .dropdown-options {
+      position: absolute;
+      background: #113f67;
+      border: 3px solid #ffffff;
+      border-radius: 20px;
+      width: 506px;
+      max-height: 300px;
+      overflow-y: auto;
+      z-index: 1000;
+      display: none;
+    }
+
+    .dropdown-option {
+      padding: 15px 20px;
+      color: #ffffff;
+      font-family: "Nunito", Helvetica;
+      font-weight: 700;
+      font-size: 24px;
+      cursor: pointer;
+      border-bottom: 1px solid #ffffff40;
+    }
+
+    .dropdown-option:hover {
+      background: #ffffff20;
+    }
+
+    .dropdown-option:last-child {
+      border-bottom: none;
+    }
+
+    input[type="file"]#uploadKTP {
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .file-label {
+      position: absolute;
+      top: 810px;
+      left: 93px;
+      width: 506px;
+      height: 256px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff80;
+      font-family: "Nunito", Helvetica;
+      font-size: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="booking-gozona-local">
+    <div class="rectangle"></div>
+    <div class="footer-bg"><div class="div"></div></div>
+    <footer class="footer">
+      <img class="logo-footer" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/logo-footer.png" />
+      <img class="x" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/x.png" />
+      <img class="you-tube" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/youtube.png" />
+      <img class="instagram" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/instagram.png" />
+      <div class="text-wrapper">zona.official@gmail.com</div>
+      <p class="p">Jl. Engku Putri Utara, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Indonesia</p>
+      <img class="language" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/language.png" />
+      <img class="copyright" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/copyright.png" />
+      <p class="text-wrapper-2">2025 ZoNa | All rights reserved</p>
+      <div class="translator">
+        <div class="group">
+          <div class="rectangle-2"></div>
+          <div class="text-wrapper-3">ENG</div>
         </div>
-      </footer>
-      <div class="text-wrapper-5">Unggah Gambar E-KTP/Paspor*</div>
-      <img class="navbar" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/navbar.png" />
-      <div class="navbar-2">
-      			<b class="home" id="homeText">Home</b>
-      			<b class="accommodation" id="accommodationText">Accommodation</b>
-      			<b class="places" id="placesText">Places</b>
-      			<b class="events" id="eventsText">Events</b>
-      			<b class="gozona4" id="goZoNaText">GoZoNa</b>
-    		</div>
-      <div class="text-wrapper-11">Booking Form: Indonesian Citizen</div>
-      <p class="text-wrapper-12">Apa yang ingin kamu nikmati nanti?</p>
-      <p class="text-wrapper-13">
-        Pesanlah sesuai jumlah tiket. Pesanan berlebih akan dikenakan biaya tambahan dengan harga tertinggi.
-      </p>
-      <p class="text-wrapper-14">
-        Pemesanan selain yang disediakan oleh ZoNa tidak dikenai refund (Silahkan tulis pada catatan di bawah).
-      </p>
-      <div class="text-wrapper-15">Sunmofee Tropical Cafe</div>
-      <div class="text-wrapper-16">Barelang Seafood Restaurant</div>
-      <img class="img" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-51.png" />
-      <p class="kartu-identitas">
-        *Kartu identitas hanya untuk memverifikasi kelayakan harga. <br />Data pribadi anda akan kami jaga sepenuhnya.
-      </p>
-      <p class="ex-ada-orang">
-        *ex: Ada 1 orang pengguna kursi roda/disabilitas.<br />Jika tidak ada, silahkan ketik strip (-)
-      </p>
-      <p class="saya-setuju-dengan">
-        <span class="span">Saya setuju dengan </span>
-        <span class="text-wrapper-17">Syarat &amp; Ketentuan</span>
-        <span class="span">
-          yang berlaku dan bahwa identitas saya hanya akan digunakan untuk memverifikasi kelayakan harga.</span
-        >
-      </p>
-      <div class="rectangle-4"></div>
-      <div class="rectangle-5"></div>
-      <div class="text-wrapper-18">Alamat Email Aktif</div>
-      <div class="rectangle-6"></div>
-      <p class="text-wrapper-19">Nomor Telepon Aktif / Whatsapp</p>
-      <div class="rectangle-7"></div>
-      <div class="text-wrapper-20">Tanggal GoZoNa Trip</div>
-      <div class="text-wrapper-21">Jumlah Tamu*</div>
-      <p class="text-wrapper-22">*Maksimal 10 orang per pesanan</p>
-      <div class="rectangle-8"></div>
-      <div class="text-wrapper-23">Catatan (Booking)*</div>
-      <div class="text-wrapper-24">Siap Menjelajah?</div>
-      <div class="text-wrapper-25">Nama</div>
-      <img class="rectangle-9" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-54.png" />
-      <p class="lemon-tea-hangat">
-        <span class="text-wrapper-26">Lemon Tea (</span>
-        <span class="text-wrapper-27">Hangat</span>
-        <span class="text-wrapper-26">/</span>
-        <span class="text-wrapper-28">Dingin</span>
-        <span class="text-wrapper-26">)</span>
-      </p>
-      <div class="counting">
-        <div class="group-2">
-          <div class="rectangle-10"></div>
-          <div class="rectangle-11"></div>
-          <div class="rectangle-12"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
+        <div class="group">
+          <div class="rectangle-3"></div>
+          <div class="text-wrapper-4">IND</div>
         </div>
       </div>
-      <div class="group-wrapper">
-        <div class="group-2">
-          <div class="rectangle-13"></div>
-          <div class="rectangle-14"></div>
-          <div class="rectangle-15"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <div class="dropdown-menu">
-        <div class="select-an-option">Kapan anda akan pergi?</div>
-        <img class="vector" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/vector-4.svg" />
-      </div>
-      <div class="dropdown-menu-2">
-        <div class="select-an-option">Kemana anda akan pergi?</div>
-        <img class="vector" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/vector-4.svg" />
-      </div>
-      <div class="checklist"><div class="rectangle-16"></div></div>
-      <div class="garis-batas"></div>
-      <p class="one-free-drink">
-        <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 25k</span>
-      </p>
-      <img class="rectangle-17" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-55.png" />
-      <p class="raspberry-lime">
-        <span class="text-wrapper-26">Raspberry Lime (</span>
-        <span class="text-wrapper-28">Dingin</span>
-        <span class="text-wrapper-26">)</span>
-      </p>
-      <div class="div-wrapper">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <p class="one-free-drink-2">
-        <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 25k</span>
-      </p>
-      <img class="rectangle-21" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-56.png" />
-      <p class="sunmofee-latte">
-        <span class="text-wrapper-26">Sunmofee Latte (</span>
-        <span class="text-wrapper-28">Dingin</span>
-        <span class="text-wrapper-26">)</span>
-      </p>
-      <div class="counting-2">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <p class="extra-charge-of-IDR">
-        <span class="text-wrapper-31">Extra charge of IDR 5k included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 30k</span>
-      </p>
-      <img class="rectangle-22" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-57.png" />
-      <p class="biscoff-coffee">
-        <span class="text-wrapper-26">Biscoff Coffee (</span>
-        <span class="text-wrapper-28">Dingin</span>
-        <span class="text-wrapper-26">)</span>
-      </p>
-      <div class="counting-3">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <p class="extra-charge-of-IDR-2">
-        <span class="text-wrapper-31">Extra charge of IDR 10k included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 35k</span>
-      </p>
-      <img class="rectangle-23" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-58.png" />
-      <div class="text-wrapper-33">Nasi Goreng Seafood</div>
-      <div class="counting-4">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <div class="text-wrapper-34">Price: IDR 35k</div>
-      <img class="rectangle-24" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-59.png" />
-      <div class="text-wrapper-35">Rice Bowl Ayam Rica</div>
-      <div class="counting-5">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <div class="text-wrapper-36">Price: IDR 35k</div>
-      <img class="rectangle-25" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-60.png" />
-      <p class="sweet-tea-hangat">
-        <span class="text-wrapper-26">Sweet Tea (</span>
-        <span class="text-wrapper-27">Hangat</span>
-        <span class="text-wrapper-26">/</span>
-        <span class="text-wrapper-28">Dingin</span>
-        <span class="text-wrapper-26">)</span>
-      </p>
-      <div class="counting-6">
-        <div class="group-2">
-          <div class="rectangle-10"></div>
-          <div class="rectangle-11"></div>
-          <div class="rectangle-12"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <div class="counting-7">
-        <div class="group-2">
-          <div class="rectangle-13"></div>
-          <div class="rectangle-14"></div>
-          <div class="rectangle-15"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <p class="one-free-drink-3">
-        <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 10k</span>
-      </p>
-      <img class="rectangle-26" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-61.png" />
-      <p class="kopi-hangat-gelas">
-        <span class="text-wrapper-26">Kopi (</span>
-        <span class="text-wrapper-27">Hangat</span>
-        <span class="text-wrapper-26">, Gelas)</span>
-      </p>
-      <div class="counting-8">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <p class="one-free-drink-4">
-        <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 10k</span>
-      </p>
-      <img class="rectangle-27" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-62.png" />
-      <p class="es-bandung-dingin">
-        <span class="text-wrapper-26">Es Bandung (</span>
-        <span class="text-wrapper-28">Dingin</span>
-        <span class="text-wrapper-26">)</span>
-      </p>
-      <div class="counting-9">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <p class="extra-charge-of-IDR-3">
-        <span class="text-wrapper-31">Extra charge of IDR 5k included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 20k</span>
-      </p>
-      <img class="rectangle-28" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-63.png" />
-      <p class="es-jeruk-kelapa">
-        <span class="text-wrapper-26">Es Jeruk Kelapa (</span>
-        <span class="text-wrapper-28">Dingin</span>
-        <span class="text-wrapper-26">)</span>
-      </p>
-      <div class="counting-10">
-        <div class="group-2">
-          <div class="rectangle-18"></div>
-          <div class="rectangle-19"></div>
-          <div class="rectangle-20"></div>
-          <div class="text-wrapper-29">+</div>
-          <div class="text-wrapper-30">0</div>
-        </div>
-      </div>
-      <p class="extra-charge-of-IDR-4">
-        <span class="text-wrapper-31">Extra charge of IDR 25k included per ticket&nbsp;&nbsp;</span>
-        <span class="text-wrapper-32">|</span>
-        <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 35k</span>
-      </p>
-      <div class="rectangle-29"></div>
-      <div class="catatan-makanan">Catatan (Makanan &amp; Minuman)*</div>
-      <p class="ex-pesanan-lemon">
-        *ex: 1 pesanan Lemon Tea diganti dengan Air Mineral<br />Jika tidak ada, silahkan ketik strip (-)
-      </p>
-      <a href="submit.html"><div class="buttons"><div class="text-wrapper-37">Submit Booking</div></div></a>
+    </footer>
+    
+    <div class="text-wrapper-5">Unggah Gambar E-KTP/Paspor*</div>
+    <img class="navbar" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/navbar.png" />
+    <div class="navbar-2">
+      <b class="home" id="homeText">Home</b>
+      <b class="accommodation" id="accommodationText">Accommodation</b>
+      <b class="places" id="placesText">Places</b>
+      <b class="events" id="eventsText">Events</b>
+      <b class="gozona4" id="goZoNaText">GoZoNa</b>
     </div>
-	  	<script>
-    		var homeText = document.getElementById("homeText");
-    		if(homeText) {
-      			homeText.addEventListener("click", function (e) {
-        				window.location.href = "Homepage.html"
-      			});
-    		}
-    		
-    		var accommodationText = document.getElementById("accommodationText");
-    		if(accommodationText) {
-      			accommodationText.addEventListener("click", function (e) {
-        				window.location.href = "accomodation.html"
-      			});
-    		}
-    		
-    		var placesText = document.getElementById("placesText");
-    		if(placesText) {
-      			placesText.addEventListener("click", function (e) {
-        				window.location.href = "places.html"
-      			});
-    		}
-    		
-    		var eventsText = document.getElementById("eventsText");
-    		if(eventsText) {
-      			eventsText.addEventListener("click", function (e) {
-        				window.location.href = "event.html"
-      			});
-    		}
-    		
-    		var goZoNaText = document.getElementById("goZoNaText");
-    		if(goZoNaText) {
-      			goZoNaText.addEventListener("click", function (e) {
-        				window.location.href = "gozona.html"
-      			});
-    		}
-    		
-    		</script>
-  </body>
+    
+    <div class="text-wrapper-11">Booking Form: Indonesian Citizen</div>
+    <p class="text-wrapper-12">Apa yang ingin kamu nikmati nanti?</p>
+    <p class="text-wrapper-13">Pesanlah sesuai jumlah tiket. Pesanan berlebih akan dikenakan biaya tambahan dengan harga tertinggi.</p>
+    <p class="text-wrapper-14">Pemesanan selain yang disediakan oleh ZoNa tidak dikenai refund (Silahkan tulis pada catatan di bawah).</p>
+    
+    <div class="text-wrapper-15">Sunmofee Tropical Cafe</div>
+    <div class="text-wrapper-16">Barelang Seafood Restaurant</div>
+    
+    <label for="uploadKTP" class="file-label" id="fileLabel">Klik untuk upload KTP/Paspor</label>
+    <input type="file" id="uploadKTP" accept="image/*">
+    <img class="img" id="previewImage" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-51.png" />
+    
+    <p class="kartu-identitas">*Kartu identitas hanya untuk memverifikasi kelayakan harga. <br />Data pribadi anda akan kami jaga sepenuhnya.</p>
+    <p class="ex-ada-orang">*ex: Ada 1 orang pengguna kursi roda/disabilitas.<br />Jika tidak ada, silahkan ketik strip (-)</p>
+    <p class="saya-setuju-dengan">
+      <span class="span">Saya setuju dengan </span>
+      <span class="text-wrapper-17">Syarat &amp; Ketentuan</span>
+      <span class="span"> yang berlaku dan bahwa identitas saya hanya akan digunakan untuk memverifikasi kelayakan harga.</span>
+    </p>
+    
+    <input type="text" class="label-nama" id="nama" placeholder="Masukkan nama lengkap">
+    <div class="text-wrapper-25">Nama</div>
+    
+    <input type="email" class="label-email" id="email" placeholder="contoh@email.com">
+    <div class="text-wrapper-18">Alamat Email Aktif</div>
+    
+    <input type="tel" class="label-telp" id="telp" placeholder="+62 812-3456-7890">
+    <p class="text-wrapper-19">Nomor Telepon Aktif / Whatsapp</p>
+    
+    <input type="text" class="label-tamu" id="tamu" placeholder="Masukkan jumlah (maks 10)">
+    <div class="text-wrapper-21">Jumlah Tamu*</div>
+    <p class="text-wrapper-22">*Maksimal 10 orang per pesanan</p>
+    
+    <textarea class="label-catatan" id="catatan" placeholder="Tulis catatan booking..."></textarea>
+    <div class="text-wrapper-23">Catatan (Booking)*</div>
+    
+    <div class="text-wrapper-24">Siap Menjelajah?</div>
+    
+    <div class="dropdown-menu-2" id="dropdownKemana">
+      <div class="select-an-option" id="selectedKemana">Kemana anda akan pergi?</div>
+      <img class="vector" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/vector-4.svg" />
+    </div>
+    <div class="dropdown-options" id="optionsKemana" style="top: 410px; left: 841px;">
+      <div class="dropdown-option" data-value="Sunmofee Tropical Cafe">Sunmofee Tropical Cafe</div>
+      <div class="dropdown-option" data-value="Barelang Seafood Restaurant">Barelang Seafood Restaurant</div>
+      <div class="dropdown-option" data-value="Keduanya">Keduanya</div>
+    </div>
+    <div class="text-wrapper-20">Tanggal GoZoNa Trip</div>
+    
+    <div class="dropdown-menu" id="dropdownKapan">
+      <div class="select-an-option" id="selectedKapan">Kapan anda akan pergi?</div>
+      <img class="vector" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/vector-4.svg" />
+    </div>
+    <div class="dropdown-options" id="optionsKapan" style="top: 570px; left: 841px;">
+      <div class="dropdown-option" data-value="Hari ini">Hari ini</div>
+      <div class="dropdown-option" data-value="Besok">Besok</div>
+      <div class="dropdown-option" data-value="Lusa">Lusa</div>
+      <div class="dropdown-option" data-value="Minggu depan">Minggu depan</div>
+      <div class="dropdown-option" data-value="Bulan depan">Bulan depan</div>
+    </div>
+    
+    <div class="checklist" id="checklistAgreement">
+      <div class="rectangle-16" id="checkboxIcon"></div>
+    </div>
+    
+    <div class="garis-batas"></div>
+    
+    <!-- Sunmofee Tropical Cafe Items -->
+    <img class="rectangle-9" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-54.png" />
+    <p class="lemon-tea-hangat">
+      <span class="text-wrapper-26">Lemon Tea (</span>
+      <span class="text-wrapper-27">Hangat</span>
+      <span class="text-wrapper-26">/</span>
+      <span class="text-wrapper-28">Dingin</span>
+      <span class="text-wrapper-26">)</span>
+    </p>
+    <div class="counting" data-item="lemonTea">
+      <div class="group-2">
+        <div class="rectangle-10"></div>
+        <div class="rectangle-11 minus-btn"></div>
+        <div class="rectangle-12 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <div class="group-wrapper" data-item="lemonTeaCold">
+      <div class="group-2">
+        <div class="rectangle-13"></div>
+        <div class="rectangle-14 minus-btn"></div>
+        <div class="rectangle-15 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="one-free-drink">
+      <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 25k</span>
+    </p>
+    
+    <img class="rectangle-17" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-55.png" />
+    <p class="raspberry-lime">
+      <span class="text-wrapper-26">Raspberry Lime (</span>
+      <span class="text-wrapper-28">Dingin</span>
+      <span class="text-wrapper-26">)</span>
+    </p>
+    <div class="div-wrapper" data-item="raspberryLime">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="one-free-drink-2">
+      <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 25k</span>
+    </p>
+    
+    <img class="rectangle-21" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-56.png" />
+    <p class="sunmofee-latte">
+      <span class="text-wrapper-26">Sunmofee Latte (</span>
+      <span class="text-wrapper-28">Dingin</span>
+      <span class="text-wrapper-26">)</span>
+    </p>
+    <div class="counting-2" data-item="sunmofeeLatte">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="extra-charge-of-IDR">
+      <span class="text-wrapper-31">Extra charge of IDR 5k included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 30k</span>
+    </p>
+    
+    <img class="rectangle-22" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-57.png" />
+    <p class="biscoff-coffee">
+      <span class="text-wrapper-26">Biscoff Coffee (</span>
+      <span class="text-wrapper-28">Dingin</span>
+      <span class="text-wrapper-26">)</span>
+    </p>
+    <div class="counting-3" data-item="biscoffCoffee">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="extra-charge-of-IDR-2">
+      <span class="text-wrapper-31">Extra charge of IDR 10k included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 35k</span>
+    </p>
+    
+    <!-- Barelang Seafood Restaurant Items -->
+    <img class="rectangle-23" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-58.png" />
+    <div class="text-wrapper-33">Nasi Goreng Seafood</div>
+    <div class="counting-4" data-item="nasiGoreng">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <div class="text-wrapper-34">Price: IDR 35k</div>
+    
+    <img class="rectangle-24" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-59.png" />
+    <div class="text-wrapper-35">Rice Bowl Ayam Rica</div>
+    <div class="counting-5" data-item="riceBowl">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <div class="text-wrapper-36">Price: IDR 35k</div>
+    
+    <img class="rectangle-25" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-61.png" />
+    <p class="sweet-tea-hangat">
+      <span class="text-wrapper-26">Sweet Tea (</span>
+      <span class="text-wrapper-27">Hangat</span>
+      <span class="text-wrapper-26">/</span>
+      <span class="text-wrapper-28">Dingin</span>
+      <span class="text-wrapper-26">)</span>
+    </p>
+    <div class="counting-6" data-item="sweetTea">
+      <div class="group-2">
+        <div class="rectangle-10"></div>
+        <div class="rectangle-11 minus-btn"></div>
+        <div class="rectangle-12 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <div class="counting-7" data-item="sweetTeaCold">
+      <div class="group-2">
+        <div class="rectangle-13"></div>
+        <div class="rectangle-14 minus-btn"></div>
+        <div class="rectangle-15 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="one-free-drink-3">
+      <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 10k</span>
+    </p>
+    
+    <img class="rectangle-26" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-62.png" />
+    <p class="kopi-hangat-gelas">
+      <span class="text-wrapper-26">Kopi (</span>
+      <span class="text-wrapper-27">Hangat</span>
+      <span class="text-wrapper-26">, Gelas)</span>
+    </p>
+    <div class="counting-8" data-item="kopi">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="one-free-drink-4">
+      <span class="text-wrapper-31">One free drink included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 10k</span>
+    </p>
+    
+    <img class="rectangle-27" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-63.png" />
+    <p class="es-bandung-dingin">
+      <span class="text-wrapper-26">Es Bandung (</span>
+      <span class="text-wrapper-28">Dingin</span>
+      <span class="text-wrapper-26">)</span>
+    </p>
+    <div class="counting-9" data-item="esBandung">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="extra-charge-of-IDR-3">
+      <span class="text-wrapper-31">Extra charge of IDR 5k included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 20k</span>
+    </p>
+    
+    <img class="rectangle-28" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-63.png" />
+    <p class="es-jeruk-kelapa">
+      <span class="text-wrapper-26">Es Jeruk Kelapa (</span>
+      <span class="text-wrapper-28">Dingin</span>
+      <span class="text-wrapper-26">)</span>
+    </p>
+    <div class="counting-10" data-item="esJerukKelapa">
+      <div class="group-2">
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19 minus-btn"></div>
+        <div class="rectangle-20 plus-btn"></div>
+        <div class="text-wrapper-29">+</div>
+        <div class="text-wrapper-30 count-display">0</div>
+      </div>
+    </div>
+    <p class="extra-charge-of-IDR-4">
+      <span class="text-wrapper-31">Extra charge of IDR 25k included per ticket&nbsp;&nbsp;</span>
+      <span class="text-wrapper-32">|</span>
+      <span class="text-wrapper-31">&nbsp;&nbsp;Extra drink: IDR 35k</span>
+    </p>
+    
+    <textarea class="label-catatan-makanan" id="catatanMakanan" placeholder="Tulis catatan makanan..."></textarea>
+    <div class="catatan-makanan">Catatan (Makanan &amp; Minuman)*</div>
+    <p class="ex-pesanan-lemon">*ex: 1 pesanan Lemon Tea diganti dengan Air Mineral<br />Jika tidak ada, silahkan ketik strip (-)</p>
+    
+    <div class="buttons" id="submitBtn">
+      <div class="text-wrapper-37">Submit Booking</div>
+    </div>
+  </div>
+
+  <script>
+    const formData = {
+      counts: {},
+      ktp: null,
+      agreement: false,
+      destination: '',
+      date: ''
+    };
+
+    // Initialize all counters
+    document.querySelectorAll('[data-item]').forEach(el => {
+      const item = el.dataset.item;
+      formData.counts[item] = 0;
+    });
+
+    // Counter functionality
+    document.querySelectorAll('.plus-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const container = this.closest('[data-item]');
+        const item = container.dataset.item;
+        const display = container.querySelector('.count-display');
+        formData.counts[item]++;
+        display.textContent = formData.counts[item];
+      });
+    });
+
+    document.querySelectorAll('.minus-btn').forEach(btn => {
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        const container = this.closest('[data-item]');
+        const item = container.dataset.item;
+        const display = container.querySelector('.count-display');
+        if (formData.counts[item] > 0) {
+          formData.counts[item]--;
+          display.textContent = formData.counts[item];
+        }
+      });
+    });
+
+    // File upload
+    document.getElementById('uploadKTP').addEventListener('change', function(e) {
+      const file = e.target.files[0];
+      if (file) {
+        formData.ktp = file;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          document.getElementById('previewImage').src = e.target.result;
+          document.getElementById('fileLabel').style.display = 'none';
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    // Checkbox
+    document.getElementById('checklistAgreement').addEventListener('click', function() {
+      formData.agreement = !formData.agreement;
+      const icon = document.getElementById('checkboxIcon');
+      icon.textContent = formData.agreement ? '✓' : '';
+    });
+
+    // Dropdown Kemana
+    document.getElementById('dropdownKemana').addEventListener('click', function(e) {
+      e.stopPropagation();
+      const options = document.getElementById('optionsKemana');
+      options.style.display = options.style.display === 'block' ? 'none' : 'block';
+      document.getElementById('optionsKapan').style.display = 'none';
+    });
+
+    document.querySelectorAll('#optionsKemana .dropdown-option').forEach(opt => {
+      opt.addEventListener('click', function(e) {
+        e.stopPropagation();
+        formData.destination = this.dataset.value;
+        document.getElementById('selectedKemana').textContent = this.dataset.value;
+        document.getElementById('optionsKemana').style.display = 'none';
+      });
+    });
+
+    // Dropdown Kapan
+    document.getElementById('dropdownKapan').addEventListener('click', function(e) {
+      e.stopPropagation();
+      const options = document.getElementById('optionsKapan');
+      options.style.display = options.style.display === 'block' ? 'none' : 'block';
+      document.getElementById('optionsKemana').style.display = 'none';
+    });
+
+    document.querySelectorAll('#optionsKapan .dropdown-option').forEach(opt => {
+      opt.addEventListener('click', function(e) {
+        e.stopPropagation();
+        formData.date = this.dataset.value;
+        document.getElementById('selectedKapan').textContent = this.dataset.value;
+        document.getElementById('optionsKapan').style.display = 'none';
+      });
+    });
+
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function() {
+      document.getElementById('optionsKemana').style.display = 'none';
+      document.getElementById('optionsKapan').style.display = 'none';
+    });
+
+    // Navigation
+    document.getElementById('homeText').addEventListener('click', function() {
+      window.location.href = 'Homepage.html';
+    });
+    
+    document.getElementById('accommodationText').addEventListener('click', function() {
+      window.location.href = 'accomodation.html';
+    });
+    
+    document.getElementById('placesText').addEventListener('click', function() {
+      window.location.href = 'places.html';
+    });
+    
+    document.getElementById('eventsText').addEventListener('click', function() {
+      window.location.href = 'event.html';
+    });
+    
+    document.getElementById('goZoNaText').addEventListener('click', function() {
+      window.location.href = 'gozona.html';
+    });
+
+    // Submit button
+    document.getElementById('submitBtn').addEventListener('click', function() {
+      // Validate form
+      const nama = document.getElementById('nama').value;
+      const email = document.getElementById('email').value;
+      const telp = document.getElementById('telp').value;
+      const tamu = document.getElementById('tamu').value;
+      const catatan = document.getElementById('catatan').value;
+      const catatanMakanan = document.getElementById('catatanMakanan').value;
+
+      if (!nama || !email || !telp || !tamu || !catatan || !catatanMakanan) {
+        alert('Mohon lengkapi semua field yang wajib diisi!');
+        return;
+      }
+
+      if (!formData.destination) {
+        alert('Mohon pilih tujuan Anda!');
+        return;
+      }
+
+      if (!formData.date) {
+        alert('Mohon pilih tanggal GoZoNa Trip!');
+        return;
+      }
+
+      if (!formData.ktp) {
+        alert('Mohon upload gambar E-KTP/Paspor!');
+        return;
+      }
+
+      if (!formData.agreement) {
+        alert('Mohon centang persetujuan Syarat & Ketentuan!');
+        return;
+      }
+
+      // Collect all data
+      const bookingData = {
+        nama: nama,
+        email: email,
+        telp: telp,
+        tamu: tamu,
+        destination: formData.destination,
+        date: formData.date,
+        catatan: catatan,
+        catatanMakanan: catatanMakanan,
+        orders: formData.counts,
+        hasKTP: formData.ktp ? true : false
+      };
+
+      console.log('Booking Data:', bookingData);
+      
+      // You can send this data to your server here
+      // For now, we'll just show success message and redirect
+      alert('Booking berhasil dikirim! Terima kasih.');
+      
+      // Uncomment this to redirect to submit page
+      // window.location.href = 'submit.html';
+    });
+  </script>
+</body>
 </html>

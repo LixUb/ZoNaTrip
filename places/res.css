@@ -1,718 +1,892 @@
-.restaurants-1 {
-  	width: 100%;
-  	position: relative;
-  	background-color: #fff;
-  	height: 4600px;
-  	overflow: hidden;
-  	text-align: left;
-  	font-size: 18px;
-  	color: #fff;
-  	font-family: 'Plus Jakarta Sans';
-}
-.bg {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	background: linear-gradient(0deg, #fff, #58a0c8);
-  	width: 1440px;
-  	height: 1000px;
-}
 .restaurants {
-  	position: absolute;
-  	top: 244px;
-  	left: 100px;
-  	font-size: 75px;
-  	display: flex;
-  	font-family: Poppins;
-  	align-items: center;
-  	width: 716px;
-  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.footer-bg-parent {
-  	position: absolute;
-  	top: 3984px;
-  	left: -33px;
-  	width: 1506px;
-  	height: 727px;
-  	text-align: center;
-  	font-size: 22px;
-}
-.footer-bg {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1506px;
-  	height: 727px;
-}
-.footer-bg-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	border-radius: 500px;
-  	background-color: #092033;
-  	width: 1506px;
-  	height: 727px;
-}
-.footer-bg-item {
-  	position: absolute;
-  	top: 490px;
-  	left: 33px;
-  	background-color: #092033;
-  	width: 1440px;
-  	height: 126px;
-}
-.footer {
-  	position: absolute;
-  	top: 110px;
-  	left: 235px;
-  	width: 1030px;
-  	height: 404px;
-}
-.logo-footer-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 440px;
-  	height: 124px;
-  	object-fit: cover;
-}
-.x-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 182px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.youtube-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 56px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.instagram-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 308px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.zonaofficialgmailcom {
-  	position: absolute;
-  	width: calc(100% - 755px);
-  	top: 6px;
-  	left: 553px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-}
-.jl-engku-putri {
-  	position: absolute;
-  	width: calc(100% - 553px);
-  	top: 62px;
-  	left: 553px;
-  	font-weight: 800;
-  	text-align: justify;
-  	display: flex;
-  	align-items: center;
-}
-.language-icon {
-  	position: absolute;
-  	top: 329px;
-  	left: 611px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.copyright-icon {
-  	position: absolute;
-  	top: 354px;
-  	left: 57px;
-  	width: 20px;
-  	height: 20px;
-  	object-fit: cover;
-}
-.zona-all {
-  	position: absolute;
-  	top: 354px;
-  	left: 84px;
-  	font-size: 20px;
-  	font-weight: 300;
-  	font-family: Montserrat;
-  	text-align: left;
-}
-.translator {
-  	position: absolute;
-  	top: 329px;
-  	left: 706px;
-  	width: 321px;
-  	height: 75px;
-  	font-size: 45px;
-  	font-family: Poppins;
-}
-.rectangle-parent {
-  	position: absolute;
-  	height: 100%;
-  	width: 46.73%;
-  	top: 0%;
-  	right: 53.27%;
-  	bottom: 0%;
-  	left: 0%;
-}
-.group-child {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	border-radius: 20px;
-  	background-color: #fff;
-}
-.eng {
-  	position: absolute;
-  	width: 92.67%;
-  	top: 4%;
-  	left: 3.33%;
-  	display: flex;
-  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	align-items: center;
-  	justify-content: center;
-}
-.rectangle-group {
-  	position: absolute;
-  	height: 100%;
-  	width: 46.73%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 53.27%;
-}
-.group-item {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	border-radius: 20px;
-  	background-color: rgba(255, 255, 255, 0.5);
-}
-.ind {
-  	position: absolute;
-  	width: 92.67%;
-  	top: 4%;
-  	left: 3.33%;
-  	display: flex;
-  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	align-items: center;
-  	justify-content: center;
-}
-.navbar {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 151px;
-  	text-align: center;
-  	font-size: 24px;
-}
-.navbar-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 151px;
-  	object-fit: cover;
-}
-.english-navbar {
-  	position: absolute;
-  	top: 55px;
-  	left: 720px;
-  	width: 700px;
-  	height: 30px;
-}
-.home {
-  	position: absolute;
-  	top: calc(50% - 15px);
-  	left: 0px;
-  	cursor: pointer;
-}
-.accommodation {
-  	position: absolute;
-  	top: calc(50% - 16px);
-  	left: 109px;
-  	cursor: pointer;
-}
-.places {
-  	position: absolute;
-  	top: calc(50% - 17px);
-  	left: 345px;
-  	cursor: pointer;
-}
-.events {
-  	position: absolute;
-  	top: calc(50% - 18px);
-  	left: 461px;
-  	cursor: pointer;
-}
-.gozona {
-  	position: absolute;
-  	top: calc(50% - 19px);
-  	left: 578px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 120px;
-  	height: 36px;
-  	cursor: pointer;
-}
-.bhinneka-indonesian-resto {
-  	position: absolute;
-  	top: 450px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.restaurants-1-bg {
-  	position: absolute;
-  	top: 0px;
-  	left: calc(50% - 550px);
-  	border-radius: 50px;
-  	background-color: #113f67;
-  	width: 1100px;
-  	height: 650px;
-}
-.parking-icon {
-  	position: absolute;
-  	top: 322px;
-  	left: 610px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.cuisine-type {
-  	position: absolute;
-  	top: 93px;
-  	left: calc(50% + 60px);
-  	font-size: 22px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	width: 147px;
-  	height: 25px;
-}
-.km-from-hang-container {
-  	position: absolute;
-  	top: 407px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.restaurants-1-km-from-hang-container {
-  	width: 100%;
-}
-.km {
-  	font-weight: 800;
-}
-.from-hang {
-  	font-weight: 600;
-  	white-space: pre-wrap;
-}
-.indonesian-seafood-asian {
-  	position: absolute;
-  	top: 123px;
-  	left: calc(50% + 60px);
-  	font-weight: 600;
-  	white-space: pre-wrap;
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.visitors-favorites {
-  	position: absolute;
-  	top: 193px;
-  	left: calc(50% + 60px);
-  	font-size: 22px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	width: 236px;
-  	height: 25px;
-}
-.nasi-bakul {
-  	position: absolute;
-  	top: 223px;
-  	right: 42px;
-  	font-weight: 600;
-  	white-space: pre-wrap;
-  	display: flex;
-  	align-items: center;
-  	width: 408px;
-  	height: 30px;
-}
-.services-facilities {
-  	position: absolute;
-  	top: 292px;
-  	left: calc(50% + 60px);
-  	font-size: 22px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	width: 238px;
-  	height: 25px;
-}
-.reservation-is-recommended-container {
-  	position: absolute;
-  	top: 402px;
-  	left: calc(50% - 467px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 50px;
-}
-.is-recommended {
-  	font-weight: 600;
-}
-.airport-icon {
-  	position: absolute;
-  	top: 402px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.km-from-batam-container {
-  	position: absolute;
-  	top: 467px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.last-order-at-container {
-  	position: absolute;
-  	top: 527px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.span {
-  	font-weight: 800;
-  	white-space: pre-wrap;
-}
-.price-range-idr-container {
-  	position: absolute;
-  	top: 587px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.water-transportation-icon {
-  	position: absolute;
-  	top: 462px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.clock-icon {
-  	position: absolute;
-  	top: 522px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.restaurants-1-bhinneka-indonesian-resto {
-  	position: absolute;
-  	top: 26px;
-  	left: calc(50% - 157px);
-  	font-size: 38px;
-  	font-weight: 800;
-  	color: #f9f1da;
-  	text-align: center;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 675px;
-  	height: 45px;
-}
-.bhinneka-indonesian-resto-child {
-  	position: absolute;
-  	top: 26px;
-  	left: calc(50% - 522px);
-  	border-radius: 50px;
-  	width: 340px;
-  	height: 340px;
-  	object-fit: cover;
-}
-.bhinneka-indonesian-resto-item {
-  	position: absolute;
-  	top: 86px;
-  	left: calc(50% - 167px);
-  	border-radius: 50px;
-  	width: 200px;
-  	height: 280px;
-  	object-fit: cover;
-}
-.divider {
-  	position: absolute;
-  	top: 380px;
-  	left: calc(50% - 522px);
-  	background-color: #d9d9d9;
-  	width: 1040px;
-  	height: 2px;
-}
-.restaurants-1-divider {
-  	position: absolute;
-  	top: 385px;
-  	left: calc(50% + 1px);
-  	background-color: #d9d9d9;
-  	width: 265px;
-  	height: 2px;
-  	transform:  rotate(90deg);
-  	transform-origin: 0 0;
-}
-.address-limindo-trade-container {
-  	position: absolute;
-  	top: 464px;
-  	left: calc(50% - 522px);
-  	display: flex;
-  	align-items: center;
-  	width: 512px;
-  	height: 77px;
-  	font-size: 22px;
-}
-.address {
-  	margin: 0;
-  	font-weight: 800;
-}
-.limindo-trade-center {
-  	margin: 0;
-  	font-size: 18px;
-  	font-weight: 600;
-}
-.rating {
-  	position: absolute;
-  	top: 568px;
-  	left: 28px;
-  	width: 262px;
-  	height: 65px;
-  	font-size: 12px;
-}
-.rating-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.rating-item {
-  	position: absolute;
-  	top: 0px;
-  	left: 140px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.rating-inner {
-  	position: absolute;
-  	top: 0px;
-  	left: 105px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.star-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 35px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.restaurants-1-rating-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 70px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.reviews-on-google {
-  	position: absolute;
-  	top: 35px;
-  	left: calc(50% - 131px);
-  	display: flex;
-  	font-weight: 600;
-  	align-items: center;
-  	width: 262px;
-  	height: 30px;
-}
-.cash-icon {
-  	position: absolute;
-  	top: 582px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.thumbs-up-icon {
-  	position: absolute;
-  	top: 407px;
-  	left: 28px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.take-away-food {
-  	position: absolute;
-  	top: 322px;
-  	left: 730px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.wheelchair-icon {
-  	position: absolute;
-  	top: 323px;
-  	left: 1028px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.bank-cards-icon {
-  	position: absolute;
-  	top: 322px;
-  	left: 670px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.restaurants-1-star-icon {
-  	position: absolute;
-  	top: 223px;
-  	left: 610px;
-  	width: 30px;
-  	height: 30px;
-  	object-fit: cover;
-}
-.restaurants-1-instagram-icon {
-  	position: absolute;
-  	top: 579px;
-  	left: 483px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-  	cursor: pointer;
-}
-.sei-enam-seafood-harbour-bay {
-  	position: absolute;
-  	top: 1135px;
-  	left: calc(50% - 560px);
-  	width: 1100px;
-  	height: 650px;
-}
-.kepiting-pedas {
-  	position: absolute;
-  	top: 223px;
-  	right: 42px;
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 408px;
-  	height: 30px;
-}
-.worldwide-location-icon {
-  	position: absolute;
-  	top: 409px;
-  	left: 28px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.common-space {
-  	position: absolute;
-  	top: 1820px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.mie-tarempak {
-  	position: absolute;
-  	top: 2505px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.aroma-signature {
-  	position: absolute;
-  	top: 3190px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.arrow-button {
-  	position: absolute;
-  	top: 3875px;
-  	left: 995px;
-  	border-radius: 30px;
-  	background-color: #113f67;
-  	width: 60px;
-  	height: 60px;
-  	display: flex;
-  	align-items: center;
-  	padding: 10px 20px;
-  	box-sizing: border-box;
-  	cursor: pointer;
-}
-.arrow-button-child {
-  	width: 20px;
-  	position: relative;
-  	height: 40px;
-}
-.navigation {
-  	position: absolute;
-  	top: 3897px;
-  	left: calc(50% - 18.5px);
-  	width: 37px;
-  	height: 16px;
-  	display: flex;
-  	align-items: center;
-  	gap: 5px;
-}
-.navigation-child {
-  	width: 16px;
-  	position: relative;
-  	border-radius: 50%;
-  	background-color: #000;
-  	height: 16px;
-}
-.navigation-item {
-  	width: 16px;
-  	position: relative;
-  	border-radius: 50%;
-  	background-color: rgba(0, 0, 0, 0.3);
-  	height: 16px;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 4600px;
+  position: relative;
 }
 
+.restaurants .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1000px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(88, 160, 200, 1) 100%
+  );
+}
+
+.restaurants .text-wrapper {
+  position: absolute;
+  top: 244px;
+  left: 100px;
+  width: 716px;
+  height: 113px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .group {
+  position: absolute;
+  top: 3984px;
+  left: -33px;
+  width: 1506px;
+  height: 727px;
+}
+
+.restaurants .footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1506px;
+  height: 727px;
+  display: flex;
+  background-color: #092033;
+  border-radius: 500px;
+}
+
+.restaurants .rectangle {
+  margin-top: 490px;
+  width: 1440px;
+  height: 126px;
+  margin-left: 33px;
+  background-color: #091f32;
+}
+
+.restaurants .footer {
+  position: absolute;
+  top: 110px;
+  left: 235px;
+  width: 1036px;
+  height: 404px;
+  background-color: transparent;
+}
+
+.restaurants .logo-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 440px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.restaurants .x {
+  position: absolute;
+  top: 208px;
+  left: 182px;
+  width: 75px;
+  height: 75px;
+}
+
+.restaurants .you-tube {
+  position: absolute;
+  top: 208px;
+  left: 56px;
+  width: 75px;
+  height: 75px;
+}
+
+.restaurants .instagram {
+  position: absolute;
+  top: 208px;
+  left: 308px;
+  width: 75px;
+  height: 75px;
+}
+
+.restaurants .div {
+  position: absolute;
+  width: calc(100% - 761px);
+  top: 6px;
+  left: 553px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .p {
+  position: absolute;
+  width: calc(100% - 559px);
+  top: 62px;
+  left: 553px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .language {
+  position: absolute;
+  top: 329px;
+  left: 611px;
+  width: 75px;
+  height: 75px;
+}
+
+.restaurants .copyright {
+  position: absolute;
+  top: 354px;
+  left: 57px;
+  width: 20px;
+  height: 20px;
+}
+
+.restaurants .text-wrapper-2 {
+  position: absolute;
+  top: 354px;
+  left: 84px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.restaurants .translator {
+  position: absolute;
+  top: 329px;
+  left: 706px;
+  width: 321px;
+  height: 75px;
+  display: flex;
+  gap: 19px;
+}
+
+.restaurants .group-2 {
+  width: 152px;
+  height: 75px;
+  position: relative;
+}
+
+.restaurants .rectangle-2 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.restaurants .text-wrapper-3 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 1) 12%,
+    rgba(88, 160, 200, 1) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .rectangle-3 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff80;
+  border-radius: 20px;
+}
+
+.restaurants .text-wrapper-4 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 0.5) 12%,
+    rgba(88, 160, 200, 0.5) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 151px;
+  display: flex;
+  background-image: url(https://c.animaapp.com/mgxrdtbf4yaj9n/img/navbar.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.restaurants .navbar-2 {
+  margin-top: 55px;
+  width: 700px;
+  margin-left: 720px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.restaurants .text-wrapper-5 {
+  width: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .text-wrapper-6 {
+  width: 198px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .text-wrapper-7 {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .text-wrapper-8 {
+  width: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .text-wrapper-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 36px;
+  width: 120px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .bhinneka-indonesian {
+  position: absolute;
+  top: 450px;
+  left: calc(50.00% - 550px);
+  width: 1124px;
+  height: 650px;
+}
+
+.restaurants .bg-2 {
+  position: absolute;
+  top: 0;
+  left: calc(50.00% - 562px);
+  width: 1100px;
+  height: 650px;
+  background-color: #113f67;
+  border-radius: 50px;
+}
+
+.restaurants .parking {
+  position: absolute;
+  top: 322px;
+  left: 610px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .text-wrapper-10 {
+  position: absolute;
+  top: 93px;
+  left: calc(50.00% + 48px);
+  width: 147px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.restaurants .element-km-from-hang {
+  position: absolute;
+  top: 407px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .span {
+  font-weight: 800;
+}
+
+.restaurants .text-wrapper-11 {
+  font-weight: 600;
+}
+
+.restaurants .text-wrapper-12 {
+  position: absolute;
+  top: 123px;
+  left: calc(50.00% + 48px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .text-wrapper-13 {
+  position: absolute;
+  top: 193px;
+  left: calc(50.00% + 48px);
+  width: 236px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.restaurants .text-wrapper-14 {
+  position: absolute;
+  top: 223px;
+  right: 66px;
+  width: 408px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .services-facilities {
+  position: absolute;
+  top: 292px;
+  left: calc(50.00% + 48px);
+  width: 238px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.restaurants .div-2 {
+  position: absolute;
+  top: 402px;
+  left: calc(50.00% - 479px);
+  width: 440px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .text-wrapper-15 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.restaurants .text-wrapper-16 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.restaurants .airport {
+  position: absolute;
+  top: 402px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .div-3 {
+  position: absolute;
+  top: 467px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .div-4 {
+  position: absolute;
+  top: 527px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .price-range-IDR {
+  position: absolute;
+  top: 587px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .water-transportation {
+  position: absolute;
+  top: 462px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .clock {
+  position: absolute;
+  top: 522px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .text-wrapper-17 {
+  position: absolute;
+  top: 26px;
+  left: calc(50.00% - 169px);
+  width: 675px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.restaurants .img {
+  position: absolute;
+  top: 26px;
+  left: calc(50.00% - 534px);
+  width: 340px;
+  height: 340px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.restaurants .rectangle-4 {
+  position: absolute;
+  top: 86px;
+  left: calc(50.00% - 179px);
+  width: 200px;
+  height: 280px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.restaurants .divider {
+  position: absolute;
+  top: 380px;
+  left: calc(50.00% - 534px);
+  width: 1040px;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.restaurants .divider-2 {
+  position: absolute;
+  top: 516px;
+  left: calc(50.00% - 144px);
+  width: 265px;
+  height: 2px;
+  background-color: #d9d9d9;
+  transform: rotate(90deg);
+}
+
+.restaurants .div-5 {
+  position: absolute;
+  top: 464px;
+  left: calc(50.00% - 534px);
+  width: 512px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .text-wrapper-18 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.restaurants .rating {
+  position: absolute;
+  top: 568px;
+  left: 28px;
+  width: 264px;
+  height: 65px;
+}
+
+.restaurants .star {
+  left: 3px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.restaurants .star-2 {
+  left: 143px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.restaurants .star-3 {
+  left: 108px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.restaurants .star-4 {
+  left: 38px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.restaurants .star-5 {
+  left: 73px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.restaurants .text-wrapper-19 {
+  position: absolute;
+  top: 35px;
+  left: calc(50.00% - 132px);
+  width: 262px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.restaurants .cash {
+  position: absolute;
+  top: 582px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .img-2 {
+  position: absolute;
+  top: 407px;
+  left: 28px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .take-away-food {
+  position: absolute;
+  top: 322px;
+  left: 730px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .wheelchair {
+  position: absolute;
+  top: 323px;
+  left: 1028px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .bank-cards {
+  position: absolute;
+  top: 322px;
+  left: 670px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .star-6 {
+  position: absolute;
+  top: 223px;
+  left: 610px;
+  width: 30px;
+  height: 30px;
+}
+
+.restaurants .instagram-2 {
+  position: absolute;
+  top: 579px;
+  left: 483px;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://c.animaapp.com/mgxrdtbf4yaj9n/img/instagram-6.png);
+  background-size: 100% 100%;
+}
+
+.restaurants .sei-enam-seafood {
+  position: absolute;
+  top: 1135px;
+  left: calc(50.00% - 560px);
+  width: 1124px;
+  height: 650px;
+}
+
+.restaurants .worldwide-location {
+  position: absolute;
+  top: 409px;
+  left: 28px;
+  width: 40px;
+  height: 40px;
+}
+
+.restaurants .common-space {
+  position: absolute;
+  top: 1820px;
+  left: calc(50.00% - 550px);
+  width: 1124px;
+  height: 650px;
+}
+
+.restaurants .mie-tarempa-k {
+  position: absolute;
+  top: 2505px;
+  left: calc(50.00% - 550px);
+  width: 1124px;
+  height: 650px;
+}
+
+.restaurants .aroma-signature {
+  position: absolute;
+  top: 3190px;
+  left: calc(50.00% - 550px);
+  width: 1124px;
+  height: 650px;
+}
+
+.restaurants .arrow-button {
+  position: absolute;
+  top: 3875px;
+  left: 995px;
+  width: 60px;
+  height: 60px;
+}
+
+.restaurants .navigation {
+  display: flex;
+  width: 37px;
+  height: 16px;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  top: 3897px;
+  left: calc(50.00% - 18px);
+}
+
+.restaurants .ellipse {
+  background-color: #000000;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+
+.restaurants .ellipse-2 {
+  background-color: #0000004c;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}

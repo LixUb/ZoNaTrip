@@ -365,4 +365,11 @@
   	cursor: pointer;
   	color: #f9f1da;
 }
-
+.accomodation-page-1-inner {
+  	position: absolute;
+  	top: 820px;
+  	left: 201px;
+  	width: 440px;
+  	height: 124px;
+  	object-fit: cover;
+}

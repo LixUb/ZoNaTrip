@@ -1,1021 +1,1458 @@
 .shopping-center {
-  	width: 100%;
-  	position: relative;
-  	background-color: #fff;
-  	height: 4600px;
-  	overflow: hidden;
-  	text-align: left;
-  	font-size: 18px;
-  	color: #fff;
-  	font-family: 'Plus Jakarta Sans';
-}
-.bg {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	background: linear-gradient(0deg, #fff, #58a0c8);
-  	width: 1440px;
-  	height: 1000px;
-}
-.shopping-center-shopping-center {
-  	position: absolute;
-  	top: 244px;
-  	left: 100px;
-  	font-size: 75px;
-  	display: flex;
-  	font-family: Poppins;
-  	align-items: center;
-  	width: 716px;
-  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.footer-bg {
-  	position: absolute;
-  	top: 3986px;
-  	left: -33px;
-  	width: 1506px;
-  	height: 727px;
-}
-.footer-bg-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	border-radius: 500px;
-  	background-color: #092033;
-  	width: 1506px;
-  	height: 727px;
-}
-.footer-bg-item {
-  	position: absolute;
-  	top: 490px;
-  	left: 33px;
-  	background-color: #092033;
-  	width: 1440px;
-  	height: 126px;
-}
-.footer {
-  	position: absolute;
-  	top: 4096px;
-  	left: 202px;
-  	width: 1030px;
-  	height: 404px;
-  	text-align: center;
-  	font-size: 22px;
-}
-.logo-footer-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 440px;
-  	height: 124px;
-  	object-fit: cover;
-}
-.x-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 182px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.youtube-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 56px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.instagram-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 308px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.zonaofficialgmailcom {
-  	position: absolute;
-  	width: calc(100% - 755px);
-  	top: 6px;
-  	left: 553px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-}
-.jl-engku-putri {
-  	position: absolute;
-  	width: calc(100% - 553px);
-  	top: 62px;
-  	left: 553px;
-  	font-weight: 800;
-  	text-align: justify;
-  	display: flex;
-  	align-items: center;
-}
-.language-icon {
-  	position: absolute;
-  	top: 329px;
-  	left: 611px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.copyright-icon {
-  	position: absolute;
-  	top: 354px;
-  	left: 57px;
-  	width: 20px;
-  	height: 20px;
-  	object-fit: cover;
-}
-.zona-all {
-  	position: absolute;
-  	top: 354px;
-  	left: 84px;
-  	font-size: 20px;
-  	font-weight: 300;
-  	font-family: Montserrat;
-  	text-align: left;
-}
-.translator {
-  	position: absolute;
-  	top: 329px;
-  	left: 706px;
-  	width: 321px;
-  	height: 75px;
-  	font-size: 45px;
-  	font-family: Poppins;
-}
-.rectangle-parent {
-  	position: absolute;
-  	height: 100%;
-  	width: 46.73%;
-  	top: 0%;
-  	right: 53.27%;
-  	bottom: 0%;
-  	left: 0%;
-}
-.group-child {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	border-radius: 20px;
-  	background-color: #fff;
-}
-.eng {
-  	position: absolute;
-  	width: 92.67%;
-  	top: 4%;
-  	left: 3.33%;
-  	display: flex;
-  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	align-items: center;
-  	justify-content: center;
-}
-.rectangle-group {
-  	position: absolute;
-  	height: 100%;
-  	width: 46.73%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 53.27%;
-}
-.group-item {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	border-radius: 20px;
-  	background-color: rgba(255, 255, 255, 0.5);
-}
-.ind {
-  	position: absolute;
-  	width: 92.67%;
-  	top: 4%;
-  	left: 3.33%;
-  	display: flex;
-  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	align-items: center;
-  	justify-content: center;
-}
-.navbar {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 151px;
-  	text-align: center;
-  	font-size: 24px;
-}
-.navbar-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 151px;
-  	object-fit: cover;
-}
-.english-navbar {
-  	position: absolute;
-  	top: 55px;
-  	left: 720px;
-  	width: 700px;
-  	height: 30px;
-}
-.home {
-  	position: absolute;
-  	top: calc(50% - 15px);
-  	left: 0px;
-  	cursor: pointer;
-}
-.accommodation {
-  	position: absolute;
-  	top: calc(50% - 16px);
-  	left: 109px;
-  	cursor: pointer;
-}
-.places {
-  	position: absolute;
-  	top: calc(50% - 17px);
-  	left: 345px;
-  	cursor: pointer;
-}
-.events {
-  	position: absolute;
-  	top: calc(50% - 18px);
-  	left: 461px;
-  	cursor: pointer;
-}
-.gozona {
-  	position: absolute;
-  	top: calc(50% - 19px);
-  	left: 578px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 120px;
-  	height: 36px;
-  	cursor: pointer;
-}
-.grand-batam-mall {
-  	position: absolute;
-  	top: 451px;
-  	left: calc(50% - 554px);
-  	width: 1100px;
-  	height: 650px;
-}
-.shopping-center-bg {
-  	position: absolute;
-  	top: 0px;
-  	left: calc(50% - 550px);
-  	border-radius: 50px;
-  	background-color: #113f67;
-  	width: 1100px;
-  	height: 650px;
-}
-.wi-fi-icon {
-  	position: absolute;
-  	top: 297px;
-  	left: 397px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.parking-icon {
-  	position: absolute;
-  	top: 297px;
-  	left: 527px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.shopping-center-grand-batam-mall {
-  	position: absolute;
-  	top: 21px;
-  	left: calc(50% - 153px);
-  	font-size: 38px;
-  	font-weight: 800;
-  	color: #f9f1da;
-  	text-align: center;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 675px;
-  	height: 45px;
-}
-.grand-batam-mall-child {
-  	position: absolute;
-  	top: 21px;
-  	left: calc(50% - 518px);
-  	border-radius: 50px;
-  	width: 340px;
-  	height: 340px;
-  	object-fit: cover;
-}
-.divider {
-  	position: absolute;
-  	top: 375px;
-  	left: calc(50% - 518px);
-  	background-color: #d9d9d9;
-  	width: 1040px;
-  	height: 2px;
-}
-.shopping-center-divider {
-  	position: absolute;
-  	top: 380px;
-  	left: calc(50% + 5px);
-  	background-color: #d9d9d9;
-  	width: 265px;
-  	height: 2px;
-  	transform:  rotate(90deg);
-  	transform-origin: 0 0;
-}
-.outlets {
-  	position: absolute;
-  	top: 73px;
-  	left: calc(50% - 153px);
-  	font-size: 22px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	width: 305px;
-  	height: 25px;
-}
-.facilities {
-  	position: absolute;
-  	top: 258px;
-  	left: calc(50% - 153px);
-  	font-size: 22px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	width: 305px;
-  	height: 25px;
-}
-.address-jl-pembangunan-container {
-  	position: absolute;
-  	top: 403px;
-  	left: calc(50% - 518px);
-  	display: flex;
-  	align-items: center;
-  	width: 512px;
-  	height: 77px;
-  	font-size: 22px;
-}
-.shopping-center-address-jl-pembangunan-container {
-  	width: 100%;
-}
-.address {
-  	margin: 0;
-  	font-weight: 800;
-}
-.jl-pembangunan-batu {
-  	margin: 0;
-  	font-size: 18px;
-  	font-weight: 600;
-}
-.httpsgrandbatamcom {
-  	position: absolute;
-  	top: 583px;
-  	left: calc(50% - 191px);
-  	font-size: 14px;
-  	display: flex;
-  	font-style: italic;
-  	font-weight: 700;
-  	color: inherit;
-  	align-items: center;
-  	width: 180px;
-  	height: 30px;
-  	text-decoration: none;
-}
-.cgv-icon {
-  	position: absolute;
-  	top: 175px;
-  	left: 397px;
-  	border-radius: 10px;
-  	width: 80px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.informa-icon {
-  	position: absolute;
-  	top: 175px;
-  	left: 487px;
-  	border-radius: 10px;
-  	width: 80px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.sociolla-icon {
-  	position: absolute;
-  	top: 175px;
-  	left: 577px;
-  	border-radius: 10px;
-  	width: 80px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.azko-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 762px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.funworld-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 832px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.guardian-beauty-icon {
-  	position: absolute;
-  	top: 175px;
-  	left: 667px;
-  	border-radius: 10px;
-  	width: 80px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.top100-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 397px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.hm-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 467px;
-  	border-radius: 10px;
-  	width: 75px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.uniqlo-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 552px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.ohsome-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 622px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.gramed-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 692px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.rating {
-  	position: absolute;
-  	top: 497px;
-  	left: 32px;
-  	width: 512px;
-  	height: 65px;
-  	font-size: 12px;
-}
-.rating-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.rating-item {
-  	position: absolute;
-  	top: 0px;
-  	left: 140px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.rating-inner {
-  	position: absolute;
-  	top: 0px;
-  	left: 105px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.star-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 35px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.shopping-center-rating-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 70px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.reviews-on-google {
-  	position: absolute;
-  	top: 35px;
-  	left: calc(50% - 256px);
-  	display: flex;
-  	font-weight: 600;
-  	align-items: center;
-  	width: 512px;
-  	height: 30px;
-}
-.shopping-center-instagram-icon {
-  	position: absolute;
-  	top: 579px;
-  	left: 32px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-  	cursor: pointer;
-}
-.mosque-icon {
-  	position: absolute;
-  	top: 297px;
-  	left: 462px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.and-many-more {
-  	position: absolute;
-  	top: 180px;
-  	left: calc(50% + 207px);
-  	font-size: 14px;
-  	display: flex;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-  	width: 135px;
-  	height: 30px;
-}
-.km-from-hang-container {
-  	position: absolute;
-  	top: 403px;
-  	left: calc(50% + 77px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.km {
-  	font-weight: 800;
-}
-.from-hang {
-  	font-weight: 600;
-  	white-space: pre-wrap;
-}
-.airport-icon {
-  	position: absolute;
-  	top: 398px;
-  	left: 571px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.km-from-harbour-container {
-  	position: absolute;
-  	top: 463px;
-  	left: calc(50% + 77px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.accesibility-public-bus-container {
-  	position: absolute;
-  	top: 583px;
-  	left: calc(50% + 77px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.public-bus-taxi {
-  	font-weight: 600;
-}
-.gmt7 {
-  	position: absolute;
-  	top: 523px;
-  	left: calc(50% + 77px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.water-transportation-icon {
-  	position: absolute;
-  	top: 458px;
-  	left: 571px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.clock-icon {
-  	position: absolute;
-  	top: 518px;
-  	left: 571px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.bus-icon {
-  	position: absolute;
-  	top: 578px;
-  	left: 571px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.bank-cards-icon {
-  	position: absolute;
-  	top: 297px;
-  	left: 592px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.wheelchair-icon {
-  	position: absolute;
-  	top: 323px;
-  	left: 1028px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.nagoya-hill-mall {
-  	position: absolute;
-  	top: 1135px;
-  	left: calc(50% - 560px);
-  	width: 1100px;
-  	height: 650px;
-}
-.shopping-center-and-many-more {
-  	position: absolute;
-  	top: 175px;
-  	left: calc(50% + 117px);
-  	font-size: 14px;
-  	display: flex;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-  	width: 281px;
-  	height: 40px;
-}
-.nagoya-hill {
-  	position: absolute;
-  	top: 21px;
-  	left: calc(50% - 157px);
-  	font-size: 38px;
-  	font-weight: 800;
-  	color: #f9f1da;
-  	text-align: center;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 675px;
-  	height: 45px;
-}
-.nagoya-hill-mall-child {
-  	position: absolute;
-  	top: 12px;
-  	left: calc(50% - 522px);
-  	border-radius: 50px;
-  	width: 340px;
-  	height: 340px;
-  	object-fit: cover;
-}
-.divider2 {
-  	position: absolute;
-  	top: 366px;
-  	left: calc(50% - 522px);
-  	background-color: #d9d9d9;
-  	width: 1040px;
-  	height: 2px;
-}
-.divider3 {
-  	position: absolute;
-  	top: 371px;
-  	left: calc(50% + 1px);
-  	background-color: #d9d9d9;
-  	width: 265px;
-  	height: 2px;
-  	transform:  rotate(90deg);
-  	transform-origin: 0 0;
-}
-.address-jl-nagoya-container {
-  	position: absolute;
-  	top: 394px;
-  	left: calc(50% - 522px);
-  	display: flex;
-  	align-items: center;
-  	width: 512px;
-  	height: 77px;
-  	font-size: 22px;
-}
-.httpsnagoyahillcoid {
-  	position: absolute;
-  	top: 585px;
-  	left: calc(50% - 185px);
-  	font-size: 14px;
-  	display: flex;
-  	font-style: italic;
-  	font-weight: 700;
-  	color: inherit;
-  	align-items: center;
-  	width: 180px;
-  	height: 30px;
-  	text-decoration: none;
-}
-.shopping-center-rating {
-  	position: absolute;
-  	top: 488px;
-  	left: 28px;
-  	width: 512px;
-  	height: 65px;
-  	font-size: 12px;
-}
-.shopping-center-azko-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 467px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.miniso-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 537px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.kidzilla-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 607px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.instagram-icon2 {
-  	position: absolute;
-  	top: 580px;
-  	left: 28px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-  	cursor: pointer;
-}
-.mr-diy-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 677px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.mega-mall {
-  	position: absolute;
-  	top: 1824px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.and-many-more2 {
-  	position: absolute;
-  	top: 178px;
-  	left: calc(50% + 163px);
-  	font-size: 14px;
-  	display: flex;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-  	width: 135px;
-  	height: 40px;
-}
-.shopping-center-cinemaxxi-icon {
-  	position: absolute;
-  	top: 178px;
-  	left: 393px;
-  	border-radius: 10px;
-  	width: 80px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.matahri-icon2 {
-  	position: absolute;
-  	top: 178px;
-  	left: 483px;
-  	border-radius: 10px;
-  	width: 80px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.timezone-icon {
-  	position: absolute;
-  	top: 178px;
-  	left: 573px;
-  	border-radius: 10px;
-  	width: 130px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.shopping-center-hypermart-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 393px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.shopping-center-ohsome-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 463px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.misino-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 533px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.shopping-center-mr-diy-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 603px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.rating2 {
-  	position: absolute;
-  	top: 488px;
-  	left: 28px;
-  	width: 512px;
-  	height: 58px;
-  	font-size: 12px;
-}
-.reviews-on-google2 {
-  	position: absolute;
-  	top: 43px;
-  	left: calc(50% - 256px);
-  	display: flex;
-  	font-weight: 600;
-  	align-items: center;
-  	width: 512px;
-}
-.across {
-  	font-weight: 800;
-  	white-space: pre-wrap;
-}
-.obama {
-  	position: absolute;
-  	top: 2505px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.and-many-more3 {
-  	position: absolute;
-  	top: 178px;
-  	left: calc(50% + 245px);
-  	font-size: 14px;
-  	display: flex;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-  	width: 135px;
-  	height: 40px;
-}
-.address-tlk-tering-container {
-  	position: absolute;
-  	top: 394px;
-  	left: calc(50% - 522px);
-  	display: flex;
-  	align-items: center;
-  	width: 512px;
-  	height: 60px;
-  	font-size: 22px;
-}
-.led-play-icon {
-  	position: absolute;
-  	top: 178px;
-  	left: 573px;
-  	border-radius: 10px;
-  	width: 212px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.rating3 {
-  	position: absolute;
-  	top: 493px;
-  	left: 28px;
-  	width: 512px;
-  	height: 65px;
-  	font-size: 12px;
-}
-.shopping-center-summerwet-icon {
-  	position: absolute;
-  	top: 108px;
-  	left: 673px;
-  	border-radius: 10px;
-  	width: 60px;
-  	height: 60px;
-  	object-fit: cover;
-}
-.bcs {
-  	position: absolute;
-  	top: 3198px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.and-many-more4 {
-  	position: absolute;
-  	top: 178px;
-  	left: calc(50% + 23px);
-  	font-size: 14px;
-  	display: flex;
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-  	width: 135px;
-  	height: 40px;
-}
-.batam-city-square {
-  	position: absolute;
-  	top: 12px;
-  	left: calc(50% - 157px);
-  	font-size: 38px;
-  	font-weight: 800;
-  	color: #f9f1da;
-  	text-align: center;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 675px;
-  	height: 45px;
-}
-.instagram-icon5 {
-  	position: absolute;
-  	top: 580px;
-  	left: 29px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-  	cursor: pointer;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 4600px;
+  position: relative;
 }
 
+.shopping-center .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1000px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(88, 160, 200, 1) 100%
+  );
+}
+
+.shopping-center .text-wrapper {
+  position: absolute;
+  top: 244px;
+  left: 100px;
+  width: 716px;
+  height: 113px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .footer-bg {
+  position: absolute;
+  top: 3986px;
+  left: -33px;
+  width: 1506px;
+  height: 727px;
+  display: flex;
+  background-color: #092033;
+  border-radius: 500px;
+}
+
+.shopping-center .rectangle {
+  margin-top: 490px;
+  width: 1440px;
+  height: 126px;
+  margin-left: 33px;
+  background-color: #091f32;
+}
+
+.shopping-center .footer {
+  position: absolute;
+  top: 4096px;
+  left: 202px;
+  width: 1036px;
+  height: 404px;
+  background-color: transparent;
+}
+
+.shopping-center .logo-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 440px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.shopping-center .x {
+  position: absolute;
+  top: 208px;
+  left: 182px;
+  width: 75px;
+  height: 75px;
+}
+
+.shopping-center .you-tube {
+  position: absolute;
+  top: 208px;
+  left: 56px;
+  width: 75px;
+  height: 75px;
+}
+
+.shopping-center .instagram {
+  position: absolute;
+  top: 208px;
+  left: 308px;
+  width: 75px;
+  height: 75px;
+}
+
+.shopping-center .div {
+  position: absolute;
+  width: calc(100% - 761px);
+  top: 6px;
+  left: 553px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .p {
+  position: absolute;
+  width: calc(100% - 559px);
+  top: 62px;
+  left: 553px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .language {
+  position: absolute;
+  top: 329px;
+  left: 611px;
+  width: 75px;
+  height: 75px;
+}
+
+.shopping-center .copyright {
+  position: absolute;
+  top: 354px;
+  left: 57px;
+  width: 20px;
+  height: 20px;
+}
+
+.shopping-center .text-wrapper-2 {
+  position: absolute;
+  top: 354px;
+  left: 84px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .translator {
+  position: absolute;
+  top: 329px;
+  left: 706px;
+  width: 321px;
+  height: 75px;
+  display: flex;
+  gap: 19px;
+}
+
+.shopping-center .group {
+  width: 152px;
+  height: 75px;
+  position: relative;
+}
+
+.shopping-center .rectangle-2 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.shopping-center .text-wrapper-3 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 1) 12%,
+    rgba(88, 160, 200, 1) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .rectangle-3 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff80;
+  border-radius: 20px;
+}
+
+.shopping-center .text-wrapper-4 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 0.5) 12%,
+    rgba(88, 160, 200, 0.5) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 151px;
+  display: flex;
+  background-image: url(https://c.animaapp.com/mgxqy6yec4RKeD/img/navbar.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.shopping-center .navbar-2 {
+  margin-top: 55px;
+  width: 700px;
+  margin-left: 720px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.shopping-center .text-wrapper-5 {
+  width: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-6 {
+  width: 198px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-7 {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-8 {
+  width: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 36px;
+  width: 120px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .grand-batam-mall {
+  position: absolute;
+  top: 451px;
+  left: calc(50.00% - 554px);
+  width: 1120px;
+  height: 650px;
+}
+
+.shopping-center .bg-2 {
+  left: calc(50.00% - 560px);
+  position: absolute;
+  top: 0;
+  width: 1100px;
+  height: 650px;
+  background-color: #113f67;
+  border-radius: 50px;
+}
+
+.shopping-center .img {
+  position: absolute;
+  top: 297px;
+  left: 397px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .img-2 {
+  position: absolute;
+  top: 297px;
+  left: 527px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .text-wrapper-10 {
+  position: absolute;
+  top: 21px;
+  left: calc(50.00% - 163px);
+  width: 675px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .rectangle-4 {
+  top: 21px;
+  left: calc(50.00% - 528px);
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.shopping-center .divider {
+  top: 375px;
+  left: calc(50.00% - 528px);
+  width: 1040px;
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.shopping-center .divider-2 {
+  top: 512px;
+  left: calc(50.00% - 138px);
+  width: 265px;
+  transform: rotate(90deg);
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.shopping-center .text-wrapper-11 {
+  position: absolute;
+  top: 73px;
+  left: calc(50.00% - 163px);
+  width: 305px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .text-wrapper-12 {
+  position: absolute;
+  top: 258px;
+  left: calc(50.00% - 163px);
+  width: 305px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .address-jl {
+  top: 403px;
+  left: calc(50.00% - 528px);
+  position: absolute;
+  width: 512px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .span {
+  font-weight: 800;
+}
+
+.shopping-center .text-wrapper-13 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.shopping-center .text-wrapper-14 {
+  position: absolute;
+  top: 583px;
+  left: calc(50.00% - 201px);
+  width: 180px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .img-3 {
+  position: absolute;
+  top: 175px;
+  left: 397px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .img-4 {
+  position: absolute;
+  top: 175px;
+  left: 487px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .img-5 {
+  position: absolute;
+  top: 175px;
+  left: 577px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .azko {
+  position: absolute;
+  top: 108px;
+  left: 762px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .funworld {
+  position: absolute;
+  top: 108px;
+  left: 832px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .guardian-beauty {
+  position: absolute;
+  top: 175px;
+  left: 667px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .top {
+  position: absolute;
+  top: 108px;
+  left: 397px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .h-m {
+  position: absolute;
+  top: 108px;
+  left: 467px;
+  width: 75px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .uniqlo {
+  position: absolute;
+  top: 108px;
+  left: 552px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .ohsome {
+  position: absolute;
+  top: 108px;
+  left: 622px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .gramed {
+  position: absolute;
+  top: 108px;
+  left: 692px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .rating {
+  top: 497px;
+  left: 32px;
+  height: 65px;
+  position: absolute;
+  width: 514px;
+}
+
+.shopping-center .star {
+  left: 3px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.shopping-center .star-2 {
+  left: 143px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.shopping-center .star-3 {
+  left: 108px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.shopping-center .star-4 {
+  left: 38px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.shopping-center .star-5 {
+  left: 73px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.shopping-center .text-wrapper-15 {
+  position: absolute;
+  top: 35px;
+  left: calc(50.00% - 257px);
+  width: 512px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .instagram-2 {
+  position: absolute;
+  top: 579px;
+  left: 32px;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://c.animaapp.com/mgxqy6yec4RKeD/img/instagram-5.png);
+  background-size: 100% 100%;
+}
+
+.shopping-center .img-6 {
+  position: absolute;
+  top: 297px;
+  left: 462px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .text-wrapper-16 {
+  position: absolute;
+  top: 180px;
+  left: calc(50.00% + 197px);
+  width: 135px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .element-km-from-hang {
+  position: absolute;
+  top: 403px;
+  left: calc(50.00% + 67px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-17 {
+  font-weight: 600;
+}
+
+.shopping-center .airport {
+  position: absolute;
+  top: 398px;
+  left: 571px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .element-km-from-harbour {
+  position: absolute;
+  top: 463px;
+  left: calc(50.00% + 67px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .accesibility-public {
+  position: absolute;
+  top: 583px;
+  left: calc(50.00% + 67px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .element-GMT {
+  position: absolute;
+  top: 523px;
+  left: calc(50.00% + 67px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .water-transportation {
+  position: absolute;
+  top: 458px;
+  left: 571px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .clock {
+  position: absolute;
+  top: 518px;
+  left: 571px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .bus {
+  position: absolute;
+  top: 578px;
+  left: 571px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .bank-cards {
+  position: absolute;
+  top: 297px;
+  left: 592px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .wheelchair {
+  position: absolute;
+  top: 323px;
+  left: 1028px;
+  width: 40px;
+  height: 40px;
+}
+
+.shopping-center .nagoya-hill-mall {
+  position: absolute;
+  top: 1135px;
+  left: calc(50.00% - 560px);
+  width: 1120px;
+  height: 650px;
+}
+
+.shopping-center .text-wrapper-18 {
+  position: absolute;
+  top: 175px;
+  left: calc(50.00% + 107px);
+  width: 281px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-19 {
+  position: absolute;
+  top: 21px;
+  left: calc(50.00% - 167px);
+  width: 675px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .rectangle-5 {
+  top: 12px;
+  left: calc(50.00% - 532px);
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.shopping-center .divider-3 {
+  top: 366px;
+  left: calc(50.00% - 532px);
+  width: 1040px;
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.shopping-center .divider-4 {
+  position: absolute;
+  top: 502px;
+  left: calc(50.00% - 142px);
+  width: 265px;
+  height: 2px;
+  background-color: #d9d9d9;
+  transform: rotate(90deg);
+}
+
+.shopping-center .address-jl-nagoya {
+  top: 394px;
+  left: calc(50.00% - 532px);
+  position: absolute;
+  width: 512px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-20 {
+  position: absolute;
+  top: 585px;
+  left: calc(50.00% - 195px);
+  width: 180px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .rating-2 {
+  top: 488px;
+  left: 28px;
+  height: 65px;
+  position: absolute;
+  width: 514px;
+}
+
+.shopping-center .hypermart {
+  position: absolute;
+  top: 108px;
+  left: 397px;
+  width: 60px;
+  height: 60px;
+}
+
+.shopping-center .azko-2 {
+  position: absolute;
+  top: 108px;
+  left: 467px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .miniso {
+  position: absolute;
+  top: 108px;
+  left: 537px;
+  width: 60px;
+  height: 60px;
+}
+
+.shopping-center .kidzilla {
+  position: absolute;
+  top: 108px;
+  left: 607px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.shopping-center .instagram-3 {
+  position: absolute;
+  top: 580px;
+  left: 28px;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://c.animaapp.com/mgxqy6yec4RKeD/img/instagram-5.png);
+  background-size: 100% 100%;
+}
+
+.shopping-center .mr-diy {
+  position: absolute;
+  top: 108px;
+  left: 677px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .mega-mall {
+  position: absolute;
+  top: 1824px;
+  left: calc(50.00% - 550px);
+  width: 1118px;
+  height: 650px;
+}
+
+.shopping-center .bg-3 {
+  left: calc(50.00% - 559px);
+  position: absolute;
+  top: 0;
+  width: 1100px;
+  height: 650px;
+  background-color: #113f67;
+  border-radius: 50px;
+}
+
+.shopping-center .text-wrapper-21 {
+  left: calc(50.00% + 154px);
+  position: absolute;
+  top: 178px;
+  width: 135px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-22 {
+  position: absolute;
+  top: 21px;
+  left: calc(50.00% - 166px);
+  width: 675px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .rectangle-6 {
+  position: absolute;
+  top: 12px;
+  left: calc(50.00% - 531px);
+  width: 340px;
+  height: 340px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.shopping-center .divider-5 {
+  top: 366px;
+  left: calc(50.00% - 531px);
+  width: 1040px;
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.shopping-center .div-2 {
+  position: absolute;
+  top: 394px;
+  left: calc(50.00% - 531px);
+  width: 512px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .cinemaxxi {
+  position: absolute;
+  top: 178px;
+  left: 393px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .matahri {
+  position: absolute;
+  top: 178px;
+  left: 483px;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .timezone {
+  position: absolute;
+  top: 178px;
+  left: 573px;
+  width: 130px;
+  height: 40px;
+}
+
+.shopping-center .img-7 {
+  position: absolute;
+  top: 108px;
+  left: 393px;
+  width: 60px;
+  height: 60px;
+}
+
+.shopping-center .img-8 {
+  position: absolute;
+  top: 108px;
+  left: 463px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .img-9 {
+  position: absolute;
+  top: 108px;
+  left: 533px;
+  width: 60px;
+  height: 60px;
+}
+
+.shopping-center .img-10 {
+  left: 603px;
+  position: absolute;
+  top: 108px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .rating-3 {
+  top: 488px;
+  left: 28px;
+  height: 58px;
+  position: absolute;
+  width: 514px;
+}
+
+.shopping-center .text-wrapper-23 {
+  position: absolute;
+  top: 43px;
+  left: calc(50.00% - 257px);
+  width: 512px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-24 {
+  position: absolute;
+  top: 73px;
+  left: calc(50.00% - 162px);
+  width: 305px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .text-wrapper-25 {
+  position: absolute;
+  top: 258px;
+  left: calc(50.00% - 162px);
+  width: 305px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .element-km-from-hang-2 {
+  position: absolute;
+  top: 403px;
+  left: calc(50.00% + 68px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .div-3 {
+  position: absolute;
+  top: 463px;
+  left: calc(50.00% + 68px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .accesibility-public-2 {
+  position: absolute;
+  top: 583px;
+  left: calc(50.00% + 68px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .element-GMT-2 {
+  position: absolute;
+  top: 523px;
+  left: calc(50.00% + 68px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .obama {
+  position: absolute;
+  top: 2505px;
+  left: calc(50.00% - 550px);
+  width: 1118px;
+  height: 650px;
+}
+
+.shopping-center .text-wrapper-26 {
+  left: calc(50.00% + 236px);
+  position: absolute;
+  top: 178px;
+  width: 135px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .address-tlk-tering {
+  position: absolute;
+  top: 394px;
+  left: calc(50.00% - 531px);
+  width: 512px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .led-play {
+  position: absolute;
+  top: 178px;
+  left: 573px;
+  width: 212px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .rating-4 {
+  position: absolute;
+  top: 493px;
+  left: 28px;
+  width: 514px;
+  height: 65px;
+}
+
+.shopping-center .hello-monster {
+  position: absolute;
+  top: 108px;
+  left: 533px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .summerwet {
+  position: absolute;
+  top: 108px;
+  left: 673px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.shopping-center .bcs {
+  position: absolute;
+  top: 3198px;
+  left: calc(50.00% - 550px);
+  width: 1118px;
+  height: 650px;
+}
+
+.shopping-center .text-wrapper-27 {
+  left: calc(50.00% + 14px);
+  position: absolute;
+  top: 178px;
+  width: 135px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.shopping-center .text-wrapper-28 {
+  position: absolute;
+  top: 12px;
+  left: calc(50.00% - 166px);
+  width: 675px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.shopping-center .instagram-4 {
+  position: absolute;
+  top: 580px;
+  left: 29px;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://c.animaapp.com/mgxqy6yec4RKeD/img/instagram-5.png);
+  background-size: 100% 100%;
+}
