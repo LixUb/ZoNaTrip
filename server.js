@@ -8,13 +8,11 @@ const cors = require('cors');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-// Configure multer for file uploads
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     const uploadDir = 'uploads/ktp';
@@ -31,7 +29,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({
   storage: storage,
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
+  limits: { fileSize: 5 * 1024 * 1024 },
   fileFilter: function (req, file, cb) {
     const filetypes = /jpeg|jpg|png|gif/;
     const mimetype = filetypes.test(file.mimetype);
@@ -44,19 +42,17 @@ const upload = multer({
   }
 });
 
-// Configure nodemailer
 const transporter = nodemailer.createTransport({
-  service: 'gmail', // or your email service
+  service: 'gmail',
   auth: {
     user: process.env.EMAIL_USER || 'your-email@gmail.com',
     pass: process.env.EMAIL_PASS || 'your-app-password'
   }
 });
 
-// Helper function to format order details
 function formatOrderDetails(orders) {
   const items = {
-    // Sunmofee Tropical Cafe
+
     lemonTea: { name: 'Lemon Tea (Hangat)', price: 25000 },
     lemonTeaCold: { name: 'Lemon Tea (Dingin)', price: 25000 },
     raspberryLime: { name: 'Raspberry Lime (Dingin)', price: 25000 },
@@ -86,7 +82,6 @@ function formatOrderDetails(orders) {
   return { orderList, totalPrice };
 }
 
-// API endpoint to handle booking submission
 app.post('/api/booking', upload.single('ktp'), async (req, res) => {
   try {
     const {
@@ -101,7 +96,6 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
       orders
     } = req.body;
 
-    // Validate required fields
     if (!nama || !email || !telp || !tamu || !destination || !date || !catatan || !catatanMakanan) {
       return res.status(400).json({ 
         success: false, 
@@ -116,14 +110,11 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
       });
     }
 
-    // Parse orders (if sent as JSON string)
     const parsedOrders = typeof orders === 'string' ? JSON.parse(orders) : orders;
     const { orderList, totalPrice } = formatOrderDetails(parsedOrders);
 
-    // Generate booking ID
     const bookingId = 'BK-' + Date.now();
 
-    // Save booking data to database or file
     const bookingData = {
       bookingId,
       nama,
@@ -139,8 +130,6 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
       ktpPath: req.file.path,
       createdAt: new Date().toISOString()
     };
-
-    // Save to JSON file (you can replace this with database)
     const bookingsDir = 'data/bookings';
     if (!fs.existsSync(bookingsDir)) {
       fs.mkdirSync(bookingsDir, { recursive: true });
@@ -151,7 +140,6 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
       JSON.stringify(bookingData, null, 2)
     );
 
-    // Send confirmation email to customer
     const customerMailOptions = {
       from: process.env.EMAIL_USER || 'zona.official@gmail.com',
       to: email,
@@ -179,7 +167,6 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
       `
     };
 
-    // Send notification email to admin
     const adminMailOptions = {
       from: process.env.EMAIL_USER || 'zona.official@gmail.com',
       to: 'zona.official@gmail.com',
@@ -214,7 +201,6 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
       }]
     };
 
-    // Send emails
     await transporter.sendMail(customerMailOptions);
     await transporter.sendMail(adminMailOptions);
 
@@ -224,7 +210,7 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
       bookingId: bookingId,
       data: {
         ...bookingData,
-        ktpPath: undefined // Don't send file path to client
+        ktpPath: undefined 
       }
     });
 
@@ -238,7 +224,6 @@ app.post('/api/booking', upload.single('ktp'), async (req, res) => {
   }
 });
 
-// API endpoint to get booking by ID
 app.get('/api/booking/:id', (req, res) => {
   try {
     const bookingPath = path.join('data/bookings', `${req.params.id}.json`);
@@ -251,7 +236,6 @@ app.get('/api/booking/:id', (req, res) => {
     }
 
     const bookingData = JSON.parse(fs.readFileSync(bookingPath, 'utf8'));
-    // Remove sensitive data
     delete bookingData.ktpPath;
     
     res.json({
@@ -267,12 +251,10 @@ app.get('/api/booking/:id', (req, res) => {
   }
 });
 
-// Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
 });
 
-// Start server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   console.log(`Visit http://localhost:${PORT}`);
