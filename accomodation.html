@@ -439,63 +439,125 @@
     		</div>
   	</div>
   	
-  	
-  	
-  	
   	<script>
-    		var homeText = document.getElementById("homeText");
-    		if(homeText) {
-      			homeText.addEventListener("click", function (e) {
-        				window.location.href = "Homepage.html"
-      			});
-    		}
-    		
-    		var accommodationText = document.getElementById("accommodationText");
-    		if(accommodationText) {
-      			accommodationText.addEventListener("click", function (e) {
-        				window.location.href = "accomodation.html"
-      			});
-    		}
-    		
-    		var placesText = document.getElementById("placesText");
-    		if(placesText) {
-      			placesText.addEventListener("click", function (e) {
-        				window.location.href = "places.html"
-      			});
-    		}
-    		
-    		var eventsText = document.getElementById("eventsText");
-    		if(eventsText) {
-      			eventsText.addEventListener("click", function (e) {
-        				window.location.href = "event.html"
-      			});
-    		}
-    		
-    		var goZoNaText = document.getElementById("goZoNaText");
-    		if(goZoNaText) {
-      			goZoNaText.addEventListener("click", function (e) {
-        				window.location.href = "gozona.html"
-      			});
-    		}
-    		
-    		var ratingButtonContainer = document.getElementById("ratingButtonContainer");
-    		if(ratingButtonContainer) {
-      			ratingButtonContainer.addEventListener("click", function (e) {
-        				window.location.href = "page/page1.html"
-      			});
-    		}
-    		
-    		var ratingButtonContainer1 = document.getElementById("ratingButtonContainer1");
-    		if(ratingButtonContainer1) {
-      			ratingButtonContainer1.addEventListener("click", function (e) {
-        				window.location.href = "page/page2.html"
-      			});
-    		}
-    		
-    		var ratingButtonContainer2 = document.getElementById("ratingButtonContainer2");
-    		if(ratingButtonContainer2) {
-      			ratingButtonContainer2.addEventListener("click", function (e) {
-        				window.location.href = "page/page3.html"
-      			});
-    		}</script></body>
+    // -----------------------------
+    // Consolidated navigation (no repetitive individual getElementById calls)
+    // -----------------------------
+    const navRoutes = {
+      homeText: "Homepage.html",
+      accommodationText: "accomodation.html",
+      placesText: "places.html",
+      eventsText: "event.html",
+      goZoNaText: "gozona.html"
+    };
+
+    Object.keys(navRoutes).forEach(id => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.addEventListener("click", () => { window.location.href = navRoutes[id]; });
+      }
+    });
+
+    // rating buttons navigation in a single mapping
+    const ratingRoutes = {
+      ratingButtonContainer: "page/page1.html",
+      ratingButtonContainer1: "page/page2.html",
+      ratingButtonContainer2: "page/page3.html"
+    };
+
+    Object.keys(ratingRoutes).forEach(id => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.addEventListener("click", () => { window.location.href = ratingRoutes[id]; });
+      }
+    });
+
+    // -----------------------------
+    // Translations (ENG / IND)
+    // Keys match class names used in DOM. For the two-line heading that uses
+    // two <p class="find-your"> elements we replace the container's innerHTML
+    // to preserve the intended structure.
+    // -----------------------------
+    const texts = {
+      eng: {
+        // replace the whole container markup for the heading (two lines)
+        "accomodation-page-1-find-your-stay-container": '<p class="find-your">Find your</p><p class="find-your">stay here.</p>',
+        "rest-comfortably-you": "Rest comfortably, you need it for the best experience.",
+        "by-stars": "By Star(s):",
+        "home": "Home",
+        "accommodation": "Accommodation",
+        "places": "Places",
+        "events": "Events",
+        "gozona": "GoZoNa",
+        "zona-all": "2025 ZoNa | All rights reserved"
+      },
+      ind: {
+        "accomodation-page-1-find-your-stay-container": '<p class="find-your">Temukan</p><p class="find-your">tempat menginap di sini.</p>',
+        "rest-comfortably-you": "Istirahat dengan nyaman, kamu membutuhkannya untuk pengalaman terbaik.",
+        "by-stars": "Berdasarkan Bintang:",
+        "home": "Beranda",
+        "accommodation": "Akomodasi",
+        "places": "Tempat",
+        "events": "Acara",
+        "gozona": "GoZoNa",
+        "zona-all": "2025 ZoNa | Semua hak cipta dilindungi"
+      }
+    };
+
+    // translator buttons
+    const engBtn = document.querySelector(".eng");
+    const indBtn = document.querySelector(".ind");
+
+    // default language
+    let currentLang = "eng";
+
+    // update all elements that have class matching the key
+    function setLanguage(lang) {
+      const dict = texts[lang] || {};
+      Object.keys(dict).forEach(key => {
+        // safe selector (use CSS.escape if available)
+        const safeKey = (window.CSS && CSS.escape) ? CSS.escape(key) : key.replace(/([^\w-])/g, "\\$1");
+        const nodes = document.querySelectorAll("." + safeKey);
+        if (!nodes || nodes.length === 0) return;
+
+        nodes.forEach(node => {
+          const value = dict[key];
+          // if translation contains HTML tags, set innerHTML (used for multi-line headings)
+          if (typeof value === "string" && value.trim().startsWith("<")) {
+            node.innerHTML = value;
+          } else {
+            node.textContent = value;
+          }
+        });
+      });
+    }
+
+    function updateButtonFade() {
+      if (!engBtn || !indBtn) return;
+      if (currentLang === "eng") {
+        engBtn.style.opacity = "1";
+        indBtn.style.opacity = "0.5";
+      } else {
+        engBtn.style.opacity = "0.5";
+        indBtn.style.opacity = "1";
+      }
+    }
+
+    if (engBtn) engBtn.addEventListener("click", () => {
+      currentLang = "eng";
+      setLanguage(currentLang);
+      updateButtonFade();
+    });
+
+    if (indBtn) indBtn.addEventListener("click", () => {
+      currentLang = "ind";
+      setLanguage(currentLang);
+      updateButtonFade();
+    });
+
+    // apply default language on load
+    setLanguage(currentLang);
+    updateButtonFade();
+  </script>
+</body>
 </html>

@@ -39,7 +39,7 @@
           of the Melayu community. The festival brings together art, music, dance, culinary delights, and traditional
           crafts to showcase the timeless beauty of Melayu culture.<br /><br />The global theme,
         </span>
-        <span class="text-wrapper-14">“Berjejak di Warisan, Bertapak di Masa Depan”</span>
+        <span class="text-wrapper-14">"Berjejak di Warisan, Bertapak di Masa Depan"</span>
         <span class="text-wrapper-13">
           (Rooted in Heritage, Stepping into the Future), highlights the importance of preserving cultural roots while
           embracing innovation and diversity in a modern world.</span
@@ -89,5 +89,142 @@
         </footer>
       </div>
     </div>
+
+    <script>
+      const texts = {
+        eng: {
+          "text-wrapper": "2025 Events Calendar",
+          "text-wrapper-2": "Home",
+          "text-wrapper-3": "Accommodation",
+          "text-wrapper-4": "Places",
+          "text-wrapper-5": "Events",
+          "text-wrapper-6": "GoZoNa",
+          "p": "Annual cultural festival designed to preserve the heritages",
+          "text-wrapper-8": "Learn More",
+          "text-wrapper-9": "by Dinas Budaya dan Pariwisata Kota Batam",
+          "text-wrapper-12": "What Awaits You",
+          "text-wrapper-13-full": " is an annual cultural festival held by ZoNa dedicated to celebrating the rich heritage and vibrant traditions of the Melayu community. The festival brings together art, music, dance, culinary delights, and traditional crafts to showcase the timeless beauty of Melayu culture.\n\nThe global theme, \"Berjejak di Warisan, Bertapak di Masa Depan\" (Rooted in Heritage, Stepping into the Future), highlights the importance of preserving cultural roots while embracing innovation and diversity in a modern world.",
+          "text-wrapper-15-date": "Date:",
+          "text-wrapper-15-venue": "Venue:",
+          "text-wrapper-16-cultural": "Cultural Performances",
+          "text-wrapper-16-culinary": "Culinary Corner",
+          "text-wrapper-19": "2025 ZoNa | All rights reserved"
+        },
+        ind: {
+          "text-wrapper": "Kalender Acara 2025",
+          "text-wrapper-2": "Beranda",
+          "text-wrapper-3": "Akomodasi",
+          "text-wrapper-4": "Tempat",
+          "text-wrapper-5": "Acara",
+          "text-wrapper-6": "GoZoNa",
+          "p": "Festival budaya tahunan yang dirancang untuk melestarikan warisan",
+          "text-wrapper-8": "Pelajari Lebih Lanjut",
+          "text-wrapper-9": "oleh Dinas Budaya dan Pariwisata Kota Batam",
+          "text-wrapper-12": "Yang Menanti Anda",
+          "text-wrapper-13-full": " adalah festival budaya tahunan yang diadakan oleh ZoNa yang didedikasikan untuk merayakan warisan kaya dan tradisi yang hidup dari komunitas Melayu. Festival ini mempertemukan seni, musik, tari, kelezatan kuliner, dan kerajinan tradisional untuk menampilkan keindahan abadi budaya Melayu.\n\nTema global, \"Berjejak di Warisan, Bertapak di Masa Depan\" (Berakar pada Warisan, Melangkah ke Masa Depan), menyoroti pentingnya melestarikan akar budaya sambil merangkul inovasi dan keberagaman di dunia modern.",
+          "text-wrapper-15-date": "Tanggal:",
+          "text-wrapper-15-venue": "Tempat:",
+          "text-wrapper-16-cultural": "Pertunjukan Budaya",
+          "text-wrapper-16-culinary": "Sudut Kuliner",
+          "text-wrapper-19": "2025 ZoNa | Hak cipta dilindungi"
+        }
+      };
+
+      const engBtn = document.querySelector(".text-wrapper-20");
+      const indBtn = document.querySelector(".text-wrapper-21");
+      let currentLang = "eng";
+
+      function setLanguage(lang) {
+        const dict = texts[lang] || {};
+        
+        // Update simple text elements
+        const textWrapper = document.querySelector(".text-wrapper");
+        if (textWrapper) textWrapper.textContent = dict["text-wrapper"];
+
+        const textWrapper2 = document.querySelector(".text-wrapper-2");
+        if (textWrapper2) textWrapper2.textContent = dict["text-wrapper-2"];
+
+        const textWrapper3 = document.querySelector(".text-wrapper-3");
+        if (textWrapper3) textWrapper3.textContent = dict["text-wrapper-3"];
+
+        const textWrapper4 = document.querySelector(".text-wrapper-4");
+        if (textWrapper4) textWrapper4.textContent = dict["text-wrapper-4"];
+
+        const textWrapper5 = document.querySelector(".text-wrapper-5");
+        if (textWrapper5) textWrapper5.textContent = dict["text-wrapper-5"];
+
+        const textWrapper6 = document.querySelector(".text-wrapper-6");
+        if (textWrapper6) textWrapper6.textContent = dict["text-wrapper-6"];
+
+        const p = document.querySelector(".p");
+        if (p) p.textContent = dict["p"];
+
+        const textWrapper8 = document.querySelector(".text-wrapper-8");
+        if (textWrapper8) textWrapper8.textContent = dict["text-wrapper-8"];
+
+        const textWrapper9 = document.querySelector(".text-wrapper-9");
+        if (textWrapper9) textWrapper9.textContent = dict["text-wrapper-9"];
+
+        const textWrapper12 = document.querySelector(".text-wrapper-12");
+        if (textWrapper12) textWrapper12.textContent = dict["text-wrapper-12"];
+
+        const textWrapper19 = document.querySelector(".text-wrapper-19");
+        if (textWrapper19) textWrapper19.textContent = dict["text-wrapper-19"];
+
+        // Update complex paragraph with spans
+        const gemilangBudaya = document.querySelector(".gemilang-budaya");
+        if (gemilangBudaya) {
+          gemilangBudaya.innerHTML = `
+            <span class="span">Gemilang Budaya Melayu</span>
+            <span class="text-wrapper-13">${dict["text-wrapper-13-full"]}</span>
+          `;
+        }
+
+        // Update date and venue
+        const dateTBA = document.querySelector(".date-TBA-venue-TBA");
+        if (dateTBA) {
+          dateTBA.innerHTML = `
+            <span class="text-wrapper-15">${dict["text-wrapper-15-date"]}</span>
+            <span class="text-wrapper-13"> TBA<br /></span>
+            <span class="text-wrapper-15">${dict["text-wrapper-15-venue"]}</span>
+            <span class="text-wrapper-13"> TBA</span>
+          `;
+        }
+
+        // Update feature titles
+        const featureTitles = document.querySelectorAll(".text-wrapper-16");
+        if (featureTitles.length >= 2) {
+          featureTitles[0].textContent = dict["text-wrapper-16-cultural"];
+          featureTitles[1].textContent = dict["text-wrapper-16-culinary"];
+        }
+      }
+
+      function updateButtonFade() {
+        if (!engBtn || !indBtn) return;
+        if (currentLang === "eng") {
+          engBtn.style.opacity = "1";
+          indBtn.style.opacity = "0.5";
+        } else {
+          engBtn.style.opacity = "0.5";
+          indBtn.style.opacity = "1";
+        }
+      }
+
+      if (engBtn) engBtn.addEventListener("click", () => {
+        currentLang = "eng";
+        setLanguage(currentLang);
+        updateButtonFade();
+      });
+
+      if (indBtn) indBtn.addEventListener("click", () => {
+        currentLang = "ind";
+        setLanguage(currentLang);
+        updateButtonFade();
+      });
+
+      // Apply initial language
+      setLanguage(currentLang);
+      updateButtonFade();
+    </script>
   </body>
 </html>

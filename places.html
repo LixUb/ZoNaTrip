@@ -1,163 +1,313 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
-  	
-  	<link rel="stylesheet"  href="./places.css" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
-	<link rel="stylesheet" href="globals.css" />
-  	
-  	
-  	
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, width=device-width">
+
+  <link rel="stylesheet" href="./places.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=[object Object]&display=swap" />
+  <link rel="stylesheet" href="globals.css" />
+
+  <style>
+    /* Minimal overrides to help fitting text inside the fixed-size buttons.
+       These keep the visual design but allow JS to precisely measure and shrink text. */
+    .buttons b,
+    .places-page-1-buttons b,
+    .buttons2 b,
+    .buttons3 b,
+    .buttons4 b {
+      display: inline-block;      /* measured width will reflect content */
+      white-space: nowrap;        /* prefer single-line label; JS will allow wrapping only if needed */
+      line-height: 1;
+      transform-origin: left center;
+    }
+
+    /* if the JS ends up allowing wrapping (when text would become too small),
+       this helper class will make the label wrap and center vertically/horizontally. */
+    .wrap-allowed {
+      white-space: normal !important;
+      word-break: break-word;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  	
-  	<div class="places-page-1">
-    		<div class="places-page-1-child">
-    		</div>
-    		<b class="find-your-destination">Find your destination here.</b>
-    		<b class="weve-sorted-it-container">
-      			<span class="places-page-1-weve-sorted-it-container">
-        				<p class="weve-sorted-it">We’ve sorted it out for you.</p>
-        				<p class="weve-sorted-it">Check it out</p>
-      			</span>
-    		</b>
-    		<div class="navbar-parent">
-      			<img class="navbar-icon" src="icon/Rectangle 34.png" alt="">
-      			
-      			<div class="english-navbar">
-        				<b class="home" id="homeText">Home</b>
-        				<b class="accommodation" id="accommodationText">Accommodation</b>
-        				<b class="places" id="placesText">Places</b>
-        				<b class="events" id="eventsText">Events</b>
-        				<b class="gozona" id="goZoNaText">GoZoNa</b>
-      			</div>
-    		</div>
-    		<div class="header-bg">
-      			<div class="header-bg-child">
-      			</div>
-      			<div class="header-bg-item">
-      			</div>
-    		</div>
-    		<img class="accomodation-page-1-inner" src="images/zona.png" alt="">
-    		
-    		<img class="x-icon" src="images/x.png" alt="">
-    		
-    		<img class="youtube-icon" src="images/yt.png" alt="">
-    		
-    		<img class="instagram-icon" src="images/ig.png" alt="">
-    		
-    		<div class="zonaofficialgmailcom">zona.official@gmail.com</div>
-    		<div class="jl-engku-putri">Jl. Engku Putri Utara, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Indonesia</div>
-    		<img class="language-icon" src="icon/image.png" alt="">
-    		
-    		<img class="copyright-icon" src="image.png"  alt="">
-    		
-    		<div class="zona-all">2025 ZoNa | All rights reserved</div>
-    		<div class="translator">
-      			<div class="rectangle-parent">
-        				<div class="group-child">
-        				</div>
-        				<b class="eng">ENG</b>
-      			</div>
-      			<div class="rectangle-group">
-        				<div class="group-item">
-        				</div>
-        				<b class="ind">IND</b>
-      			</div>
-    		</div>
-    		<div class="buttons" id="buttonsContainer">
-      			<b class="shopping-center">Shopping Center</b>
-    		</div>
-    		<div class="places-page-1-buttons" id="buttonsContainer1">
-      			<b class="shopping-center">Religious Places</b>
-    		</div>
-    		<div class="buttons2" id="buttonsContainer2">
-      			<b class="shopping-center">Park and Nature</b>
-    		</div>
-    		<div class="buttons3" id="buttonsContainer3">
-      			<b class="shopping-center">Beaches</b>
-    		</div>
-    		<div class="buttons4" id="buttonsContainer4">
-      			<b class="shopping-center">Restaurants</b>
-    		</div>
-  	</div>
-  	
-  	
-  	
-  	
-  	<script>
-    		var homeText = document.getElementById("homeText");
-    		if(homeText) {
-      			homeText.addEventListener("click", function (e) {
-        				window.location.href = "Homepage.html"
-      			});
-    		}
-    		
-    		var accommodationText = document.getElementById("accommodationText");
-    		if(accommodationText) {
-      			accommodationText.addEventListener("click", function (e) {
-        				window.location.href = "accomodation.html"
-      			});
-    		}
-    		
-    		var placesText = document.getElementById("placesText");
-    		if(placesText) {
-      			placesText.addEventListener("click", function (e) {
-        				window.location.href = "places.html"
-      			});
-    		}
-    		
-    		var eventsText = document.getElementById("eventsText");
-    		if(eventsText) {
-      			eventsText.addEventListener("click", function (e) {
-        				window.location.href = "event.html"
-      			});
-    		}
-    		
-    		var goZoNaText = document.getElementById("goZoNaText");
-    		if(goZoNaText) {
-      			goZoNaText.addEventListener("click", function (e) {
-        				window.location.href = "gozona.html"
-      			});
-    		}
-    		
-    		var buttonsContainer = document.getElementById("buttonsContainer");
-    		if(buttonsContainer) {
-      			buttonsContainer.addEventListener("click", function (e) {
-        				window.location.href = "places/shop.html"
-      			});
-    		}
-    		
-    		var buttonsContainer1 = document.getElementById("buttonsContainer1");
-    		if(buttonsContainer1) {
-      			buttonsContainer1.addEventListener("click", function (e) {
-        				window.location.href = "places/rel.html"
-      			});
-    		}
-    		
-    		var buttonsContainer2 = document.getElementById("buttonsContainer2");
-    		if(buttonsContainer2) {
-      			buttonsContainer2.addEventListener("click", function (e) {
-        				window.location.href = "places/park.html"
-      			});
-    		}
-    		
-    		var buttonsContainer3 = document.getElementById("buttonsContainer3");
-    		if(buttonsContainer3) {
-      			buttonsContainer3.addEventListener("click", function (e) {
-        				window.location.href = "places/b.html"
-      			});
-    		}
-    		
-    		var buttonsContainer4 = document.getElementById("buttonsContainer4");
-    		if(buttonsContainer4) {
-      			buttonsContainer4.addEventListener("click", function (e) {
-        				window.location.href = "places/res.html"
-      			});
-    		}</script></body>
+
+  <div class="places-page-1">
+    <div class="places-page-1-child"></div>
+
+    <b class="find-your-destination">Find your destination here.</b>
+
+    <b class="weve-sorted-it-container">
+      <span class="places-page-1-weve-sorted-it-container">
+        <p class="weve-sorted-it">We’ve sorted it out for you.</p>
+        <p class="weve-sorted-it">Check it out</p>
+      </span>
+    </b>
+
+    <div class="navbar-parent">
+      <img class="navbar-icon" src="icon/Rectangle 34.png" alt="header-bg">
+      <div class="english-navbar">
+        <b class="home" id="homeText">Home</b>
+        <b class="accommodation" id="accommodationText">Accommodation</b>
+        <b class="places" id="placesText">Places</b>
+        <b class="events" id="eventsText">Events</b>
+        <b class="gozona" id="goZoNaText">GoZoNa</b>
+      </div>
+    </div>
+
+    <div class="header-bg">
+      <div class="header-bg-child"></div>
+      <div class="header-bg-item"></div>
+    </div>
+
+    <img class="accomodation-page-1-inner" src="images/zona.png" alt="logo">
+    <img class="x-icon" src="images/x.png" alt="x">
+    <img class="youtube-icon" src="images/yt.png" alt="youtube">
+    <img class="instagram-icon" src="images/ig.png" alt="instagram">
+
+    <div class="zonaofficialgmailcom">zona.official@gmail.com</div>
+    <div class="jl-engku-putri">Jl. Engku Putri Utara, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Indonesia</div>
+    <img class="language-icon" src="icon/image.png" alt="language">
+    <img class="copyright-icon" src="image.png" alt="copyright">
+    <div class="zona-all">2025 ZoNa | All rights reserved</div>
+
+    <div class="translator">
+      <div class="rectangle-parent">
+        <div class="group-child"></div>
+        <b class="eng">ENG</b>
+      </div>
+      <div class="rectangle-group">
+        <div class="group-item"></div>
+        <b class="ind">IND</b>
+      </div>
+    </div>
+
+    <!-- Buttons: note each container has a unique id so we can translate each separately -->
+    <div class="buttons" id="buttonsContainer">
+      <b class="shopping-center">Shopping Center</b>
+    </div>
+
+    <div class="places-page-1-buttons" id="buttonsContainer1">
+      <b class="shopping-center">Religious Places</b>
+    </div>
+
+    <div class="buttons2" id="buttonsContainer2">
+      <b class="shopping-center">Park and Nature</b>
+    </div>
+
+    <div class="buttons3" id="buttonsContainer3">
+      <b class="shopping-center">Beaches</b>
+    </div>
+
+    <div class="buttons4" id="buttonsContainer4">
+      <b class="shopping-center">Restaurants</b>
+    </div>
+  </div>
+
+  <script>
+    /*
+      Bilingual implementation (ENG / IND) for places.html with:
+      - selector-based translations so different buttons keep distinct translations
+      - a "fitTextToContainer" routine that shrinks text until it fits the fixed button box
+      - fallback to allowing wrapping (and using a minimum font size) if shrinking would make text unreadable
+      - consolidated navigation to keep links unchanged
+    */
+
+    // ---------- Navigation mapping (keeps original links) ----------
+    const navRoutes = {
+      homeText: "Homepage.html",
+      accommodationText: "accomodation.html",
+      placesText: "places.html",
+      eventsText: "event.html",
+      goZoNaText: "gozona.html"
+    };
+
+    Object.keys(navRoutes).forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener("click", () => { window.location.href = navRoutes[id]; });
+    });
+
+    // Buttons -> keep same links as original
+    const placeButtons = {
+      buttonsContainer: "places/shop.html",
+      buttonsContainer1: "places/rel.html",
+      buttonsContainer2: "places/park.html",
+      buttonsContainer3: "places/b.html",
+      buttonsContainer4: "places/res.html"
+    };
+
+    Object.keys(placeButtons).forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener("click", () => { window.location.href = placeButtons[id]; });
+    });
+
+    // ---------- Translation resources keyed by CSS selector ----------
+    // Use selectors (IDs or classes) so every button can have its own translation
+    const texts = {
+      eng: {
+        ".find-your-destination": "Find your destination here.",
+        ".places-page-1-weve-sorted-it-container": '<p class="weve-sorted-it">We&rsquo;ve sorted it out for you.</p><p class="weve-sorted-it">Check it out</p>',
+
+        "#buttonsContainer .shopping-center": "Shopping Center",
+        "#buttonsContainer1 .shopping-center": "Religious Places",
+        "#buttonsContainer2 .shopping-center": "Park and Nature",
+        "#buttonsContainer3 .shopping-center": "Beaches",
+        "#buttonsContainer4 .shopping-center": "Restaurants",
+
+        "#homeText": "Home",
+        "#accommodationText": "Accommodation",
+        "#placesText": "Places",
+        "#eventsText": "Events",
+        "#goZoNaText": "GoZoNa",
+
+        ".zona-all": "2025 ZoNa | All rights reserved"
+      },
+
+      ind: {
+        ".find-your-destination": "Temukan tujuanmu di sini.",
+        ".places-page-1-weve-sorted-it-container": '<p class="weve-sorted-it">Kami sudah memilahkannya untukmu.</p><p class="weve-sorted-it">Cek sekarang</p>',
+
+        "#buttonsContainer .shopping-center": "Pusat Perbelanjaan",
+        "#buttonsContainer1 .shopping-center": "Tempat Ibadah",
+        "#buttonsContainer2 .shopping-center": "Taman & Alam",
+        "#buttonsContainer3 .shopping-center": "Pantai",
+        "#buttonsContainer4 .shopping-center": "Restoran",
+
+        "#homeText": "Beranda",
+        "#accommodationText": "Akomodasi",
+        "#placesText": "Tempat",
+        "#eventsText": "Acara",
+        "#goZoNaText": "GoZoNa",
+
+        ".zona-all": "2025 ZoNa | Semua hak cipta dilindungi"
+      }
+    };
+
+    // ---------- Small helper to set text (supports HTML when value looks like HTML) ----------
+    function applyTranslationToSelector(selector, value) {
+      try {
+        const nodes = document.querySelectorAll(selector);
+        if (!nodes || nodes.length === 0) return;
+        nodes.forEach(node => {
+          if (typeof value === "string" && value.trim().startsWith("<")) {
+            node.innerHTML = value;
+          } else {
+            node.textContent = value;
+          }
+        });
+      } catch (err) {
+        // invalid selector - ignore
+        console.warn("Invalid selector in translations:", selector, err);
+      }
+    }
+
+    // ---------- Text-fit utilities for buttons ----------
+    function fitTextToContainer(textEl, containerEl, options = {}) {
+      // options: minSize, maxSize, allowWrapIfTooSmall
+      const minSize = options.minSize || 10;
+      const maxSize = options.maxSize || 22;
+      const allowWrap = options.allowWrapIfTooSmall || true;
+
+      if (!textEl || !containerEl) return;
+
+      // reset style to default starting point
+      textEl.style.whiteSpace = "nowrap";
+      textEl.classList.remove("wrap-allowed");
+      textEl.style.fontSize = maxSize + "px";
+
+      // quick measure — shrink until fits or reach minSize
+      let size = maxSize;
+      // use while loop but limit iterations for safety
+      let iterations = 0;
+      while ((textEl.scrollWidth > containerEl.clientWidth || textEl.scrollHeight > containerEl.clientHeight) && size > minSize && iterations < 100) {
+        size -= 1;
+        textEl.style.fontSize = size + "px";
+        iterations++;
+      }
+
+      // if we hit minSize and still doesn't fit, allow wrapping (longer but readable)
+      if ((textEl.scrollWidth > containerEl.clientWidth || textEl.scrollHeight > containerEl.clientHeight) && size <= minSize && allowWrap) {
+        // allow wrapping and use minSize (or slightly larger)
+        textEl.classList.add("wrap-allowed");
+        textEl.style.fontSize = Math.max(minSize, 12) + "px";
+        // if still overflowing vertically, we can further reduce font a bit
+        let iter2 = 0;
+        while ((textEl.scrollHeight > containerEl.clientHeight) && iter2 < 30) {
+          const cur = parseFloat(window.getComputedStyle(textEl).fontSize);
+          if (cur <= 9) break;
+          textEl.style.fontSize = (cur - 1) + "px";
+          iter2++;
+        }
+      }
+    }
+
+    // Run fit on all known buttons
+    const buttonSelectorsToFit = [
+      "#buttonsContainer .shopping-center",
+      "#buttonsContainer1 .shopping-center",
+      "#buttonsContainer2 .shopping-center",
+      "#buttonsContainer3 .shopping-center",
+      "#buttonsContainer4 .shopping-center"
+    ];
+
+    function fitAllButtons() {
+      buttonSelectorsToFit.forEach(sel => {
+        const label = document.querySelector(sel);
+        if (!label) return;
+      
+        const container = label.closest(".buttons, .places-page-1-buttons, .buttons2, .buttons3, .buttons4");
+        if (!container) return;
+        fitTextToContainer(label, container, { minSize: 10, maxSize: 20, allowWrapIfTooSmall: true });
+      });
+    }
+
+    const engBtn = document.querySelector(".eng");
+    const indBtn = document.querySelector(".ind");
+    let currentLang = "eng";
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      const dict = texts[lang] || {};
+      Object.keys(dict).forEach(selector => {
+        applyTranslationToSelector(selector, dict[selector]);
+      });
+
+      setTimeout(fitAllButtons, 10);
+
+      updateButtonFade();
+    }
+
+    function updateButtonFade() {
+      if (!engBtn || !indBtn) return;
+      if (currentLang === "eng") {
+        engBtn.style.opacity = "1";
+        indBtn.style.opacity = "0.5";
+      } else {
+        engBtn.style.opacity = "0.5";
+        indBtn.style.opacity = "1";
+      }
+    }
+
+    if (engBtn) engBtn.addEventListener("click", () => setLanguage("eng"));
+    if (indBtn) indBtn.addEventListener("click", () => setLanguage("ind"));
+
+    // Apply default language on load
+    window.addEventListener("load", () => {
+      setLanguage(currentLang);
+      // fit at load (in case default already present)
+      fitAllButtons();
+    });
+
+    // Re-fit on resize (debounced)
+    let _fitTimer = null;
+    window.addEventListener("resize", () => {
+      clearTimeout(_fitTimer);
+      _fitTimer = setTimeout(fitAllButtons, 120);
+    });
+  </script>
+</body>
 </html>

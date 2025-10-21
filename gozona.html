@@ -92,7 +92,7 @@
           <div class="text-wrapper-26">Tari Api</div>
         </div>
       </div>
-      <p class="text-wrapper-27">Try the experience, and engage with us in the ‘field’ trip</p>
+      <p class="text-wrapper-27">Try the experience, and engage with us in the 'field' trip</p>
       <a href="booking.html" target="_blank" class="buttons">
   <div class="text-wrapper-28">Book Now</div>
 </a>
@@ -133,6 +133,157 @@
         				window.location.href = "gozona.html"
       			});
     		}
+
+      const texts = {
+        eng: {
+          "nongsa-track": "> Nongsa Track",
+          "timetable": "> Timetable:",
+          "text-wrapper": "Discover two routes exclusively designed for the best experience",
+          "text-wrapper-2": "GoZoNa Overview",
+          "text-wrapper-7": "Your seamless way to explore Batam",
+          "discover-top-line1": "Discover top destinations, comfy rides,",
+          "discover-top-line2": "and curated experiences — all in one trip.",
+          "discover-top-line3": ", we collaborate with the government and local partners, delivering a comfortable, authentic cultural journey.",
+          "home": "Home",
+          "accommodation": "Accommodation",
+          "places": "Places",
+          "events": "Events",
+          "gozona4": "GoZoNa",
+          "barelang-passage": "> Barelang Passage",
+          "timetable-2": "> Timetable:",
+          "text-wrapper-22": "2025 ZoNa | All rights reserved",
+          "text-wrapper-25": "What are you waiting for?",
+          "text-wrapper-26-barelang": "Barelang Bridge",
+          "text-wrapper-26-tari": "Tari Api",
+          "text-wrapper-27": "Try the experience, and engage with us in the 'field' trip",
+          "text-wrapper-28": "Book Now"
+        },
+        ind: {
+          "nongsa-track": "> Jalur Nongsa",
+          "timetable": "> Jadwal:",
+          "text-wrapper": "Temukan dua rute yang dirancang khusus untuk pengalaman terbaik",
+          "text-wrapper-2": "GoZoNa Overview",
+          "text-wrapper-7": "Cara mudah untuk menjelajahi Batam",
+          "discover-top-line1": "Temukan destinasi terbaik, perjalanan nyaman,",
+          "discover-top-line2": "dan pengalaman yang dikurasi — semuanya dalam satu perjalanan.",
+          "discover-top-line3": ", kami berkolaborasi dengan pemerintah dan mitra lokal, menghadirkan perjalanan budaya yang nyaman dan autentik.",
+          "home": "Beranda",
+          "accommodation": "Akomodasi",
+          "places": "Tempat",
+          "events": "Acara",
+          "gozona4": "GoZoNa",
+          "barelang-passage": "> Jalur Barelang",
+          "timetable-2": "> Jadwal:",
+          "text-wrapper-22": "2025 ZoNa | Hak cipta dilindungi",
+          "text-wrapper-25": "Tunggu apa lagi?",
+          "text-wrapper-26-barelang": "Jembatan Barelang",
+          "text-wrapper-26-tari": "Tari Api",
+          "text-wrapper-27": "Coba pengalamannya, dan ikuti kami dalam perjalanan 'lapangan'",
+          "text-wrapper-28": "Pesan Sekarang"
+        }
+      };
+
+      const engBtn = document.querySelector(".text-wrapper-23");
+      const indBtn = document.querySelector(".text-wrapper-24");
+      let currentLang = "eng";
+
+      function setLanguage(lang) {
+        const dict = texts[lang] || {};
+        
+        const nongsa = document.querySelector(".nongsa-track");
+        if (nongsa) nongsa.textContent = dict["nongsa-track"];
+
+        const timetable = document.querySelector(".timetable");
+        if (timetable) timetable.textContent = dict["timetable"];
+
+        const textWrapper = document.querySelector(".text-wrapper");
+        if (textWrapper) textWrapper.textContent = dict["text-wrapper"];
+
+        const textWrapper2 = document.querySelector(".text-wrapper-2");
+        if (textWrapper2) textWrapper2.textContent = dict["text-wrapper-2"];
+
+        const textWrapper7 = document.querySelector(".text-wrapper-7");
+        if (textWrapper7) textWrapper7.textContent = dict["text-wrapper-7"];
+
+        const discoverTop = document.querySelector(".discover-top");
+        if (discoverTop) {
+          discoverTop.innerHTML = `
+            <span class="text-wrapper-8">${dict["discover-top-line1"]} <br />${dict["discover-top-line2"]}<br /></span>
+            <span class="text-wrapper-9"> <br />By </span>
+            <span class="text-wrapper-10">Go</span>
+            <span class="text-wrapper-11">Z</span>
+            <span class="text-wrapper-12">o</span>
+            <span class="text-wrapper-13">N</span>
+            <span class="text-wrapper-14">a</span>
+            <span class="text-wrapper-9">${dict["discover-top-line3"]}</span>
+          `;
+        }
+
+        const home = document.querySelector(".home");
+        if (home) home.textContent = dict["home"];
+
+        const accommodation = document.querySelector(".accommodation");
+        if (accommodation) accommodation.textContent = dict["accommodation"];
+
+        const places = document.querySelector(".places");
+        if (places) places.textContent = dict["places"];
+
+        const events = document.querySelector(".events");
+        if (events) events.textContent = dict["events"];
+
+        const gozona4 = document.querySelector(".gozona4");
+        if (gozona4) gozona4.textContent = dict["gozona4"];
+
+        const barelang = document.querySelector(".barelang-passage");
+        if (barelang) barelang.textContent = dict["barelang-passage"];
+
+        const timetable2 = document.querySelector(".timetable-2");
+        if (timetable2) timetable2.textContent = dict["timetable-2"];
+
+        const textWrapper22 = document.querySelector(".text-wrapper-22");
+        if (textWrapper22) textWrapper22.textContent = dict["text-wrapper-22"];
+
+        const textWrapper25 = document.querySelector(".text-wrapper-25");
+        if (textWrapper25) textWrapper25.textContent = dict["text-wrapper-25"];
+
+        const attractionTitles = document.querySelectorAll(".text-wrapper-26");
+        if (attractionTitles.length >= 2) {
+          attractionTitles[0].textContent = dict["text-wrapper-26-barelang"];
+          attractionTitles[1].textContent = dict["text-wrapper-26-tari"];
+        }
+
+        const textWrapper27 = document.querySelector(".text-wrapper-27");
+        if (textWrapper27) textWrapper27.textContent = dict["text-wrapper-27"];
+
+        const textWrapper28 = document.querySelector(".text-wrapper-28");
+        if (textWrapper28) textWrapper28.textContent = dict["text-wrapper-28"];
+      }
+
+      function updateButtonFade() {
+        if (!engBtn || !indBtn) return;
+        if (currentLang === "eng") {
+          engBtn.style.opacity = "1";
+          indBtn.style.opacity = "0.5";
+        } else {
+          engBtn.style.opacity = "0.5";
+          indBtn.style.opacity = "1";
+        }
+      }
+
+      if (engBtn) engBtn.addEventListener("click", () => {
+        currentLang = "eng";
+        setLanguage(currentLang);
+        updateButtonFade();
+      });
+
+      if (indBtn) indBtn.addEventListener("click", () => {
+        currentLang = "ind";
+        setLanguage(currentLang);
+        updateButtonFade();
+      });
+
+      setLanguage(currentLang);
+      updateButtonFade();
     		
     		</script>
   </body>

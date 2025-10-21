@@ -294,194 +294,168 @@ authentic cultural journey.</span>
     		</div>
   	</div>
   	
-  	
-  	
-  	
   	<script>
-    		var homeText = document.getElementById("homeText");
-    		if(homeText) {
-      			homeText.addEventListener("click", function (e) {
-        				window.location.href = "Homepage.html"
-      			});
-    		}
-    		
-    		var accommodationText = document.getElementById("accommodationText");
-    		if(accommodationText) {
-      			accommodationText.addEventListener("click", function (e) {
-        				window.location.href = "accomodation.html"
-      			});
-    		}
-    		
-    		var placesText = document.getElementById("placesText");
-    		if(placesText) {
-      			placesText.addEventListener("click", function (e) {
-        				window.location.href = "places.html"
-      			});
-    		}
-    		
-    		var eventsText = document.getElementById("eventsText");
-    		if(eventsText) {
-      			eventsText.addEventListener("click", function (e) {
-        				window.location.href = "event.html"
-      			});
-    		}
-    		
-    		var goZoNaText = document.getElementById("goZoNaText");
-    		if(goZoNaText) {
-      			goZoNaText.addEventListener("click", function (e) {
-        				window.location.href = "gozona.html"
-      			});
-    		}
-    		
-    		var buttonsContainer = document.getElementById("buttonsContainer");
-    		if(buttonsContainer) {
-      			buttonsContainer.addEventListener("click", function (e) {
-        				
-      			});
-    		}
-const texts = {
-  eng: {
-    "ready-to-explore": "Ready to explore Batam?",
-    "lost-is-not": "Lost is not an option anymore, Let ZoNa guide you like a local.",
-    "why-zona": "Why ZoNa?",
-    "top-rated-attraction": "Top-Rated Attraction",
-    "local-cuisines": "Local Cuisines",
-    "trip-everywhere": "Trip Everywhere",
-    "stay-comfortably": "Stay Comfortably",
-    "from-beaches-to-container": "From beaches to cultural gems, we’ve gathered it all.",
-    "discover-local-food-container": "Discover local food, cafes to seafood.",
-    "routes-recommendation-for-container": "Routes recommendation for you to travel easily.",
-    "find-hotels-and-container": "Find hotels and home-stays that suit your preferences.",
-    "try-the-experience": "Try the experience, then allow us to know your opinion",
-    "recommendation": "Recommendation",
-    "give-us-some": "Give us some star(s)?",
-    "users-review": "Users Review",
-    "connect-with-us": "Connect with Us",
-    "your-seamless-way": "Your seamless way to explore Batam",
-    "explore": "Explore",
-    "home": "Home",
-    "accommodation": "Accommodation",
-    "places": "Places",
-    "events": "Events",
-    "gozona": "GoZoNa",
-    "montigo-resort-nongsa": "Montigo Resort Nongsa",
-    "km-from-hang": "8.29 km from Hang Nadim Intl. Airport",
-    "km-from-batam": "24.3 km from Batam Center Ferry Port",
-    "km-from-nongsa": "0.96 km from Nongsa Beach",
-    "a-resort-with": "A resort with ocean view",
-    "pulau-penyengat": "Pulau Penyengat",
-    "km-from-tanjung": "~2 km from Tanjung Pinang",
-    "hour-from-punggur": "~1 hour from Punggur Ferry Port",
-    "luti-gendang": "Luti Gendang",
-    "fried-dough-filled": "Fried dough, filled with fish paste",
-    "savory-a-good": "Savory, a good company for tea time",
-    "available-at-most": "Available at most souvenirs shops",
-    "annual-event-held": "Annual event held by Batam Government",
-    "held-on-16-18": "Held on 16-18 May 2025",
-    "stay-tuned-for": "Stay tuned for next year’s KSM!",
-    "recommendation": "Recommendation",
-    "himmel": "Himmel",
-    "thorfinn": "Thorfinn",
-    "keroppi": "Keroppi",
-    "jm-keynes": "J.M. Keynes",
-    "pou": "Pou",
-    "the-website-is": "The website is very clear, helpful, and not confusing. There is also a recommendation part to show popular things, which helped me to make up my plans.",
-    "this-website-boosts": "This website boosts local producers by introducing them. Especially at holidays. Proud to say I’m one of the user.",
-    "kero-kero-keroppi": "“Kero kero keroppi!”",
-    "nya-nya-nya": "“Nya! Nya! Nya! Nya!”"
-  },
-  ind: {
-    "ready-to-explore": "Siap menjelajahi Batam?",
-    "lost-is-not": "Tersesat bukan lagi pilihan, biarkan ZoNa menuntunmu layaknya warga lokal.",
-    "why-zona": "Mengapa ZoNa?",
-    "top-rated-attraction": "Destinasi Terpopuler",
-    "local-cuisines": "Kuliner Lokal",
-    "trip-everywhere": "Perjalanan ke Mana Saja",
-    "stay-comfortably": "Menginap dengan Nyaman",
-    "from-beaches-to-container": "Dari pantai hingga warisan budaya, semuanya kami kumpulkan di sini.",
-    "discover-local-food-container": "Temukan makanan lokal, dari kafe hingga seafood.",
-    "routes-recommendation-for-container": "Rekomendasi rute agar perjalananmu lebih mudah.",
-    "find-hotels-and-container": "Temukan hotel dan penginapan sesuai keinginanmu.",
-    "try-the-experience": "Coba pengalamannya, lalu beri tahu pendapatmu.",
-    "recommendation": "Rekomendasi",
-    "give-us-some": "Beri kami bintang?",
-    "users-review": "Ulasan Pengguna",
-    "connect-with-us": "Terhubung dengan Kami",
-    "your-seamless-way": "Cara mudah untuk menjelajahi Batam",
-    "explore": "Jelajahi",
-    "home": "Beranda",
-    "accommodation": "Akomodasi",
-    "places": "Tempat",
-    "events": "Acara",
-    "gozona": "GoZoNa",
-    "montigo-resort-nongsa": "Montigo Resort Nongsa",
-    "km-from-hang": "8,29 km dari Bandara Hang Nadim",
-    "km-from-batam": "24,3 km dari Pelabuhan Feri Batam Center",
-    "km-from-nongsa": "0,96 km dari Pantai Nongsa",
-    "a-resort-with": "Resor dengan pemandangan laut",
-    "pulau-penyengat": "Pulau Penyengat",
-    "km-from-tanjung": "~2 km dari Tanjung Pinang",
-    "hour-from-punggur": "~1 jam dari Pelabuhan Feri Punggur",
-    "luti-gendang": "Luti Gendang",
-    "fried-dough-filled": "Roti goreng berisi ikan cincang",
-    "savory-a-good": "Gurih, cocok untuk teman teh sore",
-    "available-at-most": "Tersedia di sebagian besar toko oleh-oleh",
-    "annual-event-held": "Acara tahunan oleh Pemerintah Batam",
-    "held-on-16-18": "Diselenggarakan pada 16–18 Mei 2025",
-    "stay-tuned-for": "Nantikan Kenduri Seni Melayu tahun depan!",
-    "himmel": "Himmel",
-    "thorfinn": "Thorfinn",
-    "keroppi": "Keroppi",
-    "jm-keynes": "J.M. Keynes",
-    "pou": "Pou",
-    "the-website-is": "Situs ini sangat jelas, membantu, dan tidak membingungkan. Ada juga bagian rekomendasi untuk menunjukkan tempat populer yang membantu saya membuat rencana.",
-    "this-website-boosts": "Situs ini membantu produsen lokal dengan memperkenalkan mereka, terutama saat liburan. Bangga bisa menjadi salah satu penggunanya.",
-    "kero-kero-keroppi": "“Kero kero keroppi!”",
-    "nya-nya-nya": "“Nya! Nya! Nya! Nya!”"
-  }
-};
 
-// tombol
-const engBtn = document.querySelector(".eng");
-const indBtn = document.querySelector(".ind");
+    const navRoutes = {
+      homeText: "Homepage.html",
+      accommodationText: "accomodation.html",
+      placesText: "places.html",
+      eventsText: "event.html",
+      goZoNaText: "gozona.html"
+    };
 
-// bahasa default
-let currentLang = "eng";
-setLanguage(currentLang);
-updateButtonFade();
+    Object.keys(navRoutes).forEach(id => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.addEventListener("click", () => { window.location.href = navRoutes[id]; });
+      }
+    });
+    const texts = {
+      eng: {
+        "ready-to-explore": "Ready to explore Batam?",
+        "lost-is-not": "Lost is not an option anymore, Let ZoNa guide you like a local.",
+        "why-zona": "Why ZoNa?",
+        "top-rated-attraction": "Top-Rated Attraction",
+        "local-cuisines": "Local Cuisines",
+        "trip-everywhere": "Trip Everywhere",
+        "stay-comfortably": "Stay Comfortably",
+        "from-beaches-to-container": "From beaches to cultural gems, we’ve gathered it all.",
+        "discover-local-food-container": "Discover local food, cafes to seafood.",
+        "routes-recommendation-for-container": "Routes recommendation for you to travel easily.",
+        "find-hotels-and-container": "Find hotels and home-stays that suit your preferences.",
+        "try-the-experience": "Try the experience, then allow us to know your opinion",
+        "recommendation": "Recommendation",
+        "give-us-some": "Give us some star(s)?",
+        "users-review": "Users Review",
+        "connect-with-us": "Connect with Us",
+        "your-seamless-way": "Your seamless way to explore Batam",
+        "explore": "Explore",
+        "home": "Home",
+        "accommodation": "Accommodation",
+        "places": "Places",
+        "events": "Events",
+        "gozona": "GoZoNa",
+        "montigo-resort-nongsa": "Montigo Resort Nongsa",
+        "km-from-hang": "8.29 km from Hang Nadim Intl. Airport",
+        "km-from-batam": "24.3 km from Batam Center Ferry Port",
+        "km-from-nongsa": "0.96 km from Nongsa Beach",
+        "a-resort-with": "A resort with ocean view",
+        "pulau-penyengat": "Pulau Penyengat",
+        "km-from-tanjung": "~2 km from Tanjung Pinang",
+        "hour-from-punggur": "~1 hour from Punggur Ferry Port",
+        "luti-gendang": "Luti Gendang",
+        "fried-dough-filled": "Fried dough, filled with fish paste",
+        "savory-a-good": "Savory, a good company for tea time",
+        "available-at-most": "Available at most souvenirs shops",
+        "annual-event-held": "Annual event held by Batam Government",
+        "held-on-16-18": "Held on 16-18 May 2025",
+        "stay-tuned-for": "Stay tuned for next year’s KSM!",
+        "himmel": "Himmel",
+        "thorfinn": "Thorfinn",
+        "keroppi": "Keroppi",
+        "jm-keynes": "J.M. Keynes",
+        "pou": "Pou",
+        "the-website-is": "The website is very clear, helpful, and not confusing. There is also a recommendation part to show popular things, which helped me to make up my plans.",
+        "this-website-boosts": "This website boosts local producers by introducing them. Especially at holidays. Proud to say I’m one of the user.",
+        "kero-kero-keroppi": "“Kero kero keroppi!”",
+        "nya-nya-nya": "“Nya! Nya! Nya! Nya!”"
+      },
+      ind: {
+        "ready-to-explore": "Siap menjelajahi Batam?",
+        "lost-is-not": "Tersesat bukan lagi pilihan, biarkan ZoNa menuntunmu layaknya warga lokal.",
+        "why-zona": "Mengapa ZoNa?",
+        "top-rated-attraction": "Destinasi Terpopuler",
+        "local-cuisines": "Kuliner Lokal",
+        "trip-everywhere": "Perjalanan ke Mana Saja",
+        "stay-comfortably": "Menginap dengan Nyaman",
+        "from-beaches-to-container": "Dari pantai hingga warisan budaya, semuanya kami kumpulkan di sini.",
+        "discover-local-food-container": "Temukan makanan lokal, dari kafe hingga seafood.",
+        "routes-recommendation-for-container": "Rekomendasi rute agar perjalananmu lebih mudah.",
+        "find-hotels-and-container": "Temukan hotel dan penginapan sesuai keinginanmu.",
+        "try-the-experience": "Coba pengalamannya, lalu beri tahu pendapatmu.",
+        "recommendation": "Rekomendasi",
+        "give-us-some": "Beri kami bintang?",
+        "users-review": "Ulasan Pengguna",
+        "connect-with-us": "Terhubung dengan Kami",
+        "your-seamless-way": "Cara mudah untuk menjelajahi Batam",
+        "explore": "Jelajahi",
+        "home": "Beranda",
+        "accommodation": "Akomodasi",
+        "places": "Tempat",
+        "events": "Acara",
+        "gozona": "GoZoNa",
+        "montigo-resort-nongsa": "Montigo Resort Nongsa",
+        "km-from-hang": "8,29 km dari Bandara Hang Nadim",
+        "km-from-batam": "24,3 km dari Pelabuhan Feri Batam Center",
+        "km-from-nongsa": "0,96 km dari Pantai Nongsa",
+        "a-resort-with": "Resor dengan pemandangan laut",
+        "pulau-penyengat": "Pulau Penyengat",
+        "km-from-tanjung": "~2 km dari Tanjung Pinang",
+        "hour-from-punggur": "~1 jam dari Pelabuhan Feri Punggur",
+        "luti-gendang": "Luti Gendang",
+        "fried-dough-filled": "Roti goreng berisi ikan cincang",
+        "savory-a-good": "Gurih, cocok untuk teman teh sore",
+        "available-at-most": "Tersedia di sebagian besar toko oleh-oleh",
+        "annual-event-held": "Acara tahunan oleh Pemerintah Batam",
+        "held-on-16-18": "Diselenggarakan pada 16–18 Mei 2025",
+        "stay-tuned-for": "Nantikan Kenduri Seni Melayu tahun depan!",
+        "himmel": "Himmel",
+        "thorfinn": "Thorfinn",
+        "keroppi": "Keroppi",
+        "jm-keynes": "J.M. Keynes",
+        "pou": "Pou",
+        "the-website-is": "Situs ini sangat jelas, membantu, dan tidak membingungkan. Ada juga bagian rekomendasi untuk menunjukkan tempat populer yang membantu saya membuat rencana.",
+        "this-website-boosts": "Situs ini membantu produsen lokal dengan memperkenalkan mereka, terutama saat liburan. Bangga bisa menjadi salah satu penggunanya.",
+        "kero-kero-keroppi": "“Kero kero keroppi!”",
+        "nya-nya-nya": "“Nya! Nya! Nya! Nya!”"
+      }
+    };
 
-// event
-engBtn.addEventListener("click", () => {
-  currentLang = "eng";
-  setLanguage(currentLang);
-  updateButtonFade();
-});
 
-indBtn.addEventListener("click", () => {
-  currentLang = "ind";
-  setLanguage(currentLang);
-  updateButtonFade();
-});
+    const engBtn = document.querySelector(".eng");
+    const indBtn = document.querySelector(".ind");
+    let currentLang = "eng";
 
-// fungsi ganti bahasa
-function setLanguage(lang) {
-  for (const key in texts[lang]) {
-    const el = document.querySelector(`.${key}`);
-    if (el) el.textContent = texts[lang][key];
-  }
-}
+    function setLanguage(lang) {
+      const dict = texts[lang] || {};
+      Object.keys(dict).forEach(key => {
 
-// efek fade
-function updateButtonFade() {
-  if (currentLang === "eng") {
-    engBtn.style.opacity = "0.5";
-    indBtn.style.opacity = "1";
-  } else {
-    indBtn.style.opacity = "0.5";
-    engBtn.style.opacity = "1";
-  }
-}
-</script>
+        const selector = "." + (window.CSS && CSS.escape ? CSS.escape(key) : key.replace(/([^\w-])/g, "\\$1"));
+        const nodes = document.querySelectorAll(selector);
+        if (nodes && nodes.length) {
+          nodes.forEach(n => {
+            n.textContent = dict[key];
+          });
+        }
+      });
+    }
 
-			</script></body>
+    function updateButtonFade() {
+      if (!engBtn || !indBtn) return;
+      if (currentLang === "eng") {
+        engBtn.style.opacity = "1";
+        indBtn.style.opacity = "0.5";
+      } else {
+        engBtn.style.opacity = "0.5";
+        indBtn.style.opacity = "1";
+      }
+    }
+
+    if (engBtn) engBtn.addEventListener("click", () => {
+      currentLang = "eng";
+      setLanguage(currentLang);
+      updateButtonFade();
+    });
+
+    if (indBtn) indBtn.addEventListener("click", () => {
+      currentLang = "ind";
+      setLanguage(currentLang);
+      updateButtonFade();
+    });
+
+    // apply initial language
+    setLanguage(currentLang);
+    updateButtonFade();
+  </script>
+</body>
 </html>
