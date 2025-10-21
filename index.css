@@ -879,6 +879,19 @@
   	width: 411px;
   	height: 114px;
 }
+.kenduri {
+  	position: absolute;
+  	top: 240px;
+  	left: 0px;
+  	font-size: 30px;
+  	font-weight: 800;
+  	color: #f9f1da;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 411px;
+  	height: 114px;
+}
 .group-child12 {
   	position: absolute;
   	top: 25.82px;
