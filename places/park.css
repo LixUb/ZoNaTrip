@@ -1,767 +1,1405 @@
 .park-and-nature {
-  	width: 100%;
-  	position: relative;
-  	background-color: #fff;
-  	height: 3917px;
-  	overflow: hidden;
-  	text-align: left;
-  	font-size: 18px;
-  	color: #fff;
-  	font-family: 'Plus Jakarta Sans';
-}
-.bg {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	background: linear-gradient(0deg, #fff, #58a0c8);
-  	width: 1440px;
-  	height: 1000px;
-}
-.park-and-nature-park-and-nature {
-  	position: absolute;
-  	top: 244px;
-  	left: 100px;
-  	font-size: 75px;
-  	display: flex;
-  	font-family: Poppins;
-  	align-items: center;
-  	width: 716px;
-  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.footer-bg {
-  	position: absolute;
-  	top: 3301px;
-  	left: -33px;
-  	width: 1506px;
-  	height: 727px;
-}
-.footer-bg-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	border-radius: 500px;
-  	background-color: #092033;
-  	width: 1506px;
-  	height: 727px;
-}
-.footer-bg-item {
-  	position: absolute;
-  	top: 490px;
-  	left: 33px;
-  	background-color: #092033;
-  	width: 1440px;
-  	height: 126px;
-}
-.footer {
-  	position: absolute;
-  	top: 3411px;
-  	left: 202px;
-  	width: 1030px;
-  	height: 404px;
-  	text-align: center;
-  	font-size: 22px;
-}
-.logo-footer-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 440px;
-  	height: 124px;
-  	object-fit: cover;
-}
-.x-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 182px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.youtube-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 56px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.instagram-icon {
-  	position: absolute;
-  	top: 208px;
-  	left: 308px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.zonaofficialgmailcom {
-  	position: absolute;
-  	width: calc(100% - 755px);
-  	top: 6px;
-  	left: 553px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-}
-.jl-engku-putri {
-  	position: absolute;
-  	width: calc(100% - 553px);
-  	top: 62px;
-  	left: 553px;
-  	font-weight: 800;
-  	text-align: justify;
-  	display: flex;
-  	align-items: center;
-}
-.language-icon {
-  	position: absolute;
-  	top: 329px;
-  	left: 611px;
-  	width: 75px;
-  	height: 75px;
-  	object-fit: cover;
-}
-.copyright-icon {
-  	position: absolute;
-  	top: 354px;
-  	left: 57px;
-  	width: 20px;
-  	height: 20px;
-  	object-fit: cover;
-}
-.zona-all {
-  	position: absolute;
-  	top: 354px;
-  	left: 84px;
-  	font-size: 20px;
-  	font-weight: 300;
-  	font-family: Montserrat;
-  	text-align: left;
-}
-.translator {
-  	position: absolute;
-  	top: 329px;
-  	left: 706px;
-  	width: 321px;
-  	height: 75px;
-  	font-size: 45px;
-  	font-family: Poppins;
-}
-.rectangle-parent {
-  	position: absolute;
-  	height: 100%;
-  	width: 46.73%;
-  	top: 0%;
-  	right: 53.27%;
-  	bottom: 0%;
-  	left: 0%;
-}
-.group-child {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	border-radius: 20px;
-  	background-color: #fff;
-}
-.eng {
-  	position: absolute;
-  	width: 92.67%;
-  	top: 4%;
-  	left: 3.33%;
-  	display: flex;
-  	background: linear-gradient(90deg, #113f67 12.08%, #58a0c8 92.58%);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	align-items: center;
-  	justify-content: center;
-}
-.rectangle-group {
-  	position: absolute;
-  	height: 100%;
-  	width: 46.73%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 53.27%;
-}
-.group-item {
-  	position: absolute;
-  	height: 100%;
-  	width: 100%;
-  	top: 0%;
-  	right: 0%;
-  	bottom: 0%;
-  	left: 0%;
-  	border-radius: 20px;
-  	background-color: rgba(255, 255, 255, 0.5);
-}
-.ind {
-  	position: absolute;
-  	width: 92.67%;
-  	top: 4%;
-  	left: 3.33%;
-  	display: flex;
-  	background: linear-gradient(90deg, rgba(17, 63, 103, 0.5) 12.08%, rgba(88, 160, 200, 0.5) 92.58%);
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-  	align-items: center;
-  	justify-content: center;
-}
-.navbar {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 151px;
-  	text-align: center;
-  	font-size: 24px;
-}
-.navbar-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 1440px;
-  	height: 151px;
-  	object-fit: cover;
-}
-.english-navbar {
-  	position: absolute;
-  	top: 55px;
-  	left: 720px;
-  	width: 700px;
-  	height: 30px;
-}
-.home {
-  	position: absolute;
-  	top: calc(50% - 15px);
-  	left: 0px;
-  	cursor: pointer;
-}
-.accommodation {
-  	position: absolute;
-  	top: calc(50% - 16px);
-  	left: 109px;
-  	cursor: pointer;
-}
-.places {
-  	position: absolute;
-  	top: calc(50% - 17px);
-  	left: 345px;
-  	cursor: pointer;
-}
-.events {
-  	position: absolute;
-  	top: calc(50% - 18px);
-  	left: 461px;
-  	cursor: pointer;
-}
-.gozona {
-  	position: absolute;
-  	top: calc(50% - 19px);
-  	left: 578px;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 120px;
-  	height: 36px;
-  	cursor: pointer;
-}
-.panbil-nature-reserve {
-  	position: absolute;
-  	top: 450px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.park-and-nature-bg {
-  	position: absolute;
-  	top: 0px;
-  	left: calc(50% - 550px);
-  	border-radius: 50px;
-  	background-color: #113f67;
-  	width: 1100px;
-  	height: 650px;
-}
-.activities {
-  	position: absolute;
-  	top: 182px;
-  	left: calc(50% - 157px);
-  	font-size: 22px;
-  	font-weight: 800;
-  	display: flex;
-  	align-items: center;
-  	width: 130px;
-  	height: 25px;
-}
-.km-from-hang-container {
-  	position: absolute;
-  	top: 403px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.park-and-nature-km-from-hang-container {
-  	width: 100%;
-}
-.km {
-  	font-weight: 800;
-}
-.from-hang {
-  	font-weight: 600;
-  	white-space: pre-wrap;
-}
-.advance-booking-is-container {
-  	position: absolute;
-  	top: 409px;
-  	left: calc(50% - 467px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.is-required {
-  	font-weight: 600;
-}
-.airport-icon {
-  	position: absolute;
-  	top: 398px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.km-from-batam-container {
-  	position: absolute;
-  	top: 463px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.charges-apply {
-  	position: absolute;
-  	top: 583px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.gmt7 {
-  	position: absolute;
-  	top: 523px;
-  	left: calc(50% + 75px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.water-transportation-icon {
-  	position: absolute;
-  	top: 458px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.clock-icon {
-  	position: absolute;
-  	top: 518px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.cash-icon {
-  	position: absolute;
-  	top: 578px;
-  	left: 570px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.park-and-nature-panbil-nature-reserve {
-  	position: absolute;
-  	top: 22px;
-  	left: calc(50% - 157px);
-  	font-size: 38px;
-  	font-weight: 800;
-  	color: #f9f1da;
-  	text-align: center;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 675px;
-  	height: 45px;
-}
-.panbil-nature-reserve-child {
-  	position: absolute;
-  	top: 22px;
-  	left: calc(50% - 522px);
-  	border-radius: 50px;
-  	width: 340px;
-  	height: 340px;
-  	object-fit: cover;
-}
-.divider {
-  	position: absolute;
-  	top: 376px;
-  	left: calc(50% - 522px);
-  	background-color: #d9d9d9;
-  	width: 1040px;
-  	height: 2px;
-}
-.park-and-nature-divider {
-  	position: absolute;
-  	top: 381px;
-  	left: calc(50% + 1px);
-  	background-color: #d9d9d9;
-  	width: 265px;
-  	height: 2px;
-  	transform:  rotate(90deg);
-  	transform-origin: 0 0;
-}
-.address-jl-kantong-container {
-  	position: absolute;
-  	top: 460px;
-  	left: calc(50% - 522px);
-  	display: flex;
-  	align-items: center;
-  	width: 512px;
-  	height: 77px;
-  	font-size: 22px;
-}
-.address {
-  	margin: 0;
-  	font-weight: 800;
-}
-.jl-kantong-semar {
-  	margin: 0;
-  	font-size: 18px;
-  	font-weight: 600;
-}
-.visit-the-website {
-  	position: absolute;
-  	top: 578px;
-  	left: calc(50% - 157px);
-  	font-size: 14px;
-  	display: flex;
-  	font-style: italic;
-  	font-weight: 700;
-  	color: inherit;
-  	align-items: center;
-  	width: 120px;
-  	height: 30px;
-  	text-decoration: none;
-}
-.rating {
-  	position: absolute;
-  	top: 564px;
-  	left: 28px;
-  	width: 242px;
-  	height: 65px;
-  	font-size: 12px;
-}
-.rating-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.rating-item {
-  	position: absolute;
-  	top: 0px;
-  	left: 140px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.rating-inner {
-  	position: absolute;
-  	top: 0px;
-  	left: 105px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.star-icon {
-  	position: absolute;
-  	top: 0px;
-  	left: 35px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.park-and-nature-rating-child {
-  	position: absolute;
-  	top: 0px;
-  	left: 70px;
-  	border-radius: 1px;
-  	width: 35px;
-  	height: 35px;
-}
-.reviews-google {
-  	position: absolute;
-  	top: 35px;
-  	left: calc(50% - 121px);
-  	display: flex;
-  	font-weight: 600;
-  	align-items: center;
-  	width: 242px;
-  	height: 30px;
-}
-.forest-hiking {
-  	position: absolute;
-  	top: 226px;
-  	left: calc(50% - 92px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 129px;
-  	height: 25px;
-}
-.paintball-warzone {
-  	position: absolute;
-  	top: 330px;
-  	left: calc(50% - 92px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 168px;
-  	height: 25px;
-}
-.ecopark-and-edupark {
-  	position: absolute;
-  	top: 226px;
-  	left: calc(50% + 246px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 201px;
-  	height: 25px;
-}
-.camping {
-  	position: absolute;
-  	top: 278px;
-  	left: calc(50% + 246px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 201px;
-  	height: 25px;
-}
-.fun-atv {
-  	position: absolute;
-  	top: 278px;
-  	left: calc(50% - 92px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 129px;
-  	height: 25px;
-}
-.trekking-icon {
-  	position: absolute;
-  	top: 219px;
-  	left: 393px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.paintball-gun-icon {
-  	position: absolute;
-  	top: 323px;
-  	left: 393px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.atv-icon {
-  	position: absolute;
-  	top: 271px;
-  	left: 393px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.cat-footprint-icon {
-  	position: absolute;
-  	top: 219px;
-  	left: 731px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.camping-tent-icon {
-  	position: absolute;
-  	top: 271px;
-  	left: 731px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.chat-bubble-icon {
-  	position: absolute;
-  	top: 404px;
-  	left: 28px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.batam-zoo-paradise {
-  	position: absolute;
-  	top: 1135px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.visiting-in-the-container {
-  	position: absolute;
-  	top: 398px;
-  	left: calc(50% - 467px);
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 50px;
-}
-.park-and-nature-rating {
-  	position: absolute;
-  	top: 564px;
-  	left: 28px;
-  	width: 262px;
-  	height: 65px;
-  	font-size: 12px;
-}
-.reviews-on-google {
-  	position: absolute;
-  	top: 35px;
-  	left: calc(50% - 131px);
-  	display: flex;
-  	font-weight: 600;
-  	align-items: center;
-  	width: 262px;
-  	height: 30px;
-}
-.interact-with-animals {
-  	position: absolute;
-  	top: 226px;
-  	left: calc(50% - 92px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 201px;
-  	height: 25px;
-}
-.waterpark {
-  	position: absolute;
-  	top: 278px;
-  	left: calc(50% - 92px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 201px;
-  	height: 25px;
-}
-.horse-ride {
-  	position: absolute;
-  	top: 330px;
-  	left: calc(50% - 92px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 201px;
-  	height: 25px;
-}
-.park-and-nature-chat-bubble-icon {
-  	position: absolute;
-  	top: 403px;
-  	left: 28px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-}
-.park-and-nature-instagram-icon {
-  	position: absolute;
-  	top: 579px;
-  	left: 428px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-  	cursor: pointer;
-}
-.tiktok-icon {
-  	position: absolute;
-  	top: 579px;
-  	left: 483px;
-  	width: 40px;
-  	height: 40px;
-  	object-fit: cover;
-  	cursor: pointer;
-}
-.nongsa-park-batam-botanic-gar {
-  	position: absolute;
-  	top: 1820px;
-  	left: calc(50% - 550px);
-  	width: 1100px;
-  	height: 650px;
-}
-.free-entry {
-  	position: absolute;
-  	top: 583px;
-  	left: calc(50% + 75px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 440px;
-  	height: 30px;
-}
-.kebun-raya-batam {
-  	position: absolute;
-  	top: 22px;
-  	left: calc(50% - 157px);
-  	font-size: 37px;
-  	font-weight: 800;
-  	color: #f9f1da;
-  	text-align: center;
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	width: 675px;
-  	height: 45px;
-}
-.batam-botanical-gardens {
-  	position: absolute;
-  	top: 77px;
-  	left: calc(50% - 157px);
-  	font-weight: 600;
-  	display: flex;
-  	align-items: center;
-  	width: 675px;
-  	height: 80px;
-}
-.we-are-upgrading {
-  	position: absolute;
-  	top: 2820px;
-  	left: calc(50% - 297px);
-  	font-size: 32px;
-  	display: flex;
-  	font-weight: 700;
-  	font-family: Nunito;
-  	color: rgba(9, 32, 51, 0.5);
-  	text-align: center;
-  	align-items: center;
-  	justify-content: center;
-  	width: 595px;
-  	height: 129px;
-  	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 3917px;
+  position: relative;
 }
 
+.park-and-nature .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1000px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(88, 160, 200, 1) 100%
+  );
+}
+
+.park-and-nature .text-wrapper {
+  position: absolute;
+  top: 244px;
+  left: 100px;
+  width: 716px;
+  height: 113px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .footer-bg {
+  position: absolute;
+  top: 3301px;
+  left: -33px;
+  width: 1506px;
+  height: 727px;
+  display: flex;
+  background-color: #092033;
+  border-radius: 500px;
+}
+
+.park-and-nature .rectangle {
+  margin-top: 490px;
+  width: 1440px;
+  height: 126px;
+  margin-left: 33px;
+  background-color: #091f32;
+}
+
+.park-and-nature .footer {
+  position: absolute;
+  top: 3411px;
+  left: 202px;
+  width: 1036px;
+  height: 404px;
+  background-color: transparent;
+}
+
+.park-and-nature .logo-footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 440px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.park-and-nature .x {
+  position: absolute;
+  top: 208px;
+  left: 182px;
+  width: 75px;
+  height: 75px;
+}
+
+.park-and-nature .you-tube {
+  position: absolute;
+  top: 208px;
+  left: 56px;
+  width: 75px;
+  height: 75px;
+}
+
+.park-and-nature .instagram {
+  position: absolute;
+  top: 208px;
+  left: 308px;
+  width: 75px;
+  height: 75px;
+}
+
+.park-and-nature .div {
+  position: absolute;
+  width: calc(100% - 761px);
+  top: 6px;
+  left: 553px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .p {
+  position: absolute;
+  width: calc(100% - 559px);
+  top: 62px;
+  left: 553px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .language {
+  position: absolute;
+  top: 329px;
+  left: 611px;
+  width: 75px;
+  height: 75px;
+}
+
+.park-and-nature .copyright {
+  position: absolute;
+  top: 354px;
+  left: 57px;
+  width: 20px;
+  height: 20px;
+}
+
+.park-and-nature .text-wrapper-2 {
+  position: absolute;
+  top: 354px;
+  left: 84px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.park-and-nature .translator {
+  position: absolute;
+  top: 329px;
+  left: 706px;
+  width: 321px;
+  height: 75px;
+  display: flex;
+  gap: 19px;
+}
+
+.park-and-nature .group {
+  width: 152px;
+  height: 75px;
+  position: relative;
+}
+
+.park-and-nature .rectangle-2 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.park-and-nature .text-wrapper-3 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 1) 12%,
+    rgba(88, 160, 200, 1) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .rectangle-3 {
+  position: absolute;
+  width: 98.68%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ffffff80;
+  border-radius: 20px;
+}
+
+.park-and-nature .text-wrapper-4 {
+  position: absolute;
+  width: 91.45%;
+  height: 90.67%;
+  top: 4.00%;
+  left: 3.29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(17, 63, 103, 0.5) 12%,
+    rgba(88, 160, 200, 0.5) 93%
+  );
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 151px;
+  display: flex;
+  background-image: url(https://c.animaapp.com/mh0lt6dj64fOzG/img/navbar.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.park-and-nature .navbar-2 {
+  margin-top: 55px;
+  width: 700px;
+  margin-left: 720px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.park-and-nature .text-wrapper-5 {
+  width: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-6 {
+  width: 198px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-7 {
+  width: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-8 {
+  width: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2px;
+  height: 36px;
+  width: 120px;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .panbil-nature {
+  position: absolute;
+  top: 450px;
+  left: calc(50.00% - 550px);
+  width: 1130px;
+  height: 650px;
+}
+
+.park-and-nature .bg-2 {
+  left: calc(50.00% - 565px);
+  position: absolute;
+  top: 0;
+  width: 1100px;
+  height: 650px;
+  background-color: #113f67;
+  border-radius: 50px;
+}
+
+.park-and-nature .text-wrapper-10 {
+  position: absolute;
+  top: 182px;
+  left: calc(50.00% - 172px);
+  width: 130px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.park-and-nature .element-km-from-hang {
+  position: absolute;
+  top: 403px;
+  left: calc(50.00% + 60px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .span {
+  font-weight: 800;
+}
+
+.park-and-nature .text-wrapper-11 {
+  font-weight: 600;
+}
+
+.park-and-nature .advance-booking-is {
+  position: absolute;
+  top: 409px;
+  left: calc(50.00% - 482px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-12 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.park-and-nature .text-wrapper-13 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.park-and-nature .airport {
+  position: absolute;
+  top: 398px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .element-km-from-batam {
+  position: absolute;
+  top: 463px;
+  left: calc(50.00% + 60px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .charges-apply {
+  position: absolute;
+  top: 583px;
+  left: calc(50.00% + 60px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .element-GMT {
+  position: absolute;
+  top: 523px;
+  left: calc(50.00% + 60px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .water-transportation {
+  position: absolute;
+  top: 458px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .clock {
+  position: absolute;
+  top: 518px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .cash {
+  position: absolute;
+  top: 578px;
+  left: 570px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .text-wrapper-14 {
+  position: absolute;
+  top: 22px;
+  left: calc(50.00% - 172px);
+  width: 675px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 38px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.park-and-nature .img {
+  position: absolute;
+  top: 22px;
+  left: calc(50.00% - 537px);
+  width: 340px;
+  height: 340px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.park-and-nature .divider {
+  top: 376px;
+  left: calc(50.00% - 537px);
+  width: 1040px;
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.park-and-nature .divider-2 {
+  top: 512px;
+  left: calc(50.00% - 148px);
+  width: 265px;
+  transform: rotate(90deg);
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.park-and-nature .address-jl-kantong {
+  position: absolute;
+  top: 460px;
+  left: calc(50.00% - 537px);
+  width: 512px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-15 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.park-and-nature .text-wrapper-16 {
+  position: absolute;
+  top: 578px;
+  left: calc(50.00% - 172px);
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .rating {
+  position: absolute;
+  top: 564px;
+  left: 28px;
+  width: 244px;
+  height: 65px;
+}
+
+.park-and-nature .star {
+  left: 3px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.park-and-nature .star-2 {
+  left: 143px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.park-and-nature .star-3 {
+  left: 108px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.park-and-nature .star-4 {
+  left: 38px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.park-and-nature .star-5 {
+  left: 73px;
+  position: absolute;
+  top: 2px;
+  width: 29px;
+  height: 28px;
+}
+
+.park-and-nature .text-wrapper-17 {
+  position: absolute;
+  top: 35px;
+  left: calc(50.00% - 122px);
+  width: 242px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-18 {
+  position: absolute;
+  top: 77px;
+  left: calc(50.00% - 172px);
+  width: 675px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-19 {
+  position: absolute;
+  top: 226px;
+  left: calc(50.00% - 107px);
+  width: 129px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-20 {
+  position: absolute;
+  top: 330px;
+  left: calc(50.00% - 107px);
+  width: 168px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-21 {
+  position: absolute;
+  top: 226px;
+  left: calc(50.00% + 231px);
+  width: 201px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-22 {
+  position: absolute;
+  top: 278px;
+  left: calc(50.00% + 231px);
+  width: 201px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-23 {
+  position: absolute;
+  top: 278px;
+  left: calc(50.00% - 107px);
+  width: 129px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .img-2 {
+  position: absolute;
+  top: 219px;
+  left: 393px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .img-3 {
+  position: absolute;
+  top: 323px;
+  left: 393px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .img-4 {
+  position: absolute;
+  top: 271px;
+  left: 393px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .cat-footprint {
+  position: absolute;
+  top: 219px;
+  left: 731px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .camping-tent {
+  position: absolute;
+  top: 271px;
+  left: 731px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .chat-bubble {
+  position: absolute;
+  top: 404px;
+  left: 28px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .batam-zoo-paradise {
+  position: absolute;
+  top: 1135px;
+  left: calc(50.00% - 550px);
+  width: 1124px;
+  height: 650px;
+}
+
+.park-and-nature .bg-3 {
+  left: calc(50.00% - 562px);
+  position: absolute;
+  top: 0;
+  width: 1100px;
+  height: 650px;
+  background-color: #113f67;
+  border-radius: 50px;
+}
+
+.park-and-nature .text-wrapper-24 {
+  left: calc(50.00% - 169px);
+  position: absolute;
+  top: 182px;
+  width: 130px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.park-and-nature .element-km-from-hang-2 {
+  position: absolute;
+  top: 403px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .visiting-in-the {
+  position: absolute;
+  top: 398px;
+  left: calc(50.00% - 479px);
+  width: 440px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .element-km-from-batam-2 {
+  position: absolute;
+  top: 463px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .charges-apply-2 {
+  position: absolute;
+  top: 583px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .element-GMT-2 {
+  position: absolute;
+  top: 523px;
+  left: calc(50.00% + 63px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .batam-zoo-paradise-2 {
+  top: 22px;
+  height: 45px;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 38px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  left: calc(50.00% - 169px);
+  width: 675px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .rectangle-4 {
+  left: calc(50.00% - 534px);
+  position: absolute;
+  top: 22px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.park-and-nature .divider-3 {
+  top: 376px;
+  left: calc(50.00% - 534px);
+  width: 1040px;
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.park-and-nature .divider-4 {
+  position: absolute;
+  top: 512px;
+  left: calc(50.00% - 144px);
+  width: 265px;
+  height: 2px;
+  background-color: #d9d9d9;
+  transform: rotate(90deg);
+}
+
+.park-and-nature .address-sadai-kec {
+  position: absolute;
+  top: 460px;
+  left: calc(50.00% - 534px);
+  width: 512px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .rating-2 {
+  position: absolute;
+  top: 564px;
+  left: 28px;
+  width: 264px;
+  height: 65px;
+}
+
+.park-and-nature .text-wrapper-25 {
+  position: absolute;
+  top: 35px;
+  left: calc(50.00% - 132px);
+  width: 262px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-26 {
+  top: 77px;
+  height: 80px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  left: calc(50.00% - 169px);
+  width: 675px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-27 {
+  position: absolute;
+  top: 226px;
+  left: calc(50.00% - 104px);
+  width: 201px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-28 {
+  position: absolute;
+  top: 278px;
+  left: calc(50.00% - 104px);
+  width: 201px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-29 {
+  position: absolute;
+  top: 330px;
+  left: calc(50.00% - 104px);
+  width: 201px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .chat-bubble-2 {
+  position: absolute;
+  top: 403px;
+  left: 28px;
+  width: 40px;
+  height: 40px;
+}
+
+.park-and-nature .instagram-2 {
+  left: 428px;
+  position: absolute;
+  top: 579px;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://c.animaapp.com/mh0lt6dj64fOzG/img/instagram-2.png);
+  background-size: 100% 100%;
+}
+
+.park-and-nature .tik-tok {
+  position: absolute;
+  top: 579px;
+  left: 483px;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://c.animaapp.com/mh0lt6dj64fOzG/img/tiktok.png);
+  background-size: 100% 100%;
+}
+
+.park-and-nature .nongsa-park-batam {
+  position: absolute;
+  top: 1820px;
+  left: calc(50.00% - 550px);
+  width: 1122px;
+  height: 650px;
+}
+
+.park-and-nature .bg-4 {
+  left: calc(50.00% - 561px);
+  position: absolute;
+  top: 0;
+  width: 1100px;
+  height: 650px;
+  background-color: #113f67;
+  border-radius: 50px;
+}
+
+.park-and-nature .text-wrapper-30 {
+  left: calc(50.00% - 168px);
+  position: absolute;
+  top: 182px;
+  width: 130px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.park-and-nature .element-km-from-hang-3 {
+  position: absolute;
+  top: 403px;
+  left: calc(50.00% + 64px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .the-park-is-still {
+  position: absolute;
+  top: 398px;
+  left: calc(50.00% - 478px);
+  width: 440px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .element-km-from-batam-3 {
+  position: absolute;
+  top: 463px;
+  left: calc(50.00% + 64px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-31 {
+  position: absolute;
+  top: 583px;
+  left: calc(50.00% + 64px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .element-GMT-3 {
+  position: absolute;
+  top: 523px;
+  left: calc(50.00% + 64px);
+  width: 440px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-32 {
+  position: absolute;
+  top: 22px;
+  left: calc(50.00% - 168px);
+  width: 675px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 800;
+  color: #f9f1da;
+  font-size: 37px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .rectangle-5 {
+  left: calc(50.00% - 533px);
+  position: absolute;
+  top: 22px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50px;
+  border: 5px solid;
+  border-color: #ffffff;
+  object-fit: cover;
+}
+
+.park-and-nature .divider-5 {
+  top: 376px;
+  left: calc(50.00% - 533px);
+  width: 1040px;
+  position: absolute;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.park-and-nature .address-jl-hang {
+  position: absolute;
+  top: 460px;
+  left: calc(50.00% - 533px);
+  width: 512px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-33 {
+  position: absolute;
+  top: 77px;
+  left: calc(50.00% - 168px);
+  width: 675px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-34 {
+  position: absolute;
+  top: 226px;
+  left: calc(50.00% - 103px);
+  width: 201px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .text-wrapper-35 {
+  position: absolute;
+  top: 278px;
+  left: calc(50.00% - 103px);
+  width: 201px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.park-and-nature .instagram-3 {
+  left: 483px;
+  position: absolute;
+  top: 579px;
+  width: 40px;
+  height: 40px;
+  background-image: url(https://c.animaapp.com/mh0lt6dj64fOzG/img/instagram-2.png);
+  background-size: 100% 100%;
+}
+
+.park-and-nature .text-wrapper-36 {
+  position: absolute;
+  top: 2820px;
+  left: calc(50.00% - 297px);
+  width: 595px;
+  height: 129px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Nunito", Helvetica;
+  font-weight: 700;
+  font-style: italic;
+  color: #09203380;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
