@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Booking Form - Indonesian Citizen | ZoNa</title>
+
+  <!-- Styles: kept visually similar to original design, with the full menu/navbar from the original -->
+  <style>
+    :root{
+      --bg:#113f67;
+      --panel:#092033;
+      --white:#ffffff;
+      --muted:#ffffff80;
+      --accent1:#58a0c8;
+      --accent2:#ae1d00;
+      font-family: "Nunito", "Poppins", Helvetica, Arial, sans-serif;
+    }
+
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--white);-webkit-font-smoothing:antialiased}
+    .container{min-width:320px;max-width:1100px;margin:24px auto;padding:24px;position:relative}
+
+    /* Header / navbar visuals (kept compact for responsive, plus original large navbar image & items) */
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;position:relative}
+    header .brand{display:flex;align-items:center;gap:16px;z-index:2}
+    header .brand img{height:54px}
+    header nav{display:flex;gap:18px;align-items:center}
+    header nav b{cursor:pointer;font-weight:700}
+
+    /* Preserve original big navbar image and absolute menu styling from full form */
+    .navbar{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1440px;
+      height: 151px;
+      object-fit: cover;
+      z-index:1;
+      opacity:0.95;
+    }
+    .navbar-2{
+      position:absolute;
+      top:55px;
+      left:720px;
+      width:700px;
+      height:30px;
+      display:flex;
+      align-items:center;
+      gap:38px;
+      font-size:24px;
+      color:#fff;
+      z-index:2;
+    }
+    .navbar-2 b{font-family:"Plus Jakarta Sans",Helvetica;font-weight:700;cursor:pointer}
+
+    /* Main title */
+    h1{font-family:"Poppins",sans-serif;font-size:32px;margin:6px 0 18px;text-align:center}
+    p.lead{text-align:center;margin-top:0;color:var(--muted)}
+
+    /* Form panel */
+    .panel{background:linear-gradient(0deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));border-radius:18px;padding:20px;border:3px solid rgba(255,255,255,0.06)}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media (max-width:800px){.grid{grid-template-columns:1fr}}
+
+    label.field{display:block;font-weight:700;font-size:14px;margin-bottom:6px;color:var(--white)}
+    input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+      width:100%;box-sizing:border-box;padding:12px 14px;border-radius:12px;border:2px solid var(--white);background:transparent;color:var(--white);
+      font-size:16px;outline:none;
+    }
+    textarea{min-height:120px;resize:vertical}
+    .file-area{
+      position:relative;border-radius:12px;border:2px dashed rgba(255,255,255,0.2);padding:14px;display:flex;align-items:center;gap:12px;cursor:pointer;
+      min-height:160px;justify-content:center;text-align:center;background:rgba(255,255,255,0.01)
+    }
+    input[type="file"]{display:none}
+
+    .preview{max-width:120px;max-height:120px;border-radius:10px;object-fit:cover;border:2px solid rgba(255,255,255,0.06)}
+    .file-info{font-size:14px;color:var(--muted)}
+
+    .checkbox-row{display:flex;align-items:center;gap:12px;margin-top:8px}
+    .checkbox-row input[type="checkbox"]{transform:scale(1.1)}
+
+    .submit-row{display:flex;gap:12px;align-items:center;justify-content:flex-end;margin-top:18px}
+    button.btn{
+      background:linear-gradient(90deg,var(--accent2),var(--accent1));color:#fff;padding:12px 20px;border-radius:12px;border:none;font-weight:800;cursor:pointer;
+      box-shadow:0 6px 18px rgba(0,0,0,0.35)
+    }
+    button.btn[disabled]{opacity:0.6;cursor:default}
+
+    .note{font-size:13px;color:var(--muted);margin-top:10px}
+
+    .success-msg,.error-msg{padding:12px;border-radius:10px;margin-top:12px;font-weight:700}
+    .success-msg{background:rgba(88,160,200,0.12);color:var(--accent1);border:1px solid rgba(88,160,200,0.2)}
+    .error-msg{background:rgba(174,29,0,0.06);color:var(--accent2);border:1px solid rgba(174,29,0,0.12)}
+
+    /* Keep some of the original full-form positioning classes lightly so the menu items align visually */
+    .text-wrapper-11{position:relative;font-family:"Poppins",Helvetica;font-weight:700;color:var(--white);font-size:32px;text-align:center;margin:30px 0}
+  </style>
+</head>
+<body>
+    
+  <!-- Include the original big navbar image and menu so the page matches the full form -->
+  <img class="navbar" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/navbar.png" alt="navbar" />
+
+  <!-- The visible header (brand + compact nav) sits above the big navbar image -->
+  <header class="container" role="banner">
+    <div class="brand">
+      <img src="https://c.animaapp.com/mguhqq2lSO6S3h/img/logo-footer.png" alt="ZoNa logo" />
+      <div>
+        <div style="font-weight:800;font-size:18px">ZoNa Booking</div>
+        <div style="font-size:13px;color:var(--muted)">Jl. Engku Putri Utara, Batam</div>
+      </div>
+    </div>
+
+    <!-- Original full-form navbar menu (positioned over the navbar image) -->
+    <div class="navbar-2" aria-label="Primary navigation">
+      <b class="home" id="homeText">Home</b>
+      <b class="accommodation" id="accommodationText">Accommodation</b>
+      <b class="places" id="placesText">Places</b>
+      <b class="events" id="eventsText">Events</b>
+      <b class="gozona4" id="goZoNaText">GoZoNa</b>
+    </div>
+
+    <!-- Compact fallback nav (for smaller screens) -->
+    <nav aria-hidden="true" style="display:none"></nav>
+  </header>
+
+  <div class="container">
+    <main>
+      <h1 class="text-wrapper-11">Booking Form: Indonesian Citizen</h1>
+      <p class="lead">Apa yang ingin kamu nikmati nanti? (Maks 10 orang per pesanan)</p>
+
+      <!-- Full original-like form: wrapped content kept visually identical to original but now functional -->
+      <form id="bookingForm" class="panel" action="/api/booking" method="post" enctype="multipart/form-data" novalidate>
+        <!-- hidden form type to tell server which variant -->
+        <input type="hidden" name="formType" value="local">
+
+        <div class="grid">
+          <div>
+            <!-- Keep original placement by using same classes but make inputs flow inside panel -->
+            <label class="field">Nama</label>
+            <input type="text" class="label-nama" id="nama" name="nama" placeholder="Masukkan nama lengkap" required style="position:static;border-radius:12px;height:auto;font-size:18px;padding:12px;">
+
+            <label class="field" style="margin-top:12px">Alamat Email Aktif</label>
+            <input type="email" class="label-email" id="email" name="email" placeholder="contoh@email.com" required style="position:static;border-radius:12px;height:auto;font-size:18px;padding:12px;">
+
+            <label class="field" style="margin-top:12px">Nomor Telepon Aktif / Whatsapp</label>
+            <input type="tel" class="label-telp" id="telp" name="telp" placeholder="+62 812-3456-7890" required style="position:static;border-radius:12px;height:auto;font-size:18px;padding:12px;">
+
+            <label class="field" style="margin-top:12px">Jumlah Tamu*</label>
+            <input type="text" class="label-tamu" id="tamu" name="jumlahTamu" placeholder="Masukkan jumlah (maks 10)" inputmode="numeric" required style="position:static;border-radius:12px;height:auto;font-size:18px;padding:12px;">
+            <div class="note">*Maksimal 10 orang per pesanan</div>
+          </div>
+
+          <div>
+            <label class="field">Catatan (Booking)*</label>
+            <textarea class="label-catatan" id="catatan" name="catatan" placeholder="Tulis catatan booking..." style="position:static;border-radius:12px;"></textarea>
+
+            <label class="field" style="margin-top:12px">Catatan Makanan (opsional)</label>
+            <!-- If original layout had a separate catatan makanan area, we include it as well -->
+            <textarea class="label-catatan-makanan" id="catatanMakanan" name="catatanMakanan" placeholder="Catatan makanan (opsional)" style="position:static;border-radius:12px;"></textarea>
+
+            <!-- File upload area: keeps original file label and preview image -->
+            <label for="uploadKTP" class="file-label" id="fileLabel" style="position:static;cursor:pointer;display:flex;align-items:center;gap:12px;padding:12px;border:2px dashed rgba(255,255,255,0.12);border-radius:12px;">
+              <img id="previewImage" class="preview" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-51.png" alt="preview" />
+              <div style="color:var(--muted)">
+                <div style="font-weight:800">Klik untuk upload KTP/Paspor</div>
+                <div class="file-info">(maks 5MB, format jpg/png)</div>
+              </div>
+            </label>
+            <input type="file" id="uploadKTP" name="fileIdentitas" accept="image/*" required>
+          </div>
+        </div>
+
+        <div class="checkbox-row" style="margin-top:16px;">
+          <!-- Add hidden checkbox input but visually keep the rectangle style -->
+          <label class="checklist" style="cursor:pointer;display:flex;align-items:center;gap:12px">
+            <input type="checkbox" id="setuju" name="setuju" value="true" style="position:relative;width:18px;height:18px;"/>
+            <div style="font-size:14px;color:var(--muted)">Saya setuju dengan <strong style="color:var(--white)">Syarat &amp; Ketentuan</strong> dan izin penggunaan identitas untuk verifikasi harga</div>
+          </label>
+        </div>
+
+        <div class="submit-row">
+          <div id="feedback" style="flex:1"></div>
+          <button class="btn" type="submit" id="submitBtn">Kirim Pesanan</button>
+        </div>
+      </form>
+
+      <p class="note" style="margin-top:18px">*Kartu identitas hanya untuk memverifikasi kelayakan harga. Data pribadi anda akan kami jaga sepenuhnya.</p>
+    </main>
+  </div>
+  <footer class="site-footer" role="contentinfo" aria-label="Site footer">
+  <img class="logo-footer" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/logo-footer.png" alt="ZoNa logo" />
+  <div class="contact">
+    <div class="email">zona.official@gmail.com</div>
+    <p class="address">Jl. Engku Putri Utara, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Indonesia</p>
+    <div class="copyright">2025 ZoNa | All rights reserved</div>
+  </div>
+  <div class="socials" aria-hidden="false">
+    <img src="https://c.animaapp.com/mguhqq2lSO6S3h/img/youtube.png" alt="YouTube" />
+    <img src="https://c.animaapp.com/mguhqq2lSO6S3h/img/x.png" alt="X / Twitter" />
+    <img src="https://c.animaapp.com/mguhqq2lSO6S3h/img/instagram.png" alt="Instagram" />
+  </div>
+</footer>
+
+  <!-- Minimal JS: click label to open file input, preview image, validate guest count (<=10) and submit via AJAX -->
+  <script>
+    (function(){
+      const form = document.getElementById('bookingForm');
+      const fileInput = document.getElementById('uploadKTP');
+      const fileLabel = document.getElementById('fileLabel');
+      const preview = document.getElementById('previewImage');
+      const jumlahEl = document.getElementById('tamu');
+      const feedback = document.getElementById('feedback');
+      const submitBtn = document.getElementById('submitBtn');
+
+      if (fileLabel && fileInput) {
+        fileLabel.addEventListener('click', (e) => { fileInput.click(); });
+        fileInput.addEventListener('change', (e) => {
+          const f = e.target.files && e.target.files[0];
+          if (!f) return;
+          if (f.size > 5 * 1024 * 1024) { alert('File terlalu besar (maks 5MB).'); fileInput.value=''; return; }
+          const reader = new FileReader();
+          reader.onload = (ev) => { preview.src = ev.target.result; };
+          reader.readAsDataURL(f);
+        });
+      }
+
+      function validateJumlah(){
+        const val = (jumlahEl.value || '').trim();
+        const num = Number(val.replace(/[^\d]/g,'')) || 0;
+        if (num <= 0) return {ok:false,msg:'Jumlah tamu minimal 1.'};
+        if (num > 10) return {ok:false,msg:'Jumlah tamu maksimal 10.'};
+        jumlahEl.value = String(num);
+        return {ok:true};
+      }
+
+      form.addEventListener('submit', async function(evt){
+        evt.preventDefault();
+        feedback.innerHTML = '';
+        if (!form.nama.value.trim()){ feedback.innerHTML = '<div class="error-msg">Nama harus diisi.</div>'; return; }
+        if (!form.email.value.trim()){ feedback.innerHTML = '<div class="error-msg">Email harus diisi.</div>'; return; }
+        if (!form.telp.value.trim()){ feedback.innerHTML = '<div class="error-msg">Nomor telepon harus diisi.</div>'; return; }
+        const jv = validateJumlah();
+        if (!jv.ok){ feedback.innerHTML = `<div class="error-msg">${jv.msg}</div>`; return; }
+        if (!fileInput.files || fileInput.files.length === 0){ feedback.innerHTML = '<div class="error-msg">Silahkan unggah E-KTP atau Paspor.</div>'; return; }
+        if (!form.setuju.checked){ feedback.innerHTML = '<div class="error-msg">Anda harus menyetujui Syarat & Ketentuan.</div>'; return; }
+
+        const data = new FormData(form);
+        data.set('setuju', form.setuju.checked ? 'true' : 'false');
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Mengirim...';
+
+        try {
+          const res = await fetch(form.action, { method:'POST', body: data });
+          if (!res.ok){
+            let errMsg = 'Terjadi kesalahan server.';
+            try { const j = await res.json(); errMsg = j.message || errMsg; } catch(e){}
+            feedback.innerHTML = `<div class="error-msg">${errMsg}</div>`;
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Kirim Pesanan';
+            return;
+          }
+          feedback.innerHTML = `<div class="success-msg">Pesanan berhasil dikirim. Terima kasih!</div>`;
+          form.reset();
+          preview.src = 'https://c.animaapp.com/mguhqq2lSO6S3h/img/rectangle-51.png';
+        } catch (err){
+          console.error(err);
+          feedback.innerHTML = `<div class="error-msg">Gagal mengirim pesanan: ${err.message}</div>`;
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Kirim Pesanan';
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
