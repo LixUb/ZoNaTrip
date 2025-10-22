@@ -340,185 +340,314 @@
   </div>
 
   <script>
-    const formData = {
-      counts: {},
-      ktp: null,
-      agreement: false,
-      destination: '',
-      date: ''
-    };
+// Main data object to store all form data
+const formData = {
+    counts: {},
+    ktp: null,
+    agreement: false,
+    destination: '',
+    date: ''
+};
 
-    // Initialize all counters
+// DOM Elements
+const elements = {
+    form: null,
+    fileInput: null,
+    fileLabel: null,
+    previewImage: null,
+    submitBtn: null,
+    checklistAgreement: null,
+    checkboxIcon: null,
+    dropdownKemana: null,
+    dropdownKapan: null,
+    optionsKemana: null,
+    optionsKapan: null,
+    selectedKemana: null,
+    selectedKapan: null,
+    namaInput: null,
+    emailInput: null,
+    telpInput: null,
+    tamuInput: null,
+    catatanInput: null,
+    catatanMakananInput: null
+};
+
+// Initialize all DOM elements
+function initializeElements() {
+    elements.form = document.getElementById('bookingForm');
+    elements.fileInput = document.getElementById('uploadKTP');
+    elements.fileLabel = document.getElementById('fileLabel');
+    elements.previewImage = document.getElementById('previewImage');
+    elements.submitBtn = document.getElementById('submitBtn');
+    elements.checklistAgreement = document.getElementById('checklistAgreement');
+    elements.checkboxIcon = document.getElementById('checkboxIcon');
+    elements.dropdownKemana = document.getElementById('dropdownKemana');
+    elements.dropdownKapan = document.getElementById('dropdownKapan');
+    elements.optionsKemana = document.getElementById('optionsKemana');
+    elements.optionsKapan = document.getElementById('optionsKapan');
+    elements.selectedKemana = document.getElementById('selectedKemana');
+    elements.selectedKapan = document.getElementById('selectedKapan');
+    elements.namaInput = document.getElementById('nama');
+    elements.emailInput = document.getElementById('email');
+    elements.telpInput = document.getElementById('telp');
+    elements.tamuInput = document.getElementById('tamu');
+    elements.catatanInput = document.getElementById('catatan');
+    elements.catatanMakananInput = document.getElementById('catatanMakanan');
+}
+
+// Initialize all counters for international menu items
+function initializeCounters() {
     document.querySelectorAll('[data-item]').forEach(el => {
-      const item = el.dataset.item;
-      formData.counts[item] = 0;
+        const item = el.dataset.item;
+        formData.counts[item] = 0;
     });
+}
 
-    // Counter functionality
+// Set up counter buttons
+function setupCounterButtons() {
+    // Plus buttons
     document.querySelectorAll('.plus-btn').forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        const container = this.closest('[data-item]');
-        const item = container.dataset.item;
-        const display = container.querySelector('.count-display');
-        formData.counts[item]++;
-        display.textContent = formData.counts[item];
-      });
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const container = this.closest('[data-item]');
+            const item = container.dataset.item;
+            const display = container.querySelector('.count-display');
+            
+            // Check maximum guests (10)
+            const currentTotal = Object.values(formData.counts).reduce((a, b) => a + b, 0);
+            if (currentTotal >= 10) {
+                alert('Maximum number of items reached (10)!');
+                return;
+            }
+            
+            formData.counts[item]++;
+            display.textContent = formData.counts[item];
+        });
     });
 
+    // Minus buttons
     document.querySelectorAll('.minus-btn').forEach(btn => {
-      btn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        const container = this.closest('[data-item]');
-        const item = container.dataset.item;
-        const display = container.querySelector('.count-display');
-        if (formData.counts[item] > 0) {
-          formData.counts[item]--;
-          display.textContent = formData.counts[item];
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const container = this.closest('[data-item]');
+            const item = container.dataset.item;
+            const display = container.querySelector('.count-display');
+            if (formData.counts[item] > 0) {
+                formData.counts[item]--;
+                display.textContent = formData.counts[item];
+            }
+        });
+    });
+}
+
+// Set up passport/ID upload
+function setupFileUpload() {
+    elements.fileInput.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (file) {
+            if (!file.type.match(/image\/(jpeg|png|gif|jpg)/)) {
+                alert('Please upload an image file (JPG, PNG, or GIF)');
+                return;
+            }
+            
+            // Check file size (max 5MB)
+            if (file.size > 5 * 1024 * 1024) {
+                alert('File size must be less than 5MB');
+                return;
+            }
+            
+            formData.ktp = file;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                elements.previewImage.src = e.target.result;
+                elements.fileLabel.style.display = 'none';
+            };
+            reader.readAsDataURL(file);
         }
-      });
     });
+}
 
-    // File upload
-    document.getElementById('uploadKTP').addEventListener('change', function(e) {
-      const file = e.target.files[0];
-      if (file) {
-        formData.ktp = file;
-        const reader = new FileReader();
-        reader.onload = function(e) {
-          document.getElementById('previewImage').src = e.target.result;
-          document.getElementById('fileLabel').style.display = 'none';
-        };
-        reader.readAsDataURL(file);
-      }
+// Set up agreement checkbox
+function setupAgreementCheckbox() {
+    elements.checklistAgreement.addEventListener('click', function() {
+        formData.agreement = !formData.agreement;
+        elements.checkboxIcon.textContent = formData.agreement ? '✓' : '';
     });
+}
 
-    // Checkbox
-    document.getElementById('checklistAgreement').addEventListener('click', function() {
-      formData.agreement = !formData.agreement;
-      const icon = document.getElementById('checkboxIcon');
-      icon.textContent = formData.agreement ? '✓' : '';
-    });
-
-    // Dropdown Kemana
-    document.getElementById('dropdownKemana').addEventListener('click', function(e) {
-      e.stopPropagation();
-      const options = document.getElementById('optionsKemana');
-      options.style.display = options.style.display === 'block' ? 'none' : 'block';
-      document.getElementById('optionsKapan').style.display = 'none';
+// Set up dropdowns
+function setupDropdowns() {
+    // Destination dropdown
+    elements.dropdownKemana.addEventListener('click', function(e) {
+        e.stopPropagation();
+        elements.optionsKemana.style.display = 
+            elements.optionsKemana.style.display === 'block' ? 'none' : 'block';
+        elements.optionsKapan.style.display = 'none';
     });
 
     document.querySelectorAll('#optionsKemana .dropdown-option').forEach(opt => {
-      opt.addEventListener('click', function(e) {
-        e.stopPropagation();
-        formData.destination = this.dataset.value;
-        document.getElementById('selectedKemana').textContent = this.dataset.value;
-        document.getElementById('optionsKemana').style.display = 'none';
-      });
+        opt.addEventListener('click', function(e) {
+            e.stopPropagation();
+            formData.destination = this.dataset.value;
+            elements.selectedKemana.textContent = this.dataset.value;
+            elements.optionsKemana.style.display = 'none';
+        });
     });
 
-    // Dropdown Kapan
-    document.getElementById('dropdownKapan').addEventListener('click', function(e) {
-      e.stopPropagation();
-      const options = document.getElementById('optionsKapan');
-      options.style.display = options.style.display === 'block' ? 'none' : 'block';
-      document.getElementById('optionsKemana').style.display = 'none';
+    // Date dropdown
+    elements.dropdownKapan.addEventListener('click', function(e) {
+        e.stopPropagation();
+        elements.optionsKapan.style.display = 
+            elements.optionsKapan.style.display === 'block' ? 'none' : 'block';
+        elements.optionsKemana.style.display = 'none';
     });
 
     document.querySelectorAll('#optionsKapan .dropdown-option').forEach(opt => {
-      opt.addEventListener('click', function(e) {
-        e.stopPropagation();
-        formData.date = this.dataset.value;
-        document.getElementById('selectedKapan').textContent = this.dataset.value;
-        document.getElementById('optionsKapan').style.display = 'none';
-      });
+        opt.addEventListener('click', function(e) {
+            e.stopPropagation();
+            formData.date = this.dataset.value;
+            elements.selectedKapan.textContent = this.dataset.value;
+            elements.optionsKapan.style.display = 'none';
+        });
     });
 
     // Close dropdowns when clicking outside
     document.addEventListener('click', function() {
-      document.getElementById('optionsKemana').style.display = 'none';
-      document.getElementById('optionsKapan').style.display = 'none';
+        elements.optionsKemana.style.display = 'none';
+        elements.optionsKapan.style.display = 'none';
     });
+}
 
-    // Navigation
-    document.getElementById('homeText').addEventListener('click', function() {
-      window.location.href = 'Homepage.html';
+// Set up navigation
+function setupNavigation() {
+    const navItems = {
+        'homeText': 'Homepage.html',
+        'accommodationText': 'accomodation.html',
+        'placesText': 'places.html',
+        'eventsText': 'event.html',
+        'goZoNaText': 'gozona.html'
+    };
+
+    Object.entries(navItems).forEach(([id, url]) => {
+        document.getElementById(id)?.addEventListener('click', function() {
+            window.location.href = url;
+        });
     });
-    
-    document.getElementById('accommodationText').addEventListener('click', function() {
-      window.location.href = 'accomodation.html';
-    });
-    
-    document.getElementById('placesText').addEventListener('click', function() {
-      window.location.href = 'places.html';
-    });
-    
-    document.getElementById('eventsText').addEventListener('click', function() {
-      window.location.href = 'event.html';
-    });
-    
-    document.getElementById('goZoNaText').addEventListener('click', function() {
-      window.location.href = 'gozona.html';
-    });
+}
 
-    // Submit button
-    document.getElementById('submitBtn').addEventListener('click', function() {
-      // Validate form
-      const nama = document.getElementById('nama').value;
-      const email = document.getElementById('email').value;
-      const telp = document.getElementById('telp').value;
-      const tamu = document.getElementById('tamu').value;
-      const catatan = document.getElementById('catatan').value;
-      const catatanMakanan = document.getElementById('catatanMakanan').value;
+// Validate form data
+function validateForm() {
+    // Regular expressions for validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneRegex = /^\+?[\d\s-]{10,}$/;
 
-      if (!nama || !email || !telp || !tamu || !catatan || !catatanMakanan) {
-        alert('Mohon lengkapi semua field yang wajib diisi!');
-        return;
-      }
+    // Validate required fields
+    if (!elements.namaInput.value) {
+        alert('Please enter your name');
+        return false;
+    }
 
-      if (!formData.destination) {
-        alert('Mohon pilih tujuan Anda!');
-        return;
-      }
+    if (!emailRegex.test(elements.emailInput.value)) {
+        alert('Please enter a valid email address');
+        return false;
+    }
 
-      if (!formData.date) {
-        alert('Mohon pilih tanggal GoZoNa Trip!');
-        return;
-      }
+    if (!phoneRegex.test(elements.telpInput.value)) {
+        alert('Please enter a valid phone number');
+        return false;
+    }
 
-      if (!formData.ktp) {
-        alert('Mohon upload gambar E-KTP/Paspor!');
-        return;
-      }
+    const numGuests = parseInt(elements.tamuInput.value);
+    if (isNaN(numGuests) || numGuests < 1 || numGuests > 10) {
+        alert('Number of guests must be between 1 and 10');
+        return false;
+    }
 
-      if (!formData.agreement) {
-        alert('Mohon centang persetujuan Syarat & Ketentuan!');
-        return;
-      }
+    if (!elements.catatanInput.value) {
+        alert('Please enter booking notes');
+        return false;
+    }
 
-      // Collect all data
-      const bookingData = {
-        nama: nama,
-        email: email,
-        telp: telp,
-        tamu: tamu,
-        destination: formData.destination,
-        date: formData.date,
-        catatan: catatan,
-        catatanMakanan: catatanMakanan,
-        orders: formData.counts,
-        hasKTP: formData.ktp ? true : false
-      };
+    if (!elements.catatanMakananInput.value) {
+        alert('Please enter food notes');
+        return false;
+    }
 
-      console.log('Booking Data:', bookingData);
-      
-      // You can send this data to your server here
-      // For now, we'll just show success message and redirect
-      alert('Booking berhasil dikirim! Terima kasih.');
-      
-      // Uncomment this to redirect to submit page
-      window.location.href = 'submit.html';
-    });
+    if (!formData.destination) {
+        alert('Please select your destination');
+        return false;
+    }
+
+    if (!formData.date) {
+        alert('Please select your travel date');
+        return false;
+    }
+
+    if (!formData.ktp) {
+        alert('Please upload your passport/ID');
+        return false;
+    }
+
+    if (!formData.agreement) {
+        alert('Please agree to the terms and conditions');
+        return false;
+    }
+
+    return true;
+}
+
+// Handle form submission
+async function handleSubmit() {
+    if (!validateForm()) return;
+
+    try {
+        const formDataToSend = new FormData();
+        
+        // Add all form fields
+        formDataToSend.append('nama', elements.namaInput.value);
+        formDataToSend.append('email', elements.emailInput.value);
+        formDataToSend.append('telp', elements.telpInput.value);
+        formDataToSend.append('tamu', elements.tamuInput.value);
+        formDataToSend.append('destination', formData.destination);
+        formDataToSend.append('date', formData.date);
+        formDataToSend.append('catatan', elements.catatanInput.value);
+        formDataToSend.append('catatanMakanan', elements.catatanMakananInput.value);
+        formDataToSend.append('orders', JSON.stringify(formData.counts));
+        formDataToSend.append('ktp', formData.ktp);
+        formDataToSend.append('isInternational', 'true'); // Indicates this is an international booking
+
+        const response = await fetch('/submit-booking', {
+            method: 'POST',
+            body: formDataToSend
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            alert('Booking successfully submitted! Thank you.');
+            window.location.href = result.redirectUrl;
+        } else {
+            alert('Error: ' + result.message);
+        }
+    } catch (error) {
+        console.error('Error submitting form:', error);
+        alert('An error occurred while submitting the booking. Please try again.');
+    }
+}
+
+// Initialize everything when the DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    initializeElements();
+    initializeCounters();
+    setupCounterButtons();
+    setupFileUpload();
+    setupAgreementCheckbox();
+    setupDropdowns();
+    setupNavigation();
+
+    // Set up submit button
+    elements.submitBtn.addEventListener('click', handleSubmit);
+});
   </script>
 </body>
 </html>

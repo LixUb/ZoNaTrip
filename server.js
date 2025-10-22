@@ -1,114 +1,148 @@
-// server.js
-import express from "express";
-import mongoose from "mongoose";
-import multer from "multer";
-import cors from "cors";
-import dotenv from "dotenv";
-import path from "path";
-import fs from "fs";
-import { fileURLToPath } from "url";
-
-dotenv.config();
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+const express = require('express');
+const multer = require('multer');
+const path = require('path');
+const fs = require('fs');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const port = 3000;
 
-// Middleware
-app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Ensure uploads directory exists
-const uploadsDir = path.join(__dirname, "uploads");
-if (!fs.existsSync(uploadsDir)) {
-  fs.mkdirSync(uploadsDir, { recursive: true });
+app.use(express.static(path.join(__dirname)));
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'uploads/');
+    },
+    filename: function (req, file, cb) {
+        cb(null, Date.now() + '-' + file.originalname);
+    }
+});
+
+const upload = multer({
+    storage: storage,
+    fileFilter: function (req, file, cb) {
+        if (!file.originalname.match(/\.(jpg|jpeg|png|gif)$/)) {
+            return cb(new Error('Only image files are allowed!'), false);
+        }
+        cb(null, true);
+    }
+});
+
+function formatDateForFilename(date) {
+    return date.toISOString()
+        .replace(/[:.]/g, '-')
+        .replace('T', '_')
+        .split('.')[0];
 }
 
-// Serve static files (so local.html and booking-international.html are accessible)
-app.use(express.static(__dirname));
-app.use("/uploads", express.static(uploadsDir));
+function formatDateUTC() {
+    const now = new Date();
+    const year = now.getUTCFullYear();
+    const month = String(now.getUTCMonth() + 1).padStart(2, '0');
+    const day = String(now.getUTCDate()).padStart(2, '0');
+    const hours = String(now.getUTCHours()).padStart(2, '0');
+    const minutes = String(now.getUTCMinutes()).padStart(2, '0');
+    const seconds = String(now.getUTCSeconds()).padStart(2, '0');
+    
+    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+}
 
-// MongoDB connection
-mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost:27017/gozonaBooking", {
-    // modern mongoose doesn't require these options; kept for older versions compatibility
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => console.log("✅ MongoDB connected"))
-  .catch((err) => console.error("❌ MongoDB connection error:", err));
+function saveBookingToFile(bookingData, username) {
+    const bookingsDir = path.join(__dirname, 'bookings');
+    if (!fs.existsSync(bookingsDir)) {
+        fs.mkdirSync(bookingsDir);
+    }
 
-// Multer setup for file upload
-const storage = multer.diskStorage({
-  destination: function (req, file, cb) {
-    cb(null, uploadsDir);
-  },
-  filename: function (req, file, cb) {
-    cb(null, Date.now() + "-" + file.originalname.replace(/\s+/g, "-"));
-  },
+    const date = new Date();
+    const formattedDate = formatDateForFilename(date);
+    const fileName = `${formattedDate}-${username}.txt`;
+    const filePath = path.join(bookingsDir, fileName);
+
+    const bookingContent = `Booking Details:
+Date (UTC): ${formatDateUTC()}
+User: ${username}
+Name: ${bookingData.nama}
+Email: ${bookingData.email}
+Phone: ${bookingData.telp}
+Number of Guests: ${bookingData.tamu}
+Destination: ${bookingData.destination}
+Travel Date: ${bookingData.date}
+Booking Notes: ${bookingData.catatan}
+Food Notes: ${bookingData.catatanMakanan}
+
+Orders:
+${JSON.stringify(bookingData.orders, null, 2)}
+
+ID/Passport File: ${bookingData.ktpFile || 'Not uploaded'}
+`;
+
+    fs.writeFileSync(filePath, bookingContent);
+    return fileName;
+}
+
+app.post('/submit-booking', upload.single('ktp'), (req, res) => {
+    try {
+        const bookingData = {
+            ...req.body,
+            ktpFile: req.file ? req.file.filename : null,
+            timestamp: new Date()
+        };
+
+        const fileName = saveBookingToFile(bookingData, 'LixUb'); 
+
+        console.log('Booking saved to:', fileName);
+        console.log('Received booking:', bookingData);
+
+        res.json({
+            success: true,
+            message: 'Booking received successfully',
+            redirectUrl: '/submit.html',
+            fileName: fileName
+        });
+    } catch (error) {
+        console.error('Booking error:', error);
+        res.status(500).json({
+            success: false,
+            message: 'An error occurred while processing your booking'
+        });
+    }
 });
-const upload = multer({ storage });
 
-// Mongoose schema
-const bookingSchema = new mongoose.Schema({
-  formType: { type: String, enum: ["local", "international"], default: "local" },
-  nama: String,
-  email: String,
-  telp: String,
-  jumlahTamu: Number,
-  catatan: String,
-  catatanMakanan: String,
-  fileIdentitas: String,
-  setuju: Boolean,
-  tanggal: { type: Date, default: Date.now },
+app.get('/local.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'local.html'));
 });
 
-const Booking = mongoose.model("Booking", bookingSchema);
-
-// Simple root check
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "local.html"));
+app.get('/booking-international', (req, res) => {
+    res.sendFile(path.join(__dirname, 'booking-international.html'));
 });
 
-// Serve forms explicitly (optional)
-app.get("/local", (req, res) => res.sendFile(path.join(__dirname, "local.html")));
-app.get("/booking-international", (req, res) => res.sendFile(path.join(__dirname, "booking-international.html")));
+const pages = {
+    '/Homepage.html': 'Homepage.html',
+    '/accomodation.html': 'accomodation.html',
+    '/places.html': 'places.html',
+    '/event.html': 'event.html',
+    '/gozona.html': 'gozona.html',
+    '/submit.html': 'submit.html'
+};
 
-// Booking POST route
-// Expect multipart/form-data with file field "fileIdentitas" and fields:
-// formType, nama, email, telp, jumlahTamu, catatan, catatanMakanan, setuju
-app.post("/api/booking", upload.single("fileIdentitas"), async (req, res) => {
-  try {
-    // Normalize incoming values
-    const body = req.body || {};
-    const jumlah = body.jumlahTamu ? Number(body.jumlahTamu) : undefined;
-    const setujuVal =
-      body.setuju === "true" || body.setuju === "on" || body.setuju === true;
-
-    const data = new Booking({
-      formType: body.formType || "local",
-      nama: body.nama || "",
-      email: body.email || "",
-      telp: body.telp || "",
-      jumlahTamu: isNaN(jumlah) ? undefined : jumlah,
-      catatan: body.catatan || "",
-      catatanMakanan: body.catatanMakanan || "",
-      fileIdentitas: req.file ? path.join("uploads", path.basename(req.file.path)) : null,
-      setuju: !!setujuVal,
+Object.entries(pages).forEach(([route, file]) => {
+    app.get(route, (req, res) => {
+        res.sendFile(path.join(__dirname, file));
     });
-
-    await data.save();
-    res.status(201).json({ message: "Booking berhasil disimpan", data });
-  } catch (err) {
-    console.error("Error saving booking:", err);
-    res.status(500).json({ message: "Terjadi kesalahan server", error: err.message });
-  }
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`🚀 Server berjalan di http://localhost:${PORT}`);
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({
+        success: false,
+        message: 'Something went wrong!',
+        error: err.message
+    });
+});
+
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Current Date and Time (UTC): ${formatDateUTC()}`);
+    console.log(`Current User's Login: LixUb`);
 });
