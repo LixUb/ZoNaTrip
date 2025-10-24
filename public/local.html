@@ -19,7 +19,7 @@
       <img class="x" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/x.png" />
       <img class="you-tube" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/youtube.png" />
       <img class="instagram" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/instagram.png" />
-      <div class="text-wrapper">zona.official@gmail.com</div>
+      <div class="text-wrapper">zonabatam2025@gmail.com</div>
       <p class="p">Jl. Engku Putri Utara, Kec. Batam Kota, Kota Batam, Kepulauan Riau, Indonesia</p>
       <img class="language" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/language.png" />
       <img class="copyright" src="https://c.animaapp.com/mguhqq2lSO6S3h/img/copyright.png" />
@@ -335,6 +335,11 @@
     <div class="catatan-makanan">Catatan (Makanan &amp; Minuman)*</div>
     <p class="ex-pesanan-lemon">*ex: 1 pesanan Lemon Tea diganti dengan Air Mineral<br />Jika tidak ada, silahkan ketik strip (-)</p>
     
+    <div class="total-bill">
+       <span class="label-bill">Total Tagihan:</span>
+       <span id="totalBillValue">IDR 0</span>
+     </div>
+
     <div class="buttons" id="submitBtn">
       <div class="text-wrapper-37">Submit Booking</div>
     </div>
@@ -618,6 +623,45 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set up submit button
     elements.submitBtn.addEventListener('click', handleSubmit);
 });
+// === PRICE DATA (harga per item dalam ribuan rupiah) ===
+const itemPrices = {
+    lemonTea: 25_000,
+    lemonTeaCold: 25_000,
+    raspberryLime: 25_000,
+    sunmofeeLatte: 30_000,
+    biscoffCoffee: 35_000,
+    nasiGoreng: 35_000,
+    riceBowl: 35_000,
+    sweetTea: 10_000,
+    sweetTeaCold: 10_000,
+    kopi: 10_000,
+    esBandung: 20_000,
+    esJerukKelapa: 35_000
+};
+
+// === FUNCTION UNTUK HITUNG TOTAL BILL ===
+function calculateTotalBill() {
+    let total = 0;
+    for (const [item, count] of Object.entries(formData.counts)) {
+        const price = itemPrices[item] || 0;
+        total += price * count;
+    }
+
+    // Format ke IDR
+    const formatted = total.toLocaleString('id-ID', {
+        style: 'currency',
+        currency: 'IDR'
+    });
+    document.getElementById('totalBillValue').textContent = formatted;
+}
+
+// === UPDATE BILL SETIAP KALI JUMLAH BERUBAH ===
+function watchCountersForBill() {
+    document.querySelectorAll('.plus-btn, .minus-btn').forEach(btn => {
+        btn.addEventListener('click', calculateTotalBill);
+    });
+}
+
   </script>
 </body>
 </html>
